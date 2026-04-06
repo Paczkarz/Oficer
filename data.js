@@ -3698,6 +3698,39 @@ const quizData = {
       "poprawne": [
         "Dla zapewnienia bezpieczeństwa systemu teleinformatycznego kierownik jednostki organizacyjnej wyznacza: inspektora bezpieczeństwa teleinformatycznego i administratora systemu"
       ]
+    },
+    {
+      "id": 295,
+      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "pytanie": "Nadanie przydziału mobilizacyjnego oraz pracowniczego przydziału mobilizacyjnego następuje w formie:",
+      "odpowiedzi": [
+        "karty mobilizacyjnej;"
+      ],
+      "poprawne": [
+        "karty mobilizacyjnej;"
+      ]
+    },
+    {
+      "id": 296,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Do zakresu odpowiedzialności szkoleniowo-metodycznej dowódcy plutonu należy?",
+      "odpowiedzi": [
+        "organizowanie i realizację działalności szkoleniowo-metodycznej na szczeblu plutonu, metodyczne przygotowanie dowódców drużyn/instruktorów do organizacji i prowadzenia szkolenia na punktach nauczania."
+      ],
+      "poprawne": [
+        "organizowanie i realizację działalności szkoleniowo-metodycznej na szczeblu plutonu, metodyczne przygotowanie dowódców drużyn/instruktorów do organizacji i prowadzenia szkolenia na punktach nauczania."
+      ]
+    },
+    {
+      "id": 297,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rozpoznaj sprzęt wojsk Federacji Rosyjskiej? (zdjęcie wybranego sprzętu)",
+      "odpowiedzi": [
+        "Brak odpowiedzi w pliku źródłowym - odpowiedź zależna od wyświetlonego zdjęcia."
+      ],
+      "poprawne": [
+        "Brak odpowiedzi w pliku źródłowym - odpowiedź zależna od wyświetlonego zdjęcia."
+      ]
     }
   ]
 }
