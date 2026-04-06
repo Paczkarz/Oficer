@@ -1,4 +1,4 @@
-﻿const quizData = {
+const quizData = {
   "pytania": [
     {
       "id": 1,
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "dzial": "PODSTAWY DOWODZENIA",
-      "pytanie": "Z jakich etapów składa się planowanie procesu dowodzenia? Z jakich faz składa się proces dowodzenia?",
+      "pytanie": "Z jakich etapów składa się planowanie procesu dowodzenia?",
       "odpowiedzi": [
         "ustalanie położenia, planowanie, stawianie zadań, kontrola;",
         "rekonesans, planowanie, stawianie zadań;",
@@ -53,7 +53,7 @@
         "ocena sytuacji, decyzja, opracowanie planu działania, przygotowanie danych do wydania rozkazu;"
       ],
       "poprawne": [
-        "ustalanie położenia, planowanie, stawianie zadań, kontrola;"
+        "ocena sytuacji, decyzja, opracowanie planu działania, przygotowanie danych do wydania rozkazu;"
       ]
     },
     {
@@ -448,17 +448,14 @@
       "pytanie": "Zmiana ugrupowania drużyny (plutonu) z marszowego w rozwinięte, następuje:",
       "odpowiedzi": [
         "Z szeregu w rząd na komendę „W prawo - ZWROT\", natomiast z rzędu do szeregu „W lewo - ZWROT\".",
-        "Z szeregu w kolumnę dwójkową na komendę „W dwójki, w prawo - ZWROT\".",
-        "Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
-        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\".",
-        "Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów.",
-        "Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
+        "Z szeregu w kolumnę dwójkową na komendę „W dwójki, w prawo - ZWROT\". Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
+        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
         "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
       ],
       "poprawne": [
         "Z szeregu w rząd na komendę „W prawo - ZWROT\", natomiast z rzędu do szeregu „W lewo - ZWROT\".",
-        "Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
-        "Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
+        "Z szeregu w kolumnę dwójkową na komendę „W dwójki, w prawo - ZWROT\". Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
+        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
         "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
       ]
     },
@@ -786,7 +783,7 @@
       "pytanie": "Ile jest sposobów inicjowania IED",
       "odpowiedzi": [
         "2;",
-        "3;",
+        "3 ;",
         "4;",
         "5;"
       ],
@@ -810,15 +807,10 @@
       "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
       "pytanie": "Jakie są wykonywane procedury w rejonach zagrożonych występowaniem IED?",
       "odpowiedzi": [
-        "PROCEDURY CIED (COUNTER IED)",
-        "- PROCEDURA 5-25 (Sprawdzenie przestrzeni 5m wokół i pod pojazdem -> Sprawdzenie i przeszukanie 25m wokół pojazdu)",
-        "- PROCEDURA SPRAWDZENIA DROGI",
-        "- Procedura 5 x C (CHECK, CONFIRM, CLEAR, CORDON AND CONTROL – SPRAWDŹ,POTWIERDŹ, OCZYŚĆ, OTOCZ/ZABEZPIECZ I KONTROLUJ) stosowana jest w przypadku wykrycia lub podejrzenia podłożenia IED.",
-        "- Procedura sprawdzenia miejsc szczególnie niebezpiecznych (VP)",
-        "- Procedura izolacji VP"
+        "PROCEDURY CIED (COUNTER IED)\n- PROCEDURA 5-25 (Sprawdzenie przestrzeni 5m wokół i pod pojazdem -> Sprawdzenie i przeszukanie 25m wokół pojazdu)\n- PROCEDURA SPRAWDZENIA DROGI\n- Procedura 5 x C (CHECK, CONFIRM, CLEAR, CORDON AND CONTROL – SPRAWDŹ, POTWIERDŹ, OCZYŚĆ, OTOCZ/ZABEZPIECZ I KONTROLUJ) stosowana jest w przypadku wykrycia lub podejrzenia podłożenia IED\n- Procedura sprawdzenia miejsc szczególnie niebezpiecznych (VP)\n- Procedura izolacji VP"
       ],
       "poprawne": [
-        "PROCEDURY CIED (COUNTER IED)"
+        "PROCEDURY CIED (COUNTER IED)\n- PROCEDURA 5-25 (Sprawdzenie przestrzeni 5m wokół i pod pojazdem -> Sprawdzenie i przeszukanie 25m wokół pojazdu)\n- PROCEDURA SPRAWDZENIA DROGI\n- Procedura 5 x C (CHECK, CONFIRM, CLEAR, CORDON AND CONTROL – SPRAWDŹ, POTWIERDŹ, OCZYŚĆ, OTOCZ/ZABEZPIECZ I KONTROLUJ) stosowana jest w przypadku wykrycia lub podejrzenia podłożenia IED\n- Procedura sprawdzenia miejsc szczególnie niebezpiecznych (VP)\n- Procedura izolacji VP"
       ]
     },
     {
@@ -826,13 +818,10 @@
       "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
       "pytanie": "Do czego wykorzystywane są systemy CREW/ECM?",
       "odpowiedzi": [
-        "CREW (ang. Counter Radiocontrolled IED Electronic Warfare) jest rodzajem elektronicznej walki, która koncentruje się na zwalczaniu improwizowanych ładunków wybuchowych (IED), zdalnie sterowanych za pomocą fal radiowych.",
-        "Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. ",
-        "CREW działa poprzez interferencję lub blokowanie sygnałów radiowych używanych do detonacji IED.",
-        "Może to obejmować zakłócanie częstotliwości radiowych używanych przez kontrolerów, wykrywanie i neutralizację sygnałów zdalnego sterowania, lub nawet prowadzenie fałszywych sygnałów w celu zmylenia napastników."
+        "CREW (ang. Counter Radiocontrolled IED Electronic Warfare) jest rodzajem elektronicznej walki, która koncentruje się na zwalczaniu improwizowanych ładunków wybuchowych (IED), zdalnie sterowanych za pomocą fal radiowych. Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. CREW działa poprzez interferencję lub blokowanie sygnałów radiowych używanych do detonacji IED. Może to obejmować zakłócanie częstotliwości radiowych używanych przez kontrolerów, wykrywanie i neutralizację sygnałów zdalnego sterowania, lub nawet prowadzenie fałszywych sygnałów w celu zmylenia napastników."
       ],
       "poprawne": [
-        "Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. "
+        "CREW (ang. Counter Radiocontrolled IED Electronic Warfare) jest rodzajem elektronicznej walki, która koncentruje się na zwalczaniu improwizowanych ładunków wybuchowych (IED), zdalnie sterowanych za pomocą fal radiowych. Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. CREW działa poprzez interferencję lub blokowanie sygnałów radiowych używanych do detonacji IED. Może to obejmować zakłócanie częstotliwości radiowych używanych przez kontrolerów, wykrywanie i neutralizację sygnałów zdalnego sterowania, lub nawet prowadzenie fałszywych sygnałów w celu zmylenia napastników."
       ]
     },
     {
@@ -1161,11 +1150,11 @@
       "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
       "pytanie": "Co jest celem procesu informacyjnego?",
       "odpowiedzi": [
-        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych.",
-        "Informacje te mogą dotyczyć sił i środków przeciwnika, warunków terenowych, pogody i innych czynników, które mogą wpływać na przebieg działań wojskowych."
+        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych.Informacje te mogą dotyczyć sił i środków przeciwnika, warunków terenowych, pogody i innych czynników, które mogą wpływać na przebieg działań wojskowych.",
+
       ],
       "poprawne": [
-        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych."
+        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych.Informacje te mogą dotyczyć sił i środków przeciwnika, warunków terenowych, pogody i innych czynników, które mogą wpływać na przebieg działań wojskowych."
       ]
     },
     {
@@ -1766,11 +1755,11 @@
       "dzial": "TOPOGRAFIA WOJSKOWA",
       "pytanie": "Do wykonania analiz wysokościowych należy wykorzystać:",
       "odpowiedzi": [
-        "Poziomic topograficznych: Wykorzystuje się do określenia wysokości terenu na podstawie linii poziomów równych wysokości.",
-        "Poziomice są przedstawiane na mapach topograficznych jako linie łączące punkty o takiej samej wysokości."
+        "Poziomic topograficznych: Wykorzystuje się do określenia wysokości terenu na podstawie linii poziomów równych wysokości.Poziomice są przedstawiane na mapach topograficznych jako linie łączące punkty o takiej samej wysokości."
+
       ],
       "poprawne": [
-        "Poziomice są przedstawiane na mapach topograficznych jako linie łączące punkty o takiej samej wysokości."
+        "Poziomice są przedstawiane na mapach topograficznych jako linie łączące punkty o takiej samej wysokości.Poziomice są przedstawiane na mapach topograficznych jako linie łączące punkty o takiej samej wysokości."
       ]
     },
     {
