@@ -3,13 +3,13 @@ const DOM = {
 };
 
 let state = {
-    view: 'menu',      
-    mode: '',          
-    category: '',      
-    questions: [],     
-    currentIndex: 0,   
-    examAnswers: {},   
-    hasAnsweredCurrent: false 
+    view: 'menu',
+    mode: '',
+    category: '',
+    questions: [],
+    currentIndex: 0,
+    examAnswers: {},
+    hasAnsweredCurrent: false
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         return;
     }
-    
+
     // Safety processing of json values
-    if(!quizData.pytania) quizData.pytania = [];
+    if (!quizData.pytania) quizData.pytania = [];
 
     renderMenu();
 });
@@ -42,7 +42,7 @@ function getCategories() {
 function renderMenu() {
     state.view = 'menu';
     const categories = getCategories();
-    
+
     let html = `
         <div class="bg-army-800 rounded-2xl shadow-2xl p-6 sm:p-10 fade-in border border-army-700/50">
             <h1 class="text-2xl sm:text-3xl font-black text-center text-stone-200 mb-2 mono-font tracking-wide">TERMINAL SZKOLENIOWY</h1>
@@ -56,9 +56,9 @@ function renderMenu() {
                     <select id="categorySelect" class="w-full border-army-600 rounded-lg py-3 px-4 appearance-none outline-none ring-2 ring-transparent focus:ring-army-400 focus:border-army-400 bg-army-800 text-stone-200 shadow-sm transition-all font-medium text-sm sm:text-base cursor-pointer">
                         <option value="ALL">PEŁNE SPEKTRUM (${quizData.pytania.length} pytań)</option>
                         ${categories.map(c => {
-                            const count = quizData.pytania.filter(q => q.dzial.trim() === c).length;
-                            return `<option value="${c}">${c} (${count} pytań)</option>`;
-                        }).join('')}
+        const count = quizData.pytania.filter(q => q.dzial.trim() === c).length;
+        return `<option value="${c}">${c} (${count} pytań)</option>`;
+    }).join('')}
                     </select>
                     <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-army-400">
                         <i class="fa-solid fa-chevron-down"></i>
@@ -88,24 +88,24 @@ function renderMenu() {
             </div>
         </div>
     `;
-    
+
     DOM.app.innerHTML = html;
 }
 
 function startQuiz(mode) {
     const categorySelect = document.getElementById('categorySelect');
     const category = categorySelect.value;
-    
+
     let filteredQuestions = [];
     if (category === 'ALL') {
         filteredQuestions = [...quizData.pytania];
     } else {
         filteredQuestions = quizData.pytania.filter(q => q.dzial.trim() === category);
     }
-    
+
     // Przetasowanie
     filteredQuestions.sort(() => Math.random() - 0.5);
-    
+
     state = {
         view: 'quiz',
         mode: mode,
@@ -115,7 +115,7 @@ function startQuiz(mode) {
         examAnswers: {},
         hasAnsweredCurrent: false
     };
-    
+
     // Bezpieczeństwo
     if (state.questions.length === 0) {
         alert("Pusty obszar operacyjny!");
@@ -128,8 +128,8 @@ function startQuiz(mode) {
 function renderQuiz() {
     const q = state.questions[state.currentIndex];
     const total = state.questions.length;
-    const progress = Math.max(0, Math.round(((state.currentIndex) / total) * 100)); 
-    
+    const progress = Math.max(0, Math.round(((state.currentIndex) / total) * 100));
+
     const isSingleFact = (q.odpowiedzi.length === 1);
     const isMultipleChoice = q.poprawne.length > 1;
 
@@ -144,7 +144,7 @@ function renderQuiz() {
     }
 
     let answersHtml = '';
-    
+
     if (isSingleFact) {
         answersHtml = `
             <div class="bg-blue-900/20 border-l-4 border-blue-600 p-5 rounded-r-xl my-8">
@@ -161,61 +161,61 @@ function renderQuiz() {
         answersHtml = `
             <div class="space-y-3 mt-8">
                 ${q.odpowiedzi.map((ans, idx) => {
-                    let btnBaseStyling = "w-full text-left p-4 rounded-xl border-2 transition-all font-medium group flex items-start ";
-                    
-                    let isChecked = false;
-                    if (state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].includes(idx)) {
-                        isChecked = true;
-                    }
-                    
-                    const isAnsCorrect = q.poprawne.some(p => p.trim() === ans.trim());
+            let btnBaseStyling = "w-full text-left p-4 rounded-xl border-2 transition-all font-medium group flex items-start ";
 
-                    if (state.mode === 'training' && state.hasAnsweredCurrent) {
-                        btnBaseStyling += " cursor-default ";
-                        if (isChecked && isAnsCorrect) {
-                            btnBaseStyling += " border-green-600 bg-green-900/30 text-green-400";
-                        } else if (isChecked && !isAnsCorrect) {
-                            btnBaseStyling += " border-red-800/80 bg-red-900/20 text-red-400";
-                        } else if (!isChecked && isAnsCorrect) {
-                            btnBaseStyling += " border-army-400 bg-army-700/50 text-stone-300";
-                        } else {
-                            btnBaseStyling += " border-army-700/30 text-army-600 opacity-50";
-                        }
-                    } else {
-                        btnBaseStyling += " cursor-pointer ";
-                        if (isChecked) {
-                            btnBaseStyling += " border-army-400 bg-army-700/60 text-stone-200 shadow-inner";
-                        } else {
-                            btnBaseStyling += " border-army-700/60 text-stone-400 hover:border-army-500 hover:bg-army-700/30 hover:text-stone-200";
-                        }
-                    }
+            let isChecked = false;
+            if (state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].includes(idx)) {
+                isChecked = true;
+            }
 
-                    let iconHtml = '';
-                    let iconWrapperClasses = "w-6 h-6 rounded-sm border-2 mr-4 mt-0.5 flex items-center justify-center shrink-0 transition-colors ";
-                    
-                    if (state.mode === 'training' && state.hasAnsweredCurrent) {
-                        if (isChecked && isAnsCorrect) {
-                            iconWrapperClasses += " border-green-500 bg-green-600";
-                            iconHtml = '<i class="fa-solid fa-check text-stone-100 text-xs"></i>';
-                        } else if (isChecked && !isAnsCorrect) {
-                            iconWrapperClasses += " border-red-700 bg-red-700";
-                            iconHtml = '<i class="fa-solid fa-xmark text-stone-100 text-xs"></i>';
-                        } else if (!isChecked && isAnsCorrect) {
-                            iconWrapperClasses += " border-army-400 bg-army-400";
-                            iconHtml = '<i class="fa-solid fa-check text-army-900 text-xs"></i>';
-                        } else {
-                            iconWrapperClasses += " border-army-700/50";
-                        }
-                    } else {
-                        if (isChecked) {
-                            iconWrapperClasses += " border-army-300 bg-army-500";
-                            iconHtml = '<i class="fa-solid fa-check text-army-900 font-bold text-xs"></i>';
-                        } else {
-                            iconWrapperClasses += " border-army-600 group-hover:border-army-400";
-                        }
-                    }
+            const isAnsCorrect = q.poprawne.some(p => p.trim() === ans.trim());
 
-                    return `
+            if (state.mode === 'training' && state.hasAnsweredCurrent) {
+                btnBaseStyling += " cursor-default ";
+                if (isChecked && isAnsCorrect) {
+                    btnBaseStyling += " border-green-600 bg-green-900/30 text-green-400";
+                } else if (isChecked && !isAnsCorrect) {
+                    btnBaseStyling += " border-red-800/80 bg-red-900/20 text-red-400";
+                } else if (!isChecked && isAnsCorrect) {
+                    btnBaseStyling += " border-army-400 bg-army-700/50 text-stone-300";
+                } else {
+                    btnBaseStyling += " border-army-700/30 text-army-600 opacity-50";
+                }
+            } else {
+                btnBaseStyling += " cursor-pointer ";
+                if (isChecked) {
+                    btnBaseStyling += " border-army-400 bg-army-700/60 text-stone-200 shadow-inner";
+                } else {
+                    btnBaseStyling += " border-army-700/60 text-stone-400 hover:border-army-500 hover:bg-army-700/30 hover:text-stone-200";
+                }
+            }
+
+            let iconHtml = '';
+            let iconWrapperClasses = "w-6 h-6 rounded-sm border-2 mr-4 mt-0.5 flex items-center justify-center shrink-0 transition-colors ";
+
+            if (state.mode === 'training' && state.hasAnsweredCurrent) {
+                if (isChecked && isAnsCorrect) {
+                    iconWrapperClasses += " border-green-500 bg-green-600";
+                    iconHtml = '<i class="fa-solid fa-check text-stone-100 text-xs"></i>';
+                } else if (isChecked && !isAnsCorrect) {
+                    iconWrapperClasses += " border-red-700 bg-red-700";
+                    iconHtml = '<i class="fa-solid fa-xmark text-stone-100 text-xs"></i>';
+                } else if (!isChecked && isAnsCorrect) {
+                    iconWrapperClasses += " border-army-400 bg-army-400";
+                    iconHtml = '<i class="fa-solid fa-check text-army-900 text-xs"></i>';
+                } else {
+                    iconWrapperClasses += " border-army-700/50";
+                }
+            } else {
+                if (isChecked) {
+                    iconWrapperClasses += " border-army-300 bg-army-500";
+                    iconHtml = '<i class="fa-solid fa-check text-army-900 font-bold text-xs"></i>';
+                } else {
+                    iconWrapperClasses += " border-army-600 group-hover:border-army-400";
+                }
+            }
+
+            return `
                         <button id="ans-btn-${idx}" onclick="handleAnswerClick(${idx})" class="${btnBaseStyling}" ${state.mode === 'training' && state.hasAnsweredCurrent ? 'disabled' : ''}>
                             <div class="${iconWrapperClasses}">
                                 ${iconHtml}
@@ -223,18 +223,18 @@ function renderQuiz() {
                             <span class="leading-relaxed flex-1">${ans}</span>
                         </button>
                     `;
-                }).join('')}
+        }).join('')}
             </div>
         `;
     }
 
-    const nextBtnText = state.currentIndex === total - 1 
-        ? ((state.mode === 'exam') ? 'GENERUJ RAPORT <i class="fa-solid fa-satellite-dish ml-2"></i>' : 'ZAKOŃCZ SESJĘ <i class="fa-solid fa-satellite-dish ml-2"></i>') 
+    const nextBtnText = state.currentIndex === total - 1
+        ? ((state.mode === 'exam') ? 'GENERUJ RAPORT <i class="fa-solid fa-satellite-dish ml-2"></i>' : 'ZAKOŃCZ SESJĘ <i class="fa-solid fa-satellite-dish ml-2"></i>')
         : 'NASTĘPNY CEL <i class="fa-solid fa-angles-right ml-2 lg:ml-3"></i>';
 
     let nextDisabled = false;
     if (state.mode === 'training' && !state.hasAnsweredCurrent) {
-        nextDisabled = true; 
+        nextDisabled = true;
     }
 
     let progressColor = state.mode === 'training' ? 'bg-army-400' : 'bg-yellow-600/80';
@@ -289,7 +289,19 @@ function renderQuiz() {
                 <h2 class="text-xl sm:text-2xl font-bold text-stone-200 leading-snug whitespace-pre-line relative z-10">
                     <span class="text-army-500 font-medium mr-2 mono-font">#${q.id}</span>${q.pytanie}
                 </h2>
-                
+
+                ${q.image ? `
+                <div class="mt-6 mb-4 flex justify-center bg-army-900/40 p-2 rounded-xl border border-army-700/50 overflow-hidden shadow-inner group relative">
+                    <img src="img/${q.image}" 
+                         alt="FEEDS_INTEL" 
+                         class="max-w-full h-auto max-h-[320px] object-contain rounded-lg transition-transform duration-500 group-hover:scale-[1.02] shadow-lg"
+                         onerror="this.parentElement.innerHTML='<div class=\'p-4 text-army-500 italic text-[10px] mono-font opacity-60 flex items-center\'><i class=\'fa-solid fa-triangle-exclamation mr-2\'></i> [ SIGNAL LOST: BRAK PLIKU img/${q.image} ]</div>'">
+                    <div class="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                        <span class="bg-army-900/80 text-army-500 text-[8px] px-2 py-1 rounded mono-font border border-army-700 uppercase">intel_source: q_${q.id}</span>
+                    </div>
+                </div>
+                ` : ''}
+
                 <div class="relative z-10">
                     ${answersHtml}
                 </div>
@@ -314,7 +326,7 @@ function renderQuiz() {
 
 function handleAnswerClick(idx) {
     if (state.mode === 'training') {
-        if (state.hasAnsweredCurrent) return; 
+        if (state.hasAnsweredCurrent) return;
         selectTrainingAnswer(idx);
     } else {
         selectExamAnswer(idx);
@@ -340,7 +352,7 @@ function selectTrainingAnswer(idx) {
         state.examAnswers[state.currentIndex] = [idx];
         state.hasAnsweredCurrent = true;
     }
-    
+
     renderQuiz();
 }
 
@@ -381,7 +393,7 @@ function nextQuestion() {
 }
 
 function quitQuiz() {
-    if(confirm('UWAGA: Czy przerwać operację i zresetować pozycje? (Utracisz niezapisane postępy)')) {
+    if (confirm('UWAGA: Czy przerwać operację i zresetować pozycje? (Utracisz niezapisane postępy)')) {
         renderMenu();
     }
 }
@@ -391,12 +403,12 @@ function finishQuiz() {
 }
 
 function finishQuizEarly() {
-    if(confirm('Zakończyć symulację i wygenerować raport wyników tylko z przerobionych pytań?')) {
+    if (confirm('Zakończyć symulację i wygenerować raport wyników tylko z przerobionych pytań?')) {
         let answeredCount = state.currentIndex;
         if (state.hasAnsweredCurrent || (state.mode === 'exam' && state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].length > 0) || (state.mode === 'exam' && state.questions[state.currentIndex].odpowiedzi.length === 1)) {
             answeredCount++;
         }
-        
+
         if (answeredCount === 0) {
             renderMenu();
         } else {
@@ -417,7 +429,7 @@ function renderSummary() {
         }
 
         const userSelectedIndices = state.examAnswers[idx] || [];
-        
+
         if (userSelectedIndices.length === 0) {
             errorsList.push({ question: q, userAns: null });
             return;
@@ -426,7 +438,7 @@ function renderSummary() {
         let allCorrect = true;
         const selectedTexts = userSelectedIndices.map(i => q.odpowiedzi[i].trim());
         const correctTexts = q.poprawne.map(p => p.trim());
-        
+
         if (selectedTexts.length !== correctTexts.length) {
             allCorrect = false;
         } else {
@@ -447,16 +459,16 @@ function renderSummary() {
 
     const total = state.questions.length;
     const percent = Math.round((score / total) * 100);
-    
+
     let colorBadge = 'bg-army-600';
     let iconClass = 'fa-medal';
-    if (percent < 50) { 
-        colorBadge = 'bg-red-900/60'; 
-        iconClass = 'fa-skull'; 
+    if (percent < 50) {
+        colorBadge = 'bg-red-900/60';
+        iconClass = 'fa-skull';
     }
-    else if (percent < 75) { 
-        colorBadge = 'bg-yellow-800/80'; 
-        iconClass = 'fa-shield-halved'; 
+    else if (percent < 75) {
+        colorBadge = 'bg-yellow-800/80';
+        iconClass = 'fa-shield-halved';
     }
 
     let errorsHtml = '';
@@ -469,7 +481,7 @@ function renderSummary() {
                 <div class="space-y-6">
                     ${errorsList.map((err, i) => `
                         <div class="bg-army-800 border border-army-700 rounded p-5 shadow-sm">
-                            <h4 class="font-bold text-stone-200 mb-4 whitespace-pre-line leading-relaxed">${i+1}. <span class="text-army-500 font-medium mr-1 mono-font">#${err.question.id}</span> ${err.question.pytanie}</h4>
+                            <h4 class="font-bold text-stone-200 mb-4 whitespace-pre-line leading-relaxed">${i + 1}. <span class="text-army-500 font-medium mr-1 mono-font">#${err.question.id}</span> ${err.question.pytanie}</h4>
                             
                             <div class="mb-4 bg-army-900/40 p-3 rounded border-l-2 border-red-700/60">
                                 <span class="text-[10px] font-bold text-army-400 uppercase tracking-widest block mb-2 mono-font">Zanotowana odpowiedź układu:</span>
@@ -524,5 +536,5 @@ function renderSummary() {
             </div>
         </div>
     `;
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
 }
