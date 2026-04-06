@@ -3722,15 +3722,476 @@ const quizData = {
       ]
     },
     {
-      "id": 297,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
-      "pytanie": "Rozpoznaj sprzęt wojsk Federacji Rosyjskiej? (zdjęcie wybranego sprzętu)",
-      "odpowiedzi": [
-        "Brak odpowiedzi w pliku źródłowym - odpowiedź zależna od wyświetlonego zdjęcia."
-      ],
-      "poprawne": [
-        "Brak odpowiedzi w pliku źródłowym - odpowiedź zależna od wyświetlonego zdjęcia."
-      ]
+      "id": 300,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmp1.png",
+      "odpowiedzi": ["BMP - 1", "BMP - 2", "BMP - 3", "MTLB"],
+      "poprawne": ["BMP - 1"]
+    },
+    {
+      "id": 301,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmp2.png",
+      "odpowiedzi": ["BMP - 1", "BMP - 2", "BMD - 2", "BTR - 80"],
+      "poprawne": ["BMP - 2"]
+    },
+    {
+      "id": 302,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmp3.png",
+      "odpowiedzi": ["BMP - 2", "BMP - 3", "BMD - 4", "T - 72"],
+      "poprawne": ["BMP - 3"]
+    },
+    {
+      "id": 303,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmd2.png",
+      "odpowiedzi": ["BMD - 2", "BMD - 3", "BMP - 2", "BTR - 80"],
+      "poprawne": ["BMD - 2"]
+    },
+    {
+      "id": 304,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmd3.png",
+      "odpowiedzi": ["BMD - 2", "BMD - 3", "BMD - 4", "MTLB"],
+      "poprawne": ["BMD - 3"]
+    },
+    {
+      "id": 305,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmd4.png",
+      "odpowiedzi": ["BMD - 3", "BMD - 4", "BMP - 3", "2S1 GOŹDZIK"],
+      "poprawne": ["BMD - 4"]
+    },
+    {
+      "id": 306,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "mtlb.png",
+      "odpowiedzi": ["MTLB", "BMP - 1", "BMD - 4", "BVP BORSUK"],
+      "poprawne": ["MTLB"]
+    },
+    {
+      "id": 307,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "brdm2.png",
+      "odpowiedzi": ["BRDM - 2", "BTR - 80", "D-44", "MTLB"],
+      "poprawne": ["BRDM - 2"]
+    },
+    {
+      "id": 308,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "btr80.png",
+      "odpowiedzi": ["BTR - 70", "BTR - 80", "KTO ROSOMAK", "BTR - 90"],
+      "poprawne": ["BTR - 80"]
+    },
+    {
+      "id": 309,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "btr90.png",
+      "odpowiedzi": ["BTR - 80", "BTR - 90", "KTO ROSOMAK", "BRDM - 2"],
+      "poprawne": ["BTR - 90"]
+    },
+    {
+      "id": 310,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-55.png",
+      "odpowiedzi": ["T - 54", "T - 55", "T - 62", "T - 72"],
+      "poprawne": ["T - 55"]
+    },
+    {
+      "id": 311,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-62.png",
+      "odpowiedzi": ["T - 55", "T - 62", "T - 64", "T - 72"],
+      "poprawne": ["T - 62"]
+    },
+    {
+      "id": 312,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-72.png",
+      "odpowiedzi": ["T - 64", "T - 72", "PT-91 TWARDY", "T - 80"],
+      "poprawne": ["T - 72"]
+    },
+    {
+      "id": 313,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-80.png",
+      "odpowiedzi": ["T - 72", "T - 80", "T - 90", "M1A1 ABRAMS"],
+      "poprawne": ["T - 80"]
+    },
+    {
+      "id": 314,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-90.png",
+      "odpowiedzi": ["T - 80", "T - 90", "T - 14 ARMATA", "LEOPARD - 2A5"],
+      "poprawne": ["T - 90"]
+    },
+    {
+      "id": 315,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "t-14 armata.png",
+      "odpowiedzi": ["T - 90", "T - 14 ARMATA", "PT-91 TWARDY", "K2 BLACK PANTHER"],
+      "poprawne": ["T - 14 ARMATA"]
+    },
+    {
+      "id": 316,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "leopadrd-2pl.png",
+      "odpowiedzi": ["LEOPARD - 2A4", "LEOPARD - 2PL", "LEOPARD - 2A5", "PT-91 TWARDY"],
+      "poprawne": ["LEOPARD - 2PL"]
+    },
+    {
+      "id": 317,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "leopard-2a5.png",
+      "odpowiedzi": ["LEOPARD - 2A4", "LEOPARD - 2A5", "LEOPARD - 2PL", "M1A1 ABRAMS"],
+      "poprawne": ["LEOPARD - 2A5"]
+    },
+    {
+      "id": 318,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "m1a1 abrams.png",
+      "odpowiedzi": ["M60 PATTON", "M1A1 ABRAMS", "LEOPARD - 2A5", "CHALLENGER 2"],
+      "poprawne": ["M1A1 ABRAMS"]
+    },
+    {
+      "id": 319,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "k2 black panther.png",
+      "odpowiedzi": ["K2 BLACK PANTHER", "T - 90", "T - 14 ARMATA", "TYPE 10"],
+      "poprawne": ["K2 BLACK PANTHER"]
+    },
+    {
+      "id": 320,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "kto-rosomak.png",
+      "odpowiedzi": ["KTO ROSOMAK", "BTR - 80", "BWP BORSUK", "AMV PATRIA"],
+      "poprawne": ["KTO ROSOMAK"]
+    },
+    {
+      "id": 321,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "m120k rak.png",
+      "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "KTO ROSOMAK", "AHS KRAB"],
+      "poprawne": ["M120K RAK"]
+    },
+    {
+      "id": 322,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bwp borsuk.png",
+      "odpowiedzi": ["BMP - 1", "BMP - 2", "BWP BORSUK", "PUMA IFV"],
+      "poprawne": ["BWP BORSUK"]
+    },
+    {
+      "id": 323,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bmpt-terminator.png",
+      "odpowiedzi": ["BMPT - TERMINATOR", "BMP - 3", "ZSU-23-4 SZYŁKA", "2S6 TUNGUSKA"],
+      "poprawne": ["BMPT - TERMINATOR"]
+    },
+    {
+      "id": 324,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "2s1-gozdzik.png",
+      "odpowiedzi": ["2S1 GOŹDZIK", "2S3 AKACJA", "MTLB", "BMP - 1"],
+      "poprawne": ["2S1 GOŹDZIK"]
+    },
+    {
+      "id": 325,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "2s3-akacja.png",
+      "odpowiedzi": ["2S1 GOŹDZIK", "2S3 AKACJA", "2S19 MSTA-S", "AHS KRAB"],
+      "poprawne": ["2S3 AKACJA"]
+    },
+    {
+      "id": 326,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "2s19-msta-s.png",
+      "odpowiedzi": ["2S3 AKACJA", "2S19 MSTA-S", "AHS KRAB", "M109 PALADIN"],
+      "poprawne": ["2S19 MSTA-S"]
+    },
+    {
+      "id": 327,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "2s35-koalicja-sw.png",
+      "odpowiedzi": ["2S19 MSTA-S", "2S35 KOALICJA-SW", "AHS KRAB", "PzH 2000"],
+      "poprawne": ["2S35 KOALICJA-SW"]
+    },
+    {
+      "id": 328,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "ahs krab.png",
+      "odpowiedzi": ["2S19 MSTA-S", "AHS KRAB", "K9 THUNDER", "M109 PALADIN"],
+      "poprawne": ["AHS KRAB"]
+    },
+    {
+      "id": 329,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bm21-grad.png",
+      "odpowiedzi": ["BM-21 GRAD", "BM-27 URAGAN", "RM-70", "WR-40 LANGUSTA"],
+      "poprawne": ["BM-21 GRAD"]
+    },
+    {
+      "id": 330,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "bm27-uragan.png",
+      "odpowiedzi": ["BM-21 GRAD", "BM-27 URAGAN", "BM-30 SMERCZ", "W-200 POLONEZ"],
+      "poprawne": ["BM-27 URAGAN"]
+    },
+    {
+      "id": 331,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "tos-1.png",
+      "odpowiedzi": ["T - 72", "TOS - 1", "BM-21 GRAD", "MTLB"],
+      "poprawne": ["TOS - 1"]
+    },
+    {
+      "id": 332,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "w-200 polonez.png",
+      "odpowiedzi": ["BM-27 URAGAN", "W-200 POLONEZ", "HIMARS", "ISKANDER"],
+      "poprawne": ["W-200 POLONEZ"]
+    },
+    {
+      "id": 333,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
+      "image": "9k720-iskader.png",
+      "odpowiedzi": ["ISKANDER", "W-200 POLONEZ", "TOCHKA-U", "S-300"],
+      "poprawne": ["ISKANDER"]
+    },
+    {
+      "id": 334,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "mi-2.png",
+      "odpowiedzi": ["MI - 2", "MI - 8", "W-3 SOKÓŁ", "OH-58 KIOWA"],
+      "poprawne": ["MI - 2"]
+    },
+    {
+      "id": 335,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "mi-8.png",
+      "odpowiedzi": ["MI - 2", "MI - 8", "MI - 17", "MI - 24"],
+      "poprawne": ["MI - 8"]
+    },
+    {
+      "id": 336,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "mi-24.png",
+      "odpowiedzi": ["MI - 24", "AH-64 APACHE", "KA - 52", "MI - 28"],
+      "poprawne": ["MI - 24"]
+    },
+    {
+      "id": 337,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "ka-50.png",
+      "odpowiedzi": ["KA - 50", "KA - 52", "MI - 28", "AH-1 COBRA"],
+      "poprawne": ["KA - 50"]
+    },
+    {
+      "id": 338,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "ka-52.png",
+      "odpowiedzi": ["KA - 50", "KA - 52", "AH-64 APACHE", "MI - 24"],
+      "poprawne": ["KA - 52"]
+    },
+    {
+      "id": 339,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "w-3 sokół.png",
+      "odpowiedzi": ["MI - 2", "W-3 SOKÓŁ", "AW-149", "UH-60 BLACK HAWK"],
+      "poprawne": ["W-3 SOKÓŁ"]
+    },
+    {
+      "id": 340,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "su-25.png",
+      "odpowiedzi": ["SU - 25", "SU - 22", "A-10 THUNDERBOLT", "SU - 27"],
+      "poprawne": ["SU - 25"]
+    },
+    {
+      "id": 341,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "su-27.png",
+      "odpowiedzi": ["SU - 27", "MIG - 29", "SU - 35", "MIG - 31"],
+      "poprawne": ["SU - 27"]
+    },
+    {
+      "id": 342,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "mig-29.png",
+      "odpowiedzi": ["MIG - 29", "SU - 27", "F - 16", "MIG - 21"],
+      "poprawne": ["MIG - 29"]
+    },
+    {
+      "id": 343,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "mig-31.png",
+      "odpowiedzi": ["MIG - 25", "MIG - 31", "SU - 24", "SU - 27"],
+      "poprawne": ["MIG - 31"]
+    },
+    {
+      "id": 344,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "fa-50.png",
+      "odpowiedzi": ["MIG - 29", "FA - 50", "F - 16", "M-346 BIELIK"],
+      "poprawne": ["FA - 50"]
+    },
+    {
+      "id": 345,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "f-22.png",
+      "odpowiedzi": ["F - 22", "F - 35", "SU - 57", "F - 15"],
+      "poprawne": ["F - 22"]
+    },
+    {
+      "id": 346,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "f-35.png",
+      "odpowiedzi": ["F - 22", "F - 35", "J - 20", "FA - 50"],
+      "poprawne": ["F - 35"]
+    },
+    {
+      "id": 347,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "c-130 hercules.png",
+      "odpowiedzi": ["CASA C-295", "C-130 HERCULES", "C-17 GLOBEMASTER", "IŁ - 76"],
+      "poprawne": ["C-130 HERCULES"]
+    },
+    {
+      "id": 348,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "c-17 globemaster.png",
+      "odpowiedzi": ["C-130 HERCULES", "C-17 GLOBEMASTER", "IŁ - 76", "AN-124 RUSŁAN"],
+      "poprawne": ["C-17 GLOBEMASTER"]
+    },
+    {
+      "id": 349,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "casa c-295.png",
+      "odpowiedzi": ["CASA C-295", "M-28 BRYZA", "AN - 26", "IL - 76"],
+      "poprawne": ["CASA C-295"]
+    },
+    {
+      "id": 350,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "ił-76.png",
+      "odpowiedzi": ["C-17 GLOBEMASTER", "IŁ - 76", "AN - 12", "TU - 154"],
+      "poprawne": ["IŁ - 76"]
+    },
+    {
+      "id": 351,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "pzl m28 bryza.png",
+      "odpowiedzi": ["PZL M28 BRYZA", "AN - 2", "CASA C-295", "BEECHCRAFT"],
+      "poprawne": ["PZL M28 BRYZA"]
+    },
+    {
+      "id": 352,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "saab 340 aew.png",
+      "odpowiedzi": ["AWACS E-3", "SAAB 340 AEW", "CASA C-295", "GULFSTREAM"],
+      "poprawne": ["SAAB 340 AEW"]
+    },
+    {
+      "id": 353,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę (BSP):",
+      "image": "bayraktar tb2.png",
+      "odpowiedzi": ["MQ-9 REAPER", "BAYRAKTAR TB2", "SHAHEED 136", "WB FLYEYE"],
+      "poprawne": ["BAYRAKTAR TB2"]
+    },
+    {
+      "id": 354,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę (BSP):",
+      "image": "s-70 ochotnik.png",
+      "odpowiedzi": ["X-47B", "S-70 OCHOTNIK", "MIG - 31", "GLOBAL HAWK"],
+      "poprawne": ["S-70 OCHOTNIK"]
+    },
+    {
+      "id": 355,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę (BSP / Amunicja krążąca):",
+      "image": "shahed 136 lub geran-2.png",
+      "odpowiedzi": ["SHAHED 136 / GERAN-2", "ZALA LANCET", "WB WARMATE", "SWITCHBLADE"],
+      "poprawne": ["SHAHED 136 / GERAN-2"]
+    },
+    {
+      "id": 356,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę (BSP / Amunicja krążąca):",
+      "image": "wb warmate.png",
+      "odpowiedzi": ["WB WARMATE", "ZALA LANCET", "SWITCHBLADE", "FLYEYE"],
+      "poprawne": ["WB WARMATE"]
+    },
+    {
+      "id": 357,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę (BSP / Amunicja krążąca):",
+      "image": "zala lancet 3.png",
+      "odpowiedzi": ["SHAHED 136", "ZALA LANCET 3", "WB WARMATE", "SWITCHBLADE"],
+      "poprawne": ["ZALA LANCET 3"]
+    },
+    {
+      "id": 358,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę systemu p-lot:",
+      "image": "s-300.png",
+      "odpowiedzi": ["PATRIOT", "S-300", "BUK-M2", "PANTSIER-S1"],
+      "poprawne": ["S-300"]
     }
   ]
 }
