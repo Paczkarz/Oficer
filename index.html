@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkolenie Oficerskie - Platforma</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        army: {
+                            900: '#151714',
+                            800: '#1F221D',
+                            700: '#2A2E26',
+                            600: '#3D4438',
+                            500: '#4D5646',
+                            400: '#6A765F',
+                            300: '#8A997D',
+                            200: '#AEBCxA',
+                            100: '#D5DFCC',
+                            50: '#F1F4EE'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Mieszanka nowoczesnego fontu z terminalowym dla wojskowego feelingu */
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #0c0d0b;
+        }
+        .mono-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Subtelny wojskowy pattern */
+        .camo-bg {
+            background-image: radial-gradient(#1f241a 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="text-stone-300 min-h-screen camo-bg">
+    
+    <!-- Topbar -->
+    <div class="bg-army-900 border-b-2 border-army-600 shadow-lg shadow-black/40">
+        <div class="max-w-3xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="text-army-300 font-bold text-xl flex items-center mono-font tracking-wide">
+                <i class="fa-solid fa-star-half-stroke mr-3 text-yellow-600/80"></i>
+                <span class="text-stone-300">TRENING<span class="text-army-400">_OFICER</span></span>
+            </div>
+            <div class="text-xs text-army-500 mono-font hidden sm:block">SYS_STATUS: ONLINE</div>
+        </div>
+    </div>
+
+    <!-- Main Container rendered by JS -->
+    <div id="app" class="max-w-3xl mx-auto p-4 sm:p-6 lg:p-8 pt-8 pb-20">
+        <!-- Loader / Initial content -->
+        <div class="text-center mt-20 fade-in text-army-500">
+            <i class="fa-solid fa-crosshairs fa-spin text-4xl mb-4 text-army-400"></i>
+            <p class="mono-font tracking-widest text-sm uppercase">INICJALIZACJA SYSTEMU...</p>
+        </div>
+    </div>
+
+    <!-- Wczytanie bazy danych i logiki -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
