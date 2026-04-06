@@ -1907,7 +1907,7 @@ const quizData = {
         "Zintegrowane, skoordynowane użycie środków rażenia z dwóch rodzajów wojsk."
       ],
       "poprawne": [
-        "Ma ono na celu zapewnienie wsparcia ogniowego w całym spektrum działań."
+        "zintegrowane użycie lądowych, powietrznych i morskich platform wsparcia ogniowego, wykorzystujących ogień bezpośredni i pośredni do celów naziemnych dla osiągnięcia pożądanych efektów."
       ]
     },
     {
