@@ -131,6 +131,7 @@ function renderQuiz() {
     const progress = Math.max(0, Math.round(((state.currentIndex) / total) * 100)); 
     
     const isSingleFact = (q.odpowiedzi.length === 1);
+    const isMultipleChoice = q.poprawne.length > 1;
 
     // Kiedy pytania mają 1 odpowiedź i to Tryb Egzaminu -> auto punktujemy.
     if (isSingleFact && state.mode === 'exam' && !state.examAnswers[state.currentIndex]) {
@@ -160,23 +161,64 @@ function renderQuiz() {
         answersHtml = `
             <div class="space-y-3 mt-8">
                 ${q.odpowiedzi.map((ans, idx) => {
-                    let btnBaseStyling = "w-full text-left p-4 rounded-xl border-2 transition-all cursor-pointer font-medium group flex items-start ";
+                    let btnBaseStyling = "w-full text-left p-4 rounded-xl border-2 transition-all font-medium group flex items-start ";
                     
-                    let isCheckedInExam = false;
-                    if (state.mode === 'exam' && state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].includes(idx)) {
-                        isCheckedInExam = true;
+                    let isChecked = false;
+                    if (state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].includes(idx)) {
+                        isChecked = true;
+                    }
+                    
+                    const isAnsCorrect = q.poprawne.some(p => p.trim() === ans.trim());
+
+                    if (state.mode === 'training' && state.hasAnsweredCurrent) {
+                        btnBaseStyling += " cursor-default ";
+                        if (isChecked && isAnsCorrect) {
+                            btnBaseStyling += " border-green-600 bg-green-900/30 text-green-400";
+                        } else if (isChecked && !isAnsCorrect) {
+                            btnBaseStyling += " border-red-800/80 bg-red-900/20 text-red-400";
+                        } else if (!isChecked && isAnsCorrect) {
+                            btnBaseStyling += " border-army-400 bg-army-700/50 text-stone-300";
+                        } else {
+                            btnBaseStyling += " border-army-700/30 text-army-600 opacity-50";
+                        }
+                    } else {
+                        btnBaseStyling += " cursor-pointer ";
+                        if (isChecked) {
+                            btnBaseStyling += " border-army-400 bg-army-700/60 text-stone-200 shadow-inner";
+                        } else {
+                            btnBaseStyling += " border-army-700/60 text-stone-400 hover:border-army-500 hover:bg-army-700/30 hover:text-stone-200";
+                        }
                     }
 
-                    if (isCheckedInExam) {
-                        btnBaseStyling += "border-army-400 bg-army-700/60 text-stone-200 shadow-inner";
+                    let iconHtml = '';
+                    let iconWrapperClasses = "w-6 h-6 rounded-sm border-2 mr-4 mt-0.5 flex items-center justify-center shrink-0 transition-colors ";
+                    
+                    if (state.mode === 'training' && state.hasAnsweredCurrent) {
+                        if (isChecked && isAnsCorrect) {
+                            iconWrapperClasses += " border-green-500 bg-green-600";
+                            iconHtml = '<i class="fa-solid fa-check text-stone-100 text-xs"></i>';
+                        } else if (isChecked && !isAnsCorrect) {
+                            iconWrapperClasses += " border-red-700 bg-red-700";
+                            iconHtml = '<i class="fa-solid fa-xmark text-stone-100 text-xs"></i>';
+                        } else if (!isChecked && isAnsCorrect) {
+                            iconWrapperClasses += " border-army-400 bg-army-400";
+                            iconHtml = '<i class="fa-solid fa-check text-army-900 text-xs"></i>';
+                        } else {
+                            iconWrapperClasses += " border-army-700/50";
+                        }
                     } else {
-                        btnBaseStyling += "border-army-700/60 text-stone-400 hover:border-army-500 hover:bg-army-700/30 hover:text-stone-200";
+                        if (isChecked) {
+                            iconWrapperClasses += " border-army-300 bg-army-500";
+                            iconHtml = '<i class="fa-solid fa-check text-army-900 font-bold text-xs"></i>';
+                        } else {
+                            iconWrapperClasses += " border-army-600 group-hover:border-army-400";
+                        }
                     }
 
                     return `
-                        <button id="ans-btn-${idx}" onclick="handleAnswerClick(${idx})" class="${btnBaseStyling}">
-                            <div class="w-6 h-6 rounded-sm border-2 mr-4 mt-0.5 flex items-center justify-center shrink-0 transition-colors ${isCheckedInExam ? 'border-army-300 bg-army-500' : 'border-army-600 group-hover:border-army-400'}">
-                                ${isCheckedInExam ? '<i class="fa-solid fa-check text-army-900 font-bold text-xs"></i>' : ''}
+                        <button id="ans-btn-${idx}" onclick="handleAnswerClick(${idx})" class="${btnBaseStyling}" ${state.mode === 'training' && state.hasAnsweredCurrent ? 'disabled' : ''}>
+                            <div class="${iconWrapperClasses}">
+                                ${iconHtml}
                             </div>
                             <span class="leading-relaxed flex-1">${ans}</span>
                         </button>
@@ -192,10 +234,21 @@ function renderQuiz() {
 
     let nextDisabled = false;
     if (state.mode === 'training' && !state.hasAnsweredCurrent) {
-        nextDisabled = true;
+        nextDisabled = true; 
     }
 
     let progressColor = state.mode === 'training' ? 'bg-army-400' : 'bg-yellow-600/80';
+
+    let verifyBtnHtml = '';
+    if (state.mode === 'training' && isMultipleChoice && !state.hasAnsweredCurrent) {
+        const arr = state.examAnswers[state.currentIndex] || [];
+        const isAnySelected = arr.length > 0;
+        verifyBtnHtml = `
+            <button id="verifyBtn" onclick="verifyTrainingSelections()" ${!isAnySelected ? 'disabled' : ''} class="bg-blue-800 hover:bg-blue-700 text-stone-100 font-bold py-3 px-6 sm:px-8 rounded shadow-md border border-blue-600 transition-all disabled:opacity-30 disabled:hover:bg-blue-800 flex items-center group mono-font tracking-wider mr-2">
+                WERYFIKUJ CEL <i class="fa-solid fa-shield-halved ml-2"></i>
+            </button>
+        `;
+    }
 
     let html = `
         <div class="bg-army-800 rounded-2xl shadow-xl overflow-hidden fade-in relative border border-army-700/50">
@@ -222,9 +275,17 @@ function renderQuiz() {
             <div class="px-6 sm:px-10 py-8 lg:py-10 relative">
                 <div class="absolute right-0 top-0 text-[100px] text-army-700/20 mr-4 mt-4 select-none pointer-events-none mono-font hidden sm:block">${state.currentIndex + 1}</div>
                 
-                <div class="text-[10px] font-bold text-army-500 uppercase tracking-widest mb-3 mono-font flex items-center">
-                    <i class="fa-solid fa-folder-open mr-2"></i> ${q.dzial}
+                <div class="flex items-center flex-wrap gap-3 mb-3">
+                    <div class="text-[10px] font-bold text-army-500 uppercase tracking-widest mono-font flex items-center">
+                        <i class="fa-solid fa-folder-open mr-2"></i> ${q.dzial}
+                    </div>
+                    ${isMultipleChoice ? `
+                    <div class="text-[10px] font-bold text-blue-400 uppercase tracking-widest mono-font flex items-center bg-blue-900/30 px-2 py-1 rounded border border-blue-800/50">
+                        <i class="fa-solid fa-list-check mr-2"></i> WIELOKROTNY WYBÓR
+                    </div>
+                    ` : ''}
                 </div>
+
                 <h2 class="text-xl sm:text-2xl font-bold text-stone-200 leading-snug whitespace-pre-line relative z-10">
                     <span class="text-army-500 font-medium mr-2 mono-font">#${q.id}</span>${q.pytanie}
                 </h2>
@@ -233,10 +294,16 @@ function renderQuiz() {
                     ${answersHtml}
                 </div>
                 
-                <div class="mt-10 sm:mt-12 flex justify-end relative z-10">
-                    <button id="nextBtn" onclick="nextQuestion()" ${nextDisabled ? 'disabled' : ''} class="bg-army-600 hover:bg-army-500 text-stone-100 font-bold py-3 px-6 sm:px-8 rounded shadow-md border border-army-500 transition-all disabled:opacity-30 disabled:hover:bg-army-600 disabled:cursor-not-allowed flex items-center group mono-font tracking-wider">
-                        ${nextBtnText}
+                <div class="mt-10 sm:mt-12 flex justify-between items-end flex-wrap gap-4 relative z-10 w-full pt-4 border-t border-army-700/30">
+                    <button onclick="finishQuizEarly()" class="bg-army-800 hover:bg-red-900/60 text-stone-400 hover:text-stone-200 font-bold py-2.5 px-4 rounded shadow-sm border border-army-600 hover:border-red-700 transition-all flex items-center group mono-font tracking-wider text-xs whitespace-nowrap">
+                        <i class="fa-solid fa-flag-checkered mr-2"></i> ZAKOŃCZ I PODSUMUJ
                     </button>
+                    <div class="flex flex-wrap gap-4 ml-auto">
+                        ${verifyBtnHtml}
+                        <button id="nextBtn" onclick="nextQuestion()" ${nextDisabled ? 'disabled' : ''} class="bg-army-600 hover:bg-army-500 text-stone-100 font-bold py-3 px-6 sm:px-8 rounded shadow-md border border-army-500 transition-all disabled:opacity-30 disabled:hover:bg-army-600 disabled:cursor-not-allowed flex items-center group mono-font tracking-wider">
+                            ${nextBtnText}
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -255,56 +322,50 @@ function handleAnswerClick(idx) {
 }
 
 function selectTrainingAnswer(idx) {
-    state.hasAnsweredCurrent = true;
-    
-    if (!state.examAnswers[state.currentIndex]) {
-        state.examAnswers[state.currentIndex] = [idx];
-    }
-    
     const q = state.questions[state.currentIndex];
-    
-    // Uporządkowanie tekstu
-    const selectedText = q.odpowiedzi[idx].trim();
-    const isCorrect = q.poprawne.some(p => p.trim() === selectedText);
+    const isMultipleChoice = q.poprawne.length > 1;
 
-    const btn = document.getElementById(`ans-btn-${idx}`);
-    const iconContainer = btn.querySelector('div.w-6');
-    
-    if (isCorrect) {
-        btn.classList.remove('border-army-700/60', 'text-stone-400', 'hover:border-army-500', 'hover:bg-army-700/30', 'hover:text-stone-200');
-        btn.classList.add('border-green-600', 'bg-green-900/30', 'text-green-400');
-        iconContainer.classList.replace('border-army-600', 'border-green-500');
-        iconContainer.classList.add('bg-green-600');
-        iconContainer.innerHTML = '<i class="fa-solid fa-check text-stone-100 text-xs"></i>';
-    } else {
-        btn.classList.remove('border-army-700/60', 'text-stone-400', 'hover:border-army-500', 'hover:bg-army-700/30', 'hover:text-stone-200');
-        btn.classList.add('border-red-800/80', 'bg-red-900/20', 'text-red-400');
-        iconContainer.classList.replace('border-army-600', 'border-red-700');
-        iconContainer.classList.add('bg-red-700');
-        iconContainer.innerHTML = '<i class="fa-solid fa-xmark text-stone-100 text-xs"></i>';
-        
-        // Zaznacz poprawne dla wizualizacji
-        q.odpowiedzi.forEach((ans, aIdx) => {
-            if (q.poprawne.some(p => p.trim() === ans.trim())) {
-                const cBtn = document.getElementById(`ans-btn-${aIdx}`);
-                cBtn.classList.remove('border-army-700/60', 'text-stone-400');
-                cBtn.classList.add('border-army-400', 'bg-army-700/50', 'text-stone-300');
-                const cIcon = cBtn.querySelector('div.w-6');
-                cIcon.classList.replace('border-army-600', 'border-army-400');
-                cIcon.classList.add('bg-army-400');
-                cIcon.innerHTML = '<i class="fa-solid fa-check text-army-900 text-xs"></i>';
-            }
-        });
+    if (!state.examAnswers[state.currentIndex]) {
+        state.examAnswers[state.currentIndex] = [];
     }
 
-    document.getElementById('nextBtn').disabled = false;
+    if (isMultipleChoice) {
+        const arr = state.examAnswers[state.currentIndex];
+        if (arr.includes(idx)) {
+            state.examAnswers[state.currentIndex] = arr.filter(i => i !== idx);
+        } else {
+            arr.push(idx);
+        }
+    } else {
+        state.examAnswers[state.currentIndex] = [idx];
+        state.hasAnsweredCurrent = true;
+    }
+    
+    renderQuiz();
+}
+
+function verifyTrainingSelections() {
+    state.hasAnsweredCurrent = true;
+    renderQuiz();
 }
 
 function selectExamAnswer(idx) {
     if (!state.examAnswers[state.currentIndex]) {
         state.examAnswers[state.currentIndex] = [];
     }
-    state.examAnswers[state.currentIndex] = [idx];
+    const q = state.questions[state.currentIndex];
+    const isMultipleChoice = q.poprawne.length > 1;
+
+    if (isMultipleChoice) {
+        const arr = state.examAnswers[state.currentIndex];
+        if (arr.includes(idx)) {
+            state.examAnswers[state.currentIndex] = arr.filter(i => i !== idx);
+        } else {
+            arr.push(idx);
+        }
+    } else {
+        state.examAnswers[state.currentIndex] = [idx];
+    }
     renderQuiz();
 }
 
@@ -329,6 +390,22 @@ function finishQuiz() {
     renderSummary();
 }
 
+function finishQuizEarly() {
+    if(confirm('Zakończyć symulację i wygenerować raport wyników tylko z przerobionych pytań?')) {
+        let answeredCount = state.currentIndex;
+        if (state.hasAnsweredCurrent || (state.mode === 'exam' && state.examAnswers[state.currentIndex] && state.examAnswers[state.currentIndex].length > 0) || (state.mode === 'exam' && state.questions[state.currentIndex].odpowiedzi.length === 1)) {
+            answeredCount++;
+        }
+        
+        if (answeredCount === 0) {
+            renderMenu();
+        } else {
+            state.questions = state.questions.slice(0, answeredCount);
+            renderSummary();
+        }
+    }
+}
+
 function renderSummary() {
     let score = 0;
     const errorsList = [];
@@ -346,13 +423,25 @@ function renderSummary() {
             return;
         }
 
-        const selectedAnsText = q.odpowiedzi[userSelectedIndices[0]].trim();
-        const isCorrect = q.poprawne.some(p => p.trim() === selectedAnsText);
+        let allCorrect = true;
+        const selectedTexts = userSelectedIndices.map(i => q.odpowiedzi[i].trim());
+        const correctTexts = q.poprawne.map(p => p.trim());
+        
+        if (selectedTexts.length !== correctTexts.length) {
+            allCorrect = false;
+        } else {
+            for (let text of selectedTexts) {
+                if (!correctTexts.includes(text)) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+        }
 
-        if (isCorrect) {
+        if (allCorrect) {
             score++;
         } else {
-            errorsList.push({ question: q, userAns: selectedAnsText });
+            errorsList.push({ question: q, userAns: selectedTexts.map(s => `- ${s}`).join('<br>') });
         }
     });
 
