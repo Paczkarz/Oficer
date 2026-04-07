@@ -1898,7 +1898,7 @@ const quizData = {
     {
       "id": 146,
       "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
-      "pytanie": "Połączone wsparcie ogniowe (ang. Joint Fire Support - JFS) to:",
+      "pytanie": "Celem dołączonia wsparcie ogniowe (ang. Joint Fire Support - JFS) to:",
       "odpowiedzi": [
         "zintegrowane użycie lądowych, powietrznych i morskich platform wsparcia ogniowego, wykorzystujących ogień bezpośredni i pośredni do celów naziemnych dla osiągnięcia pożądanych efektów.",
         "Ma ono na celu zapewnienie wsparcia ogniowego w całym spektrum działań.",
