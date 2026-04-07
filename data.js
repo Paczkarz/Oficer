@@ -4819,6 +4819,2921 @@ const quizData = {
       "poprawne": [
         "160-180 kroków na minutę"
       ]
+    },
+    {
+      "id": 420,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Celownik jest podstawowym elementem broni. Pistolet P-83 jest wyposażony w celownik:",
+      "odpowiedzi": [
+        "Mechaniczny, otwarty, stały"
+      ],
+      "poprawne": [
+        "Mechaniczny, otwarty, stały"
+      ]
+    },
+    {
+      "id": 421,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Typem mechanizmu uderzeniowego w pistolecie wojskowym P-83 jest:",
+      "odpowiedzi": [
+        "Kurkowy"
+      ],
+      "poprawne": [
+        "Kurkowy"
+      ]
+    },
+    {
+      "id": 422,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Pistolet WIST-94 działa na zasadzie:",
+      "odpowiedzi": [
+        "Krótkiego odrzutu lufy"
+      ],
+      "poprawne": [
+        "Krótkiego odrzutu lufy"
+      ]
+    },
+    {
+      "id": 423,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm uderzeniowy w pistolecie wojskowym PW-94 WIST to typ:",
+      "odpowiedzi": [
+        "Iglicowy"
+      ],
+      "poprawne": [
+        "Iglicowy"
+      ]
+    },
+    {
+      "id": 424,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Sposobem ryglowania w pistolecie wojskowym PW-94 WIST jest:",
+      "odpowiedzi": [
+        "Przekoszenie lufy"
+      ],
+      "poprawne": [
+        "Przekoszenie lufy"
+      ]
+    },
+    {
+      "id": 425,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W skład ogólnej budowy pistoletu maszynowego PM-98 wchodzi:",
+      "odpowiedzi": [
+        "Zespół komory zamkowej, zespół chwytu, zatrzask pokrywy komory zamkowej ze sprężynami powrotnymi, zamek, magazynek, lufa, nakrętka lufy, pokrywa, łącznik, tuleja"
+      ],
+      "poprawne": [
+        "Zespół komory zamkowej, zespół chwytu, zatrzask pokrywy komory zamkowej ze sprężynami powrotnymi, zamek, magazynek, lufa, nakrętka lufy, pokrywa, łącznik, tuleja"
+      ]
+    },
+    {
+      "id": 426,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Magazynek długi pistoletu maszynowego PM-98 mieści:",
+      "odpowiedzi": [
+        "25 nabojów"
+      ],
+      "poprawne": [
+        "25 nabojów"
+      ]
+    },
+    {
+      "id": 427,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Celownik jest podstawowym elementem broni. Pistolet maszynowy PM-98 jest wyposażony w celownik:",
+      "odpowiedzi": [
+        "Mechaniczny otwarty przerzutowy, mechaniczny przeziernikowy przerzutowy"
+      ],
+      "poprawne": [
+        "Mechaniczny otwarty przerzutowy, mechaniczny przeziernikowy przerzutowy"
+      ]
+    },
+    {
+      "id": 428,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm zabezpieczający w pistolecie maszynowym PM-98 to typ:",
+      "odpowiedzi": [
+        "Nastawczy, samoczynny"
+      ],
+      "poprawne": [
+        "Nastawczy, samoczynny"
+      ]
+    },
+    {
+      "id": 429,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm uderzeniowy w pistolecie maszynowym PM-98 to typ:",
+      "odpowiedzi": [
+        "Kurkowy"
+      ],
+      "poprawne": [
+        "Kurkowy"
+      ]
+    },
+    {
+      "id": 430,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm obniżający szybkostrzelność w pistolecie maszynowym PM-98 nazywa się:",
+      "odpowiedzi": [
+        "Opóźniacz"
+      ],
+      "poprawne": [
+        "Opóźniacz"
+      ]
+    },
+    {
+      "id": 431,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Funkcje zamka karabinka wz 96 Beryl to:",
+      "odpowiedzi": [
+        "Dosyłanie, ryglowanie lufy, zbijanie spłonki, wyciąganie łuski lub naboju"
+      ],
+      "poprawne": [
+        "Dosyłanie, ryglowanie lufy, zbijanie spłonki, wyciąganie łuski lub naboju"
+      ]
+    },
+    {
+      "id": 432,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm zabezpieczający karabinka wz 96 Beryl jest typem:",
+      "odpowiedzi": [
+        "Nastawczy, samoczynny"
+      ],
+      "poprawne": [
+        "Nastawczy, samoczynny"
+      ]
+    },
+    {
+      "id": 433,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Mechanizm uderzeniowy karabinka wz 96 Beryl to typ:",
+      "odpowiedzi": [
+        "Kurkowy, pracujący od sprężyny własnej"
+      ],
+      "poprawne": [
+        "Kurkowy, pracujący od sprężyny własnej"
+      ]
+    },
+    {
+      "id": 434,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Celownik jest podstawowym elementem broni. Karabinek wz 96 Beryl jest wyposażony w celownik:",
+      "odpowiedzi": [
+        "Mechaniczny, otwarty, krzywkowy"
+      ],
+      "poprawne": [
+        "Mechaniczny, otwarty, krzywkowy"
+      ]
+    },
+    {
+      "id": 435,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Sposobem ryglowania karabinku wz. 96 Beryl jest:",
+      "odpowiedzi": [
+        "Obrót zamka"
+      ],
+      "poprawne": [
+        "Obrót zamka"
+      ]
+    },
+    {
+      "id": 436,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Lufa poligonowa to lufa w której:",
+      "odpowiedzi": [
+        "Przekrój poprzeczny ma kształt wielokąta foremnego"
+      ],
+      "poprawne": [
+        "Przekrój poprzeczny ma kształt wielokąta foremnego"
+      ]
+    },
+    {
+      "id": 437,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Lufa gwintowana to lufa w której:",
+      "odpowiedzi": [
+        "Przekrój poprzeczny ma bruzdy"
+      ],
+      "poprawne": [
+        "Przekrój poprzeczny ma bruzdy"
+      ]
+    },
+    {
+      "id": 438,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Funkcje lufy gwintowanej to:",
+      "odpowiedzi": [
+        "Nadanie kierunku pociskowi, wprowadzenie pocisku w ruch obrotowy w płaszczyźnie poziomej, uczestniczenie w nadaniu prędkości początkowej pociskowi"
+      ],
+      "poprawne": [
+        "Nadanie kierunku pociskowi, wprowadzenie pocisku w ruch obrotowy w płaszczyźnie poziomej, uczestniczenie w nadaniu prędkości początkowej pociskowi"
+      ]
+    },
+    {
+      "id": 439,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Celownik holograficzny to celownik:",
+      "odpowiedzi": [
+        "Wykorzystujący zjawisko kolimacji"
+      ],
+      "poprawne": [
+        "Wykorzystujący zjawisko kolimacji"
+      ]
+    },
+    {
+      "id": 440,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W broni posiadającej lufę gwintowaną pod pojęciem kaliber broni rozumiemy:",
+      "odpowiedzi": [
+        "Średnicę lufy mierzoną pomiędzy dwoma przeciwległymi polami"
+      ],
+      "poprawne": [
+        "Średnicę lufy mierzoną pomiędzy dwoma przeciwległymi polami"
+      ]
+    },
+    {
+      "id": 441,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Przesunięcie obsady muszki w karabinku wz. 96 Beryl o 1 mm spowoduje przesunięcie na 100 metrach średniego punktu trafienia o:",
+      "odpowiedzi": [
+        "26 centymetrów"
+      ],
+      "poprawne": [
+        "26 centymetrów"
+      ]
+    },
+    {
+      "id": 442,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Wkręcenie obrotu muszki w pistolecie maszynowym spowoduje przesunięcie SPTO:",
+      "odpowiedzi": [
+        "9 centymetrów"
+      ],
+      "poprawne": [
+        "9 centymetrów"
+      ]
+    },
+    {
+      "id": 443,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Zabrania się prowadzenia ognia amunicją ślepą, gdy ludzie, sprzęt lub zwierzęta znajdują się w odległości mniejszej niż:",
+      "odpowiedzi": [
+        "50m"
+      ],
+      "poprawne": [
+        "50m"
+      ]
+    },
+    {
+      "id": 444,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Warunki dotyczące bezpiecznego posługiwania się bronią nakazują każdorazowo po przyjęciu/pobraniu broni z podłączonym źródłem zasilania dokonać sprawdzenia rozładowania i przejrzenia w kolejności:",
+      "odpowiedzi": [
+        "Odłączyć źródło zasilania, sprawdzić czy w magazynkach nie ma amunicji, odbezpieczyć, sprawdzić komorę nabojową, oddać celowany strzał kontrolny w bezpiecznym kierunku, zabezpieczyć broń"
+      ],
+      "poprawne": [
+        "Odłączyć źródło zasilania, sprawdzić czy w magazynkach nie ma amunicji, odbezpieczyć, sprawdzić komorę nabojową, oddać celowany strzał kontrolny w bezpiecznym kierunku, zabezpieczyć broń"
+      ]
+    },
+    {
+      "id": 445,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Podczas rzutu granatem bojowym na sygnał jednego gwizdka:",
+      "odpowiedzi": [
+        "Rozpoczyna się rzut granatem bojowym na stanowisku ogniowym."
+      ],
+      "poprawne": [
+        "Rozpoczyna się rzut granatem bojowym na stanowisku ogniowym."
+      ]
+    },
+    {
+      "id": 446,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Podczas użytkowania granatów kategorycznie zabrania się:",
+      "odpowiedzi": [
+        "Wydawania granatów żołnierzom nie przeszkolonym w rzucie granatem, używania niesprawnych granatów i zapalników, transportowania granatów bojowych i zapalników bez skrzyń, rozbierania i usuwania niesprawności, podwieszania za kółko zawleczki lub wkładania dźwigni spustowej za pas, rzucania granatami przez dwóch lub większą liczbę żołnierzy jednocześnie"
+      ],
+      "poprawne": [
+        "Wydawania granatów żołnierzom nie przeszkolonym w rzucie granatem, używania niesprawnych granatów i zapalników, transportowania granatów bojowych i zapalników bez skrzyń, rozbierania i usuwania niesprawności, podwieszania za kółko zawleczki lub wkładania dźwigni spustowej za pas, rzucania granatami przez dwóch lub większą liczbę żołnierzy jednocześnie"
+      ]
+    },
+    {
+      "id": 447,
+      "dzial": "OPBMR",
+      "pytanie": "Iperyt siarkowy zaliczamy do grupy środków:",
+      "odpowiedzi": [
+        "Parzących"
+      ],
+      "poprawne": [
+        "Parzących"
+      ]
+    },
+    {
+      "id": 448,
+      "dzial": "OPBMR",
+      "pytanie": "Indywidualne środki ochrony przed skażeniami to:",
+      "odpowiedzi": [
+        "Maska przeciwgazowa, odzież ochronna, sprzęt dozymetryczny, indywidualne pakiety do likwidacji skażeń, indywidualne pakiety medyczne, jednorazowy/indywidualny wskaźnik skażeń chemicznych"
+      ],
+      "poprawne": [
+        "Maska przeciwgazowa, odzież ochronna, sprzęt dozymetryczny, indywidualne pakiety do likwidacji skażeń, indywidualne pakiety medyczne, jednorazowy/indywidualny wskaźnik skażeń chemicznych"
+      ]
+    },
+    {
+      "id": 449,
+      "dzial": "OPBMR",
+      "pytanie": "Likwidacja skażeń dzieli się na:",
+      "odpowiedzi": [
+        "Natychmiastową, operacyjną, całkowitą i gruntowną"
+      ],
+      "poprawne": [
+        "Natychmiastową, operacyjną, całkowitą i gruntowną"
+      ]
+    },
+    {
+      "id": 450,
+      "dzial": "OPBMR",
+      "pytanie": "Do czynników rażenia broni jądrowej zaliczamy:",
+      "odpowiedzi": [
+        "Błysk, promieniowanie cieplne, fala uderzeniowa, promieniowanie przenikliwe, promieniotwórcze skażenie terenu, impuls elektromagnetyczny, zwiększona aktywność jonosfery"
+      ],
+      "poprawne": [
+        "Błysk, promieniowanie cieplne, fala uderzeniowa, promieniowanie przenikliwe, promieniotwórcze skażenie terenu, impuls elektromagnetyczny, zwiększona aktywność jonosfery"
+      ]
+    },
+    {
+      "id": 451,
+      "dzial": "OPBMR",
+      "pytanie": "Norma szkoleniowa założenia maski przeciwgazowej wynosi:",
+      "odpowiedzi": [
+        "9s"
+      ],
+      "poprawne": [
+        "9s"
+      ]
+    },
+    {
+      "id": 452,
+      "dzial": "OPBMR",
+      "pytanie": "Podwyższony (pomarańczowy) poziom zagrożenia od broni i urządzeń CBRN jest wprowadzany, gdy:",
+      "odpowiedzi": [
+        "Przeciwnik posiada broń/urządzenia CBRN i jest wysoce prawdopodobne, że użyje ich w najbliższym czasie"
+      ],
+      "poprawne": [
+        "Przeciwnik posiada broń/urządzenia CBRN i jest wysoce prawdopodobne, że użyje ich w najbliższym czasie"
+      ]
+    },
+    {
+      "id": 453,
+      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "pytanie": "Zasadnicze zadania inżynierii wojskowej to:",
+      "odpowiedzi": [
+        "Kontrmobilność, mobilność, zdolność przetrwania wojsk, ogólne wsparcie inżynieryjne"
+      ],
+      "poprawne": [
+        "Kontrmobilność, mobilność, zdolność przetrwania wojsk, ogólne wsparcie inżynieryjne"
+      ]
+    },
+    {
+      "id": 454,
+      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "pytanie": "Wśród zadań zabezpieczenia inżynieryjnego można wymienić:",
+      "odpowiedzi": [
+        "Rozpoznanie przeciwnika i terenu pod względem inżynieryjnym, rozbudowa fortyfikacyjna terenu, budowa zapór inżynieryjnych i wykonywanie niszczeń"
+      ],
+      "poprawne": [
+        "Rozpoznanie przeciwnika i terenu pod względem inżynieryjnym, rozbudowa fortyfikacyjna terenu, budowa zapór inżynieryjnych i wykonywanie niszczeń"
+      ]
+    },
+    {
+      "id": 455,
+      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "pytanie": "Rozwiń akronim procedury 4C:",
+      "odpowiedzi": [
+        "CONFIRM (potwierdź obecność IED), CLEAR (oczyść teren), CORDON (otocz/blokuj teren), CONTROL (kontroluj strefę)"
+      ],
+      "poprawne": [
+        "CONFIRM (potwierdź obecność IED), CLEAR (oczyść teren), CORDON (otocz/blokuj teren), CONTROL (kontroluj strefę)"
+      ]
+    },
+    {
+      "id": 456,
+      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "pytanie": "Mina przeciwpancerna TM-62M z zapalnikiem MWCz-62 jest miną o działaniu:",
+      "odpowiedzi": [
+        "Naciskowym"
+      ],
+      "poprawne": [
+        "Naciskowym"
+      ]
+    },
+    {
+      "id": 457,
+      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "pytanie": "Głównym organicznym elementem zapewniającym wsparcie inżynieryjne w działaniach taktycznych na szczeblu brygady zmechanizowanej/pancernej jest:",
+      "odpowiedzi": [
+        "Kompania saperów (batalion saperów)"
+      ],
+      "poprawne": [
+        "Kompania saperów (batalion saperów)"
+      ]
+    },
+    {
+      "id": 458,
+      "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
+      "pytanie": "Do podstawowych zadań artylerii należy:",
+      "odpowiedzi": [
+        "Prowadzenie bliskiego ognia wspierającego, prowadzenie głębokiego ognia wspierającego, zwalczanie artylerii, dezorganizacja systemu dowodzenia, wzbranianie obrony przeciwlotniczej"
+      ],
+      "poprawne": [
+        "Prowadzenie bliskiego ognia wspierającego, prowadzenie głębokiego ognia wspierającego, zwalczanie artylerii, dezorganizacja systemu dowodzenia, wzbranianie obrony przeciwlotniczej"
+      ]
+    },
+    {
+      "id": 459,
+      "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
+      "pytanie": "Jakie relacje wsparcia ogniowego występują w wojskach rakietowych i artylerii?",
+      "odpowiedzi": [
+        "Wsparcie bezpośrednie, wzmocnienie, wsparcie ogólne, wsparcie ogólne wzmocnienie"
+      ],
+      "poprawne": [
+        "Wsparcie bezpośrednie, wzmocnienie, wsparcie ogólne, wsparcie ogólne wzmocnienie"
+      ]
+    },
+    {
+      "id": 460,
+      "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
+      "pytanie": "Kto zapewnia koordynację pomiędzy lotnictwem, a ogniem i ruchem sił własnych podczas realizacji bezpośredniego wsparcia lotniczego (CAS)?",
+      "odpowiedzi": [
+        "Wysunięty nawigator naprowadzania lotnictwa (JTAC)"
+      ],
+      "poprawne": [
+        "Wysunięty nawigator naprowadzania lotnictwa (JTAC)"
+      ]
+    },
+    {
+      "id": 461,
+      "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
+      "pytanie": "Z ilu elementów składa się wezwanie wsparcia ogniowego (WWO) z pola walki oraz poprzez ile transmisji jest przesyłane wezwanie wsparcia ogniowego (WWO) z pola walki?",
+      "odpowiedzi": [
+        "Wezwanie wsparcia ogniowego (WWO) z pola walki składa się z 6 elementów przesyłanych w 3 transmisjach"
+      ],
+      "poprawne": [
+        "Wezwanie wsparcia ogniowego (WWO) z pola walki składa się z 6 elementów przesyłanych w 3 transmisjach"
+      ]
+    },
+    {
+      "id": 462,
+      "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
+      "pytanie": "Kto jest koordynatorem wsparcia ogniowego na szczeblu batalionu?",
+      "odpowiedzi": [
+        "Oficer S-3 batalionu"
+      ],
+      "poprawne": [
+        "Oficer S-3 batalionu"
+      ]
+    },
+    {
+      "id": 463,
+      "dzial": "POPL",
+      "pytanie": "Wymień przedsięwzięcia powszechnej obrony przeciwlotniczej:",
+      "odpowiedzi": [
+        "Rozpoznanie optyczno-wzrokowe przestrzeni powietrznej, ostrzeganie wojsk, alarmowanie wojsk, prowadzenie zorganizowanego ognia z broni osobistej i pokładowej do celów powietrznych, maskowanie, rozśrodkowanie, przygotowanie schronów i ukryć/szczelin przeciwlotniczych, likwidacja skutków uderzeń przeciwnika powietrznego"
+      ],
+      "poprawne": [
+        "Rozpoznanie optyczno-wzrokowe przestrzeni powietrznej, ostrzeganie wojsk, alarmowanie wojsk, prowadzenie zorganizowanego ognia z broni osobistej i pokładowej do celów powietrznych, maskowanie, rozśrodkowanie, przygotowanie schronów i ukryć/szczelin przeciwlotniczych, likwidacja skutków uderzeń przeciwnika powietrznego"
+      ]
+    },
+    {
+      "id": 464,
+      "dzial": "POPL",
+      "pytanie": "Posterunki obserwacyjne wystawiane są do szczebla:",
+      "odpowiedzi": [
+        "Batalionu"
+      ],
+      "poprawne": [
+        "Batalionu"
+      ]
+    },
+    {
+      "id": 465,
+      "dzial": "POPL",
+      "pytanie": "Do celów poruszających się z dużą prędkością (powyżej 250km/h) prowadzi się ogień zaporowy wykonując:",
+      "odpowiedzi": [
+        "Zaporę pionową lub pochyłą"
+      ],
+      "poprawne": [
+        "Zaporę pionową lub pochyłą"
+      ]
+    },
+    {
+      "id": 466,
+      "dzial": "LOTNICTWO",
+      "pytanie": "Podstawowe zadania lotnictwa taktycznego to:",
+      "odpowiedzi": [
+        "Walka o przejęcie inicjatywy i wywalczenie przewagi w powietrzu, ofensywne wsparcie lotnicze, rozpoznanie powietrzne i obserwacja, izolacja lotnicza, taktyczny transport powietrzny"
+      ],
+      "poprawne": [
+        "Walka o przejęcie inicjatywy i wywalczenie przewagi w powietrzu, ofensywne wsparcie lotnicze, rozpoznanie powietrzne i obserwacja, izolacja lotnicza, taktyczny transport powietrzny"
+      ]
+    },
+    {
+      "id": 467,
+      "dzial": "TAKTYKA",
+      "pytanie": "Operacje wsparcia pokoju według NATO to:",
+      "odpowiedzi": [
+        "Zapobieganie konfliktom, tworzenie pokoju, budowanie pokoju, utrzymanie pokoju, wymuszenie pokoju, operacje humanitarne"
+      ],
+      "poprawne": [
+        "Zapobieganie konfliktom, tworzenie pokoju, budowanie pokoju, utrzymanie pokoju, wymuszenie pokoju, operacje humanitarne"
+      ]
+    },
+    {
+      "id": 468,
+      "dzial": "TAKTYKA",
+      "pytanie": "Etapy prowadzenia natarcia to:",
+      "odpowiedzi": [
+        "Podejście, rozwinięcie, uderzenie (atak, przełamanie obrony), walka w głębi, obrona przeciwnika"
+      ],
+      "poprawne": [
+        "Podejście, rozwinięcie, uderzenie (atak, przełamanie obrony), walka w głębi, obrona przeciwnika"
+      ]
+    },
+    {
+      "id": 469,
+      "dzial": "TAKTYKA",
+      "pytanie": "Wojska mogą przechodzić do natarcia:",
+      "odpowiedzi": [
+        "Z marszu z zajmowaniem lub bez zajmowania rejonu wyjściowego, ze styczności z przeciwnikiem, z położenia obronnego lub gdy natarcie z marszu nie powiodło się, po zluzowaniu pododdziałów będących w styczności z przeciwnikiem"
+      ],
+      "poprawne": [
+        "Z marszu z zajmowaniem lub bez zajmowania rejonu wyjściowego, ze styczności z przeciwnikiem, z położenia obronnego lub gdy natarcie z marszu nie powiodło się, po zluzowaniu pododdziałów będących w styczności z przeciwnikiem"
+      ]
+    },
+    {
+      "id": 470,
+      "dzial": "TAKTYKA",
+      "pytanie": "Do podstawowych działań bojowych zalicza się:",
+      "odpowiedzi": [
+        "Obronę, natarcie, opóźnianie"
+      ],
+      "poprawne": [
+        "Obronę, natarcie, opóźnianie"
+      ]
+    },
+    {
+      "id": 471,
+      "dzial": "TAKTYKA",
+      "pytanie": "Do podstawowych zasad sztuki wojennej wg Regulaminu Działań Wojsk Lądowych zaliczamy m.in.:",
+      "odpowiedzi": [
+        "Aktywność, manewrowość, zaskoczenie, celowość"
+      ],
+      "poprawne": [
+        "Aktywność, manewrowość, zaskoczenie, celowość"
+      ]
+    },
+    {
+      "id": 472,
+      "dzial": "TAKTYKA",
+      "pytanie": "Jaki jest cel rozważenia wariantów działania:",
+      "odpowiedzi": [
+        "Ustalenie słabych i silnych stron poszczególnych wariantów wykonania zadania w konfrontacji z prawdopodobnym sposobem działają przeciwnika"
+      ],
+      "poprawne": [
+        "Ustalenie słabych i silnych stron poszczególnych wariantów wykonania zadania w konfrontacji z prawdopodobnym sposobem działają przeciwnika"
+      ]
+    },
+    {
+      "id": 473,
+      "dzial": "TAKTYKA",
+      "pytanie": "Etapy prowadzenia obrony na szczeblu pododdziału to:",
+      "odpowiedzi": [
+        "Działania w rejonie ubezpieczeń bojowych i bezpośrednich i rozstrzygająca walka obronna, w której zawiera się wzmocnienie zagrożonych kierunków, blokowanie przeciwnika i wykonanie kontrataków"
+      ],
+      "poprawne": [
+        "Działania w rejonie ubezpieczeń bojowych i bezpośrednich i rozstrzygająca walka obronna, w której zawiera się wzmocnienie zagrożonych kierunków, blokowanie przeciwnika i wykonanie kontrataków"
+      ]
+    },
+    {
+      "id": 474,
+      "dzial": "TAKTYKA",
+      "pytanie": "Rodzaje natarcia to:",
+      "odpowiedzi": [
+        "Rozpoznanie walką, rajd, kontratak, atak wyprzedzający, natarcie szybkie, natarcie planowe"
+      ],
+      "poprawne": [
+        "Rozpoznanie walką, rajd, kontratak, atak wyprzedzający, natarcie szybkie, natarcie planowe"
+      ]
+    },
+    {
+      "id": 475,
+      "dzial": "TAKTYKA",
+      "pytanie": "Jakie etapy obejmuje faza planowania?",
+      "odpowiedzi": [
+        "Ocenę sytuacji, podjęcie decyzji, określenie zamiaru dowódcy, opracowanie graficznego planu walki (działania), przygotowanie danych do wydania rozkazu bojowego"
+      ],
+      "poprawne": [
+        "Ocenę sytuacji, podjęcie decyzji, określenie zamiaru dowódcy, opracowanie graficznego planu walki (działania), przygotowanie danych do wydania rozkazu bojowego"
+      ]
+    },
+    {
+      "id": 476,
+      "dzial": "TAKTYKA",
+      "pytanie": "Pododdział broniący rejonu obrony realizuje następujące zadania:",
+      "odpowiedzi": [
+        "- zatrzymania natarcia przeciwnika przed przednim skrajem obrony, a w wypadku wdarcia się jego sił w głąb obrony odzyskania utraconego terenu przez wykonanie kontrataku swoim odwodem, - zatrzymania natarcia przeciwnika w głębi obrony i stworzenia warunków do wykonania siłami przełożonego"
+      ],
+      "poprawne": [
+        "- zatrzymania natarcia przeciwnika przed przednim skrajem obrony, a w wypadku wdarcia się jego sił w głąb obrony odzyskania utraconego terenu przez wykonanie kontrataku swoim odwodem, - zatrzymania natarcia przeciwnika w głębi obrony i stworzenia warunków do wykonania siłami przełożonego"
+      ]
+    },
+    {
+      "id": 477,
+      "dzial": "TAKTYKA",
+      "pytanie": "Pododdział w zadaniu do natarcia otrzymuje:",
+      "odpowiedzi": [
+        "Pas natarcia i obiekt natarcia, w warunkach samodzielnego wykonywania zadań i braku sąsiadów - kierunek natarcia"
+      ],
+      "poprawne": [
+        "Pas natarcia i obiekt natarcia, w warunkach samodzielnego wykonywania zadań i braku sąsiadów - kierunek natarcia"
+      ]
+    },
+    {
+      "id": 478,
+      "dzial": "TAKTYKA",
+      "pytanie": "Elementy stanowiska dowodzenia to:",
+      "odpowiedzi": [
+        "Organ dowodzenia, węzeł łączności, grupa zabezpieczenia, komenda SD"
+      ],
+      "poprawne": [
+        "Organ dowodzenia, węzeł łączności, grupa zabezpieczenia, komenda SD"
+      ]
+    },
+    {
+      "id": 479,
+      "dzial": "TAKTYKA",
+      "pytanie": "Jakie elementy składowe powinien zawierać zamiar dowódcy?",
+      "odpowiedzi": [
+        "Myśl przewodnia dowódcy, sposób wykonania zadania, podział sił, priorytety wykorzystania sił i środków wsparcia i zabezpieczenia działań"
+      ],
+      "poprawne": [
+        "Myśl przewodnia dowódcy, sposób wykonania zadania, podział sił, priorytety wykorzystania sił i środków wsparcia i zabezpieczenia działań"
+      ]
+    },
+    {
+      "id": 480,
+      "dzial": "TAKTYKA",
+      "pytanie": "Wymień rodzaje opóźniania:",
+      "odpowiedzi": [
+        "Ciągłe, przemienne (przekraczania), mieszane (kombinowane)"
+      ],
+      "poprawne": [
+        "Ciągłe, przemienne (przekraczania), mieszane (kombinowane)"
+      ]
+    },
+    {
+      "id": 481,
+      "dzial": "TAKTYKA",
+      "pytanie": "Do działania jako ubezpieczenie bojowe w natarciu wyznacza się:",
+      "odpowiedzi": [
+        "Bojowy patrol rozpoznawczy w siłę wzmocnionego plutonu"
+      ],
+      "poprawne": [
+        "Bojowy patrol rozpoznawczy w siłę wzmocnionego plutonu"
+      ]
+    },
+    {
+      "id": 482,
+      "dzial": "TAKTYKA",
+      "pytanie": "Typowymi formami taktyki działań nieregularnych zgodnie z Regulaminem Działań Wojsk Lądowych mogą być:",
+      "odpowiedzi": [
+        "Rozpoznanie, dywersja, blokowanie, likwidacja, działania psychologiczne"
+      ],
+      "poprawne": [
+        "Rozpoznanie, dywersja, blokowanie, likwidacja, działania psychologiczne"
+      ]
+    },
+    {
+      "id": 483,
+      "dzial": "TAKTYKA",
+      "pytanie": "Ugrupowanie marszowe obejmuje:",
+      "odpowiedzi": [
+        "Elementy rozpoznawcze, ubezpieczenia marszowe, oddziały zabezpieczenia ruchu, kolumny sił głównych, kolumny oddziałów (pododdziałów) logistycznych"
+      ],
+      "poprawne": [
+        "Elementy rozpoznawcze, ubezpieczenia marszowe, oddziały zabezpieczenia ruchu, kolumny sił głównych, kolumny oddziałów (pododdziałów) logistycznych"
+      ]
+    },
+    {
+      "id": 484,
+      "dzial": "TAKTYKA",
+      "pytanie": "Czata jest organizowana od rejonu ześrodkowania w odległości:",
+      "odpowiedzi": [
+        "Do 5 km, działa na szerokości 2 km"
+      ],
+      "poprawne": [
+        "Do 5 km, działa na szerokości 2 km"
+      ]
+    },
+    {
+      "id": 485,
+      "dzial": "TAKTYKA",
+      "pytanie": "Jakie wyróżnimy ubezpieczenia postoju?",
+      "odpowiedzi": [
+        "Oddział czat, czata, placówka"
+      ],
+      "poprawne": [
+        "Oddział czat, czata, placówka"
+      ]
+    },
+    {
+      "id": 486,
+      "dzial": "TAKTYKA",
+      "pytanie": "Jakie elementy koordynacji marszu wyznacza się do celów kierowania marszem?",
+      "odpowiedzi": [
+        "Linię wyjściową (punkt wyjściowy), linię wyrównania (punkt wyrównania), linię zejścia (punkt zejścia), punkty wejścia oraz ustala się czas przejścia przez nie czoła kolumn"
+      ],
+      "poprawne": [
+        "Linię wyjściową (punkt wyjściowy), linię wyrównania (punkt wyrównania), linię zejścia (punkt zejścia), punkty wejścia oraz ustala się czas przejścia przez nie czoła kolumn"
+      ]
+    },
+    {
+      "id": 487,
+      "dzial": "TAKTYKA",
+      "pytanie": "Ile dróg marszu otrzymuje batalion?",
+      "odpowiedzi": [
+        "Jedną"
+      ],
+      "poprawne": [
+        "Jedną"
+      ]
+    },
+    {
+      "id": 488,
+      "dzial": "TAKTYKA",
+      "pytanie": "Postój jednogodzinny organizuje się:",
+      "odpowiedzi": [
+        "Po dwóch godzinach marszu, kolejne w miarę potrzeb co 2-4 godziny marszu"
+      ],
+      "poprawne": [
+        "Po dwóch godzinach marszu, kolejne w miarę potrzeb co 2-4 godziny marszu"
+      ]
+    },
+    {
+      "id": 489,
+      "dzial": "TAKTYKA",
+      "pytanie": "Na jakie etapy, zgodnie z Regulaminem Działań Wojsk Lądowych, możemy podzielić natarcie na terenie zurbanizowanym?",
+      "odpowiedzi": [
+        "Izolowanie, szturm, oczyszczanie"
+      ],
+      "poprawne": [
+        "Izolowanie, szturm, oczyszczanie"
+      ]
+    },
+    {
+      "id": 490,
+      "dzial": "TAKTYKA",
+      "pytanie": "W skład Brygady Zmechanizowanej wchodzą m.in.:",
+      "odpowiedzi": [
+        "2 bataliony zmechanizowane, batalion dowodzenia, dywizjon artylerii samobieżnej, batalion logistyczny"
+      ],
+      "poprawne": [
+        "2 bataliony zmechanizowane, batalion dowodzenia, dywizjon artylerii samobieżnej, batalion logistyczny"
+      ]
+    },
+    {
+      "id": 491,
+      "dzial": "TAKTYKA",
+      "pytanie": "Etapami pośrednimi w działaniach taktycznych są:",
+      "odpowiedzi": [
+        "Bój spotkaniowy, marsz zbliżania, wycofanie, luzowanie, działania na połączenie"
+      ],
+      "poprawne": [
+        "Bój spotkaniowy, marsz zbliżania, wycofanie, luzowanie, działania na połączenie"
+      ]
+    },
+    {
+      "id": 492,
+      "dzial": "TAKTYKA",
+      "pytanie": "Wymień sposoby luzowania pododdziałów:",
+      "odpowiedzi": [
+        "Przenikanie (wymijanie), metoda zaczepna, metoda obronna"
+      ],
+      "poprawne": [
+        "Przenikanie (wymijanie), metoda zaczepna, metoda obronna"
+      ]
+    },
+    {
+      "id": 493,
+      "dzial": "TAKTYKA",
+      "pytanie": "Ubezpieczenia marszowe to:",
+      "odpowiedzi": [
+        "W siłę plutonu - patrol czołowy, boczny, tylny; w siłę kompanii - szpica czołowa, boczna, tylna; w siłę batalionu - awangarda, ariergarda"
+      ],
+      "poprawne": [
+        "W siłę plutonu - patrol czołowy, boczny, tylny; w siłę kompanii - szpica czołowa, boczna, tylna; w siłę batalionu - awangarda, ariergarda"
+      ]
+    },
+    {
+      "id": 494,
+      "dzial": "TAKTYKA",
+      "pytanie": "Działania na połączenie to:",
+      "odpowiedzi": [
+        "Nawiązanie kontaktu bojowego między dwoma lub więcej oddziałami wojsk własnych, które mogą mieć identyczne lub odmienne zadania do wykonania na terenie zajętym przez przeciwnika"
+      ],
+      "poprawne": [
+        "Nawiązanie kontaktu bojowego między dwoma lub więcej oddziałami wojsk własnych, które mogą mieć identyczne lub odmienne zadania do wykonania na terenie zajętym przez przeciwnika"
+      ]
+    },
+    {
+      "id": 495,
+      "dzial": "TAKTYKA",
+      "pytanie": "Lądowanie (wysadzenie) desantu morskiego może być realizowane w następujący sposób:",
+      "odpowiedzi": [
+        "Brzeg-brzeg, port-port, okręt-brzeg, kombinowany"
+      ],
+      "poprawne": [
+        "Brzeg-brzeg, port-port, okręt-brzeg, kombinowany"
+      ]
+    },
+    {
+      "id": 496,
+      "dzial": "TAKTYKA",
+      "pytanie": "Wyjście z okrążenia może być realizowane następującymi sposobami:",
+      "odpowiedzi": [
+        "Poprzez odblokowanie wojsk okrążonych, poprzez przerwanie się wojsk okrążonych, poprzez kombinacje uprzednio wymienionych sposobów"
+      ],
+      "poprawne": [
+        "Poprzez odblokowanie wojsk okrążonych, poprzez przerwanie się wojsk okrążonych, poprzez kombinacje uprzednio wymienionych sposobów"
+      ]
+    },
+    {
+      "id": 497,
+      "dzial": "TAKTYKA",
+      "pytanie": "Planowanie działań aeromobilnych obejmuje kolejno:",
+      "odpowiedzi": [
+        "1. Plan działań na lądzie, 2. Plan lądowania, 3. Plan przegrupowania drogą powietrzną, 4. Plan załadunku, 5. Plan przemieszczenia do rejonu załadunku"
+      ],
+      "poprawne": [
+        "1. Plan działań na lądzie, 2. Plan lądowania, 3. Plan przegrupowania drogą powietrzną, 4. Plan załadunku, 5. Plan przemieszczenia do rejonu załadunku"
+      ]
+    },
+    {
+      "id": 498,
+      "dzial": "TAKTYKA",
+      "pytanie": "W grupie szturmowej organizuje się następujące podgrupy:",
+      "odpowiedzi": [
+        "Atakującą, osłony (przeszukującą), torującą i wsparcia ogniowego"
+      ],
+      "poprawne": [
+        "Atakującą, osłony (przeszukującą), torującą i wsparcia ogniowego"
+      ]
+    },
+    {
+      "id": 499,
+      "dzial": "PODSTAWY DOWODZENIA",
+      "pytanie": "Podpunkt 3a rozkazu bojowego to:",
+      "odpowiedzi": [
+        "Zamiar działania"
+      ],
+      "poprawne": [
+        "Zamiar działania"
+      ]
+    },
+    {
+      "id": 500,
+      "dzial": "PODSTAWY DOWODZENIA",
+      "pytanie": "W punkcie 1b rozkazu bojowego zawarte są informacje dotyczące m.in.:",
+      "odpowiedzi": [
+        "Zadania i zamiaru działania przełożonego"
+      ],
+      "poprawne": [
+        "Zadania i zamiaru działania przełożonego"
+      ]
+    },
+    {
+      "id": 501,
+      "dzial": "PODSTAWY DOWODZENIA",
+      "pytanie": "Podpunkt 1c rozkazu bojowego to:",
+      "odpowiedzi": [
+        "Zmiany w podporządkowaniu"
+      ],
+      "poprawne": [
+        "Zmiany w podporządkowaniu"
+      ]
+    },
+    {
+      "id": 502,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "W jakiej kolejności należy formułować cele szkoleniowe?",
+      "odpowiedzi": [
+        "Uczyć, doskonalić, zgrywać, sprawdzić, badać"
+      ],
+      "poprawne": [
+        "Uczyć, doskonalić, zgrywać, sprawdzić, badać"
+      ]
+    },
+    {
+      "id": 503,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Jakie przedsięwzięcia obejmuje proces przygotowania zajęć przez kierownika zajęć?",
+      "odpowiedzi": [
+        "Osobiste przygotowanie się kierownika zajęć, przygotowanie rejonu zajęć i zabezpieczenie materiałowo-techniczne, przygotowanie instruktorów zajęć, przygotowanie szkolonych, sprawdzenie stopnia gotowości szkolonych do zajęć"
+      ],
+      "poprawne": [
+        "Osobiste przygotowanie się kierownika zajęć, przygotowanie rejonu zajęć i zabezpieczenie materiałowo-techniczne, przygotowanie instruktorów zajęć, przygotowanie szkolonych, sprawdzenie stopnia gotowości szkolonych do zajęć"
+      ]
+    },
+    {
+      "id": 504,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Co zaliczamy do dokumentacji szkoleniowo-metodycznej na szczeblu plutonu?",
+      "odpowiedzi": [
+        "Do dokumentacji szkoleniowo-metodycznej na szczeblu plutonu zalicza się konspekt, plan konspekt, plan pracy instruktora"
+      ],
+      "poprawne": [
+        "Do dokumentacji szkoleniowo-metodycznej na szczeblu plutonu zalicza się konspekt, plan konspekt, plan pracy instruktora"
+      ]
+    },
+    {
+      "id": 505,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "W jakim dokumencie prowadzi się ewidencję szkolenia plutonu?",
+      "odpowiedzi": [
+        "W dzienniku ewidencji szkolenia plutonu"
+      ],
+      "poprawne": [
+        "W dzienniku ewidencji szkolenia plutonu"
+      ]
+    },
+    {
+      "id": 506,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Które spośród wymienionych grup metod zaliczamy do metod szkolenia stosowanych w wojsku?",
+      "odpowiedzi": [
+        "Podające, problemowe, poglądowe, praktyczne"
+      ],
+      "poprawne": [
+        "Podające, problemowe, poglądowe, praktyczne"
+      ]
+    },
+    {
+      "id": 507,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Kto i gdzie udziela instruktażu do zajęć (ćwiczeń)?",
+      "odpowiedzi": [
+        "Kierownik zajęć (ćwiczeń) w miejscu ich prowadzenia z takim wyprzedzeniem, aby instruktorzy mogli się do nich przygotować w określonym przez kierownika zajęć (ćwiczeń) zakresie i terminie"
+      ],
+      "poprawne": [
+        "Kierownik zajęć (ćwiczeń) w miejscu ich prowadzenia z takim wyprzedzeniem, aby instruktorzy mogli się do nich przygotować w określonym przez kierownika zajęć (ćwiczeń) zakresie i terminie"
+      ]
+    },
+    {
+      "id": 508,
+      "dzial": "TAKTYKA",
+      "pytanie": "Co to jest rejon wyjściowy?",
+      "odpowiedzi": [
+        "To teren zajmowany przez pododdział bezpośrednio przed podjęciem walki. Powinien zapewniać warunki właściwego przygotowania się do podjęcia działań bojowych, a także do zorganizowania w nim obrony przed niespodziewanym uderzeniem przeciwnika."
+      ],
+      "poprawne": [
+        "To teren zajmowany przez pododdział bezpośrednio przed podjęciem walki. Powinien zapewniać warunki właściwego przygotowania się do podjęcia działań bojowych, a także do zorganizowania w nim obrony przed niespodziewanym uderzeniem przeciwnika."
+      ]
+    },
+    {
+      "id": 509,
+      "dzial": "TAKTYKA",
+      "pytanie": "Pododdział prowadzi pościg sposobem:",
+      "odpowiedzi": [
+        "Czołowym, równoległym lub kombinowanym"
+      ],
+      "poprawne": [
+        "Czołowym, równoległym lub kombinowanym"
+      ]
+    },
+    {
+      "id": 510,
+      "dzial": "TAKTYKA",
+      "pytanie": "Kompania wsparcia jest organicznym pododdziałem:",
+      "odpowiedzi": [
+        "Batalionu zmechanizowanego/zmotoryzowanego"
+      ],
+      "poprawne": [
+        "Batalionu zmechanizowanego/zmotoryzowanego"
+      ]
+    },
+    {
+      "id": 511,
+      "dzial": "TAKTYKA",
+      "pytanie": "Placówka działa od ubezpieczanego pododdziału w odległości:",
+      "odpowiedzi": [
+        "1000-1500 metrów"
+      ],
+      "poprawne": [
+        "1000-1500 metrów"
+      ]
+    },
+    {
+      "id": 512,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rozpoznanie w Wojskach Lądowych wg Regulaminu Działań Wojsk Lądowych jest to:",
+      "odpowiedzi": [
+        "Stan wiedzy dotyczącej działalności i możliwości prowadzenia działań przez aktualnego lub potencjalnego przeciwnika, obszaru prowadzenia działań, warunków terenowych i hydrometeorologicznych"
+      ],
+      "poprawne": [
+        "Stan wiedzy dotyczącej działalności i możliwości prowadzenia działań przez aktualnego lub potencjalnego przeciwnika, obszaru prowadzenia działań, warunków terenowych i hydrometeorologicznych"
+      ]
+    },
+    {
+      "id": 513,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Podział rozpoznania ze względu na rodzaj sił zbrojnych to:",
+      "odpowiedzi": [
+        "Rozpoznanie wojsk lądowych, sił powietrznych, marynarki wojennej, wojsk specjalnych"
+      ],
+      "poprawne": [
+        "Rozpoznanie wojsk lądowych, sił powietrznych, marynarki wojennej, wojsk specjalnych"
+      ]
+    },
+    {
+      "id": 514,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Pododdział rozpoznawczy na szczeblu brygady ogólnowojskowej wojsk własnych to:",
+      "odpowiedzi": [
+        "Kompania rozpoznawcza"
+      ],
+      "poprawne": [
+        "Kompania rozpoznawcza"
+      ]
+    },
+    {
+      "id": 515,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "HUMINT jest to:",
+      "odpowiedzi": [
+        "Rozpoznanie osobowe"
+      ],
+      "poprawne": [
+        "Rozpoznanie osobowe"
+      ]
+    },
+    {
+      "id": 516,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "CGDP z Bydgoszczy jest to JW zajmująca się:",
+      "odpowiedzi": [
+        "Działaniami psychologicznymi, a w zakresie rozpoznania dostarczeniem dowódcy informacji pozyskanych z jawnych (otwartych) źródeł"
+      ],
+      "poprawne": [
+        "Działaniami psychologicznymi, a w zakresie rozpoznania dostarczeniem dowódcy informacji pozyskanych z jawnych (otwartych) źródeł"
+      ]
+    },
+    {
+      "id": 517,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rejon odpowiedzialności rozpoznawczej jest to:",
+      "odpowiedzi": [
+        "Ograniczony liniami koordynacyjnymi, przydzielony dowódcy obszar, w którym jest on odpowiedzialny za dostarczenie informacji zdobytych/pozyskanych za pomocą środków będących w jego dyspozycji"
+      ],
+      "poprawne": [
+        "Ograniczony liniami koordynacyjnymi, przydzielony dowódcy obszar, w którym jest on odpowiedzialny za dostarczenie informacji zdobytych/pozyskanych za pomocą środków będących w jego dyspozycji"
+      ]
+    },
+    {
+      "id": 518,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Głębokość rejonu zainteresowania rozpoznawczego dla dowódcy batalionu ogólnowojskowego wojsk własnych wynosi:",
+      "odpowiedzi": [
+        "Od 7 do 30 km"
+      ],
+      "poprawne": [
+        "Od 7 do 30 km"
+      ]
+    },
+    {
+      "id": 519,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Element rozpoznawczy wg Vademecum są to:",
+      "odpowiedzi": [
+        "Wyznaczone (etatowe i nieetatowe) siły i środki przeznaczone do zdobywania informacji w przydzielonym rejonie odpowiedzialności rozpoznawczej"
+      ],
+      "poprawne": [
+        "Wyznaczone (etatowe i nieetatowe) siły i środki przeznaczone do zdobywania informacji w przydzielonym rejonie odpowiedzialności rozpoznawczej"
+      ]
+    },
+    {
+      "id": 520,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Podstawowe elementy stosowane w rozpoznaniu patrolowym to:",
+      "odpowiedzi": [
+        "Patrol rozpoznawczy, bojowy patrol rozpoznawczy, drużyna patrolowa, szperacze"
+      ],
+      "poprawne": [
+        "Patrol rozpoznawczy, bojowy patrol rozpoznawczy, drużyna patrolowa, szperacze"
+      ]
+    },
+    {
+      "id": 521,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Drużynę (załogę) patrolową wysyła się z pododdziału prowadzącego rozpoznanie na taką odległość aby:",
+      "odpowiedzi": [
+        "Stale utrzymywać z nią kontakt wzrokowy (widzieć co się z nią dzieje) i aby można ją było wesprzeć własnymi środkami"
+      ],
+      "poprawne": [
+        "Stale utrzymywać z nią kontakt wzrokowy (widzieć co się z nią dzieje) i aby można ją było wesprzeć własnymi środkami"
+      ]
+    },
+    {
+      "id": 522,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Patrol rozpoznawczy jest wyznaczany przede wszystkim z:",
+      "odpowiedzi": [
+        "Pododdziałów rozpoznania ogólnowojskowego"
+      ],
+      "poprawne": [
+        "Pododdziałów rozpoznania ogólnowojskowego"
+      ]
+    },
+    {
+      "id": 523,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Bojowy patrol rozpoznawczy (BPR) może być wysyłany na maksymalną odległość od wysyłającego go pododdziału:",
+      "odpowiedzi": [
+        "Do 10 km"
+      ],
+      "poprawne": [
+        "Do 10 km"
+      ]
+    },
+    {
+      "id": 524,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Napad jest to:",
+      "odpowiedzi": [
+        "Zaskakujące uderzenie na stacjonarny obiekt lub siły przeciwnika wraz ze zorganizowanym odejściem po wykonaniu zadania"
+      ],
+      "poprawne": [
+        "Zaskakujące uderzenie na stacjonarny obiekt lub siły przeciwnika wraz ze zorganizowanym odejściem po wykonaniu zadania"
+      ]
+    },
+    {
+      "id": 525,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Zasadzka jest to:",
+      "odpowiedzi": [
+        "Nagły i krótkotrwały atak na obiekt przeciwnika będący w ruchu lub celowo zatrzymany"
+      ],
+      "poprawne": [
+        "Nagły i krótkotrwały atak na obiekt przeciwnika będący w ruchu lub celowo zatrzymany"
+      ]
+    },
+    {
+      "id": 526,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Zasadzka liniowa, jednostronna polega na tym, że:",
+      "odpowiedzi": [
+        "Rozmieszczeniem żołnierzy wzdłuż przewidywanej drogi przemieszczania się przeciwnika, po jej jednej stronie, zwracając uwagę na to aby miejsce wybrane na zasadzkę uniemożliwiało ukrycie się bądź skryte wyjście ze strefy śmierci zaatakowanemu pododdziałowi"
+      ],
+      "poprawne": [
+        "Rozmieszczeniem żołnierzy wzdłuż przewidywanej drogi przemieszczania się przeciwnika, po jej jednej stronie, zwracając uwagę na to aby miejsce wybrane na zasadzkę uniemożliwiało ukrycie się bądź skryte wyjście ze strefy śmierci zaatakowanemu pododdziałowi"
+      ]
+    },
+    {
+      "id": 527,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Realizacja IPPW obejmuje trzy fazy. Są to:",
+      "odpowiedzi": [
+        "Integracja zagrożeń, ocena obszaru (terenu), ocena i prognoza działania przeciwnika"
+      ],
+      "poprawne": [
+        "Integracja zagrożeń, ocena obszaru (terenu), ocena i prognoza działania przeciwnika"
+      ]
+    },
+    {
+      "id": 528,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Posterunek obserwacyjny wg Vademecum to element rozpoznawczy w składzie:",
+      "odpowiedzi": [
+        "3-4 żołnierzy do drużyny"
+      ],
+      "poprawne": [
+        "3-4 żołnierzy do drużyny"
+      ]
+    },
+    {
+      "id": 529,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Do podstawowych dokumentów wykonywanych na PO zaliczamy:",
+      "odpowiedzi": [
+        "Mapa wykrytych celów, szkic obserwacji, dziennik obserwacji"
+      ],
+      "poprawne": [
+        "Mapa wykrytych celów, szkic obserwacji, dziennik obserwacji"
+      ]
+    },
+    {
+      "id": 530,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Przy planowaniu i organizacji obserwacji wyznacza się elementy koordynacyjne:",
+      "odpowiedzi": [
+        "Rejon Ześrodkowania, Punkt Rozwinięcia, Posterunki Obserwacyjne, Granicę Działania"
+      ],
+      "poprawne": [
+        "Rejon Ześrodkowania, Punkt Rozwinięcia, Posterunki Obserwacyjne, Granicę Działania"
+      ]
+    },
+    {
+      "id": 531,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Organizacja działania patrolu przez jego dowódcę obejmuje:",
+      "odpowiedzi": [
+        "Analizę działania, kalkulację czasu, analizę terenu i sytuacji, organizację patrolu do zadania, selekcję ludzi, uzbrojenia i wyposażenia, postawienie zarządzenia przygotowawczego, kontrolę i koordynację działalności patrolu, rekonesans, dopracowanie planu działania, postawienie rozkazu operacyjnego, trening działania, wejście do działania"
+      ],
+      "poprawne": [
+        "Analizę działania, kalkulację czasu, analizę terenu i sytuacji, organizację patrolu do zadania, selekcję ludzi, uzbrojenia i wyposażenia, postawienie zarządzenia przygotowawczego, kontrolę i koordynację działalności patrolu, rekonesans, dopracowanie planu działania, postawienie rozkazu operacyjnego, trening działania, wejście do działania"
+      ]
+    },
+    {
+      "id": 532,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Zgodnie z Doktryną D/2(B) rozpoznanie ogólnowojskowe dzieli się na:",
+      "odpowiedzi": [
+        "Patrolowe, dalekie, osobowe"
+      ],
+      "poprawne": [
+        "Patrolowe, dalekie, osobowe"
+      ]
+    },
+    {
+      "id": 533,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Wymień podstawowe elementy rozpoznawcze organizowane na szczeblu batalionu ogólnowojskowego:",
+      "odpowiedzi": [
+        "Obserwator, posterunek obserwacyjny, drużyna patrolowa, szperacz, bojowy patrol rozpoznawczy (BPR), patrol rozpoznawczy (PR), grupa wypadowa (GW), powietrzny posterunek obserwacyjny (BSR)"
+      ],
+      "poprawne": [
+        "Obserwator, posterunek obserwacyjny, drużyna patrolowa, szperacz, bojowy patrol rozpoznawczy (BPR), patrol rozpoznawczy (PR), grupa wypadowa (GW), powietrzny posterunek obserwacyjny (BSR)"
+      ]
+    },
+    {
+      "id": 534,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Zgodnie z doktryną, ze względu na posiadany potencjał oraz sposób działania rozpoznanie wojskowe Sił Zbrojnych RP dzielimy na:",
+      "odpowiedzi": [
+        "Ogólnowojskowe, obrazowe, radioelektroniczne, akustyczne, ze źródeł otwartych, pomiarowo-badawcze, geoprzestrzenne, rodzajów wojsk"
+      ],
+      "poprawne": [
+        "Ogólnowojskowe, obrazowe, radioelektroniczne, akustyczne, ze źródeł otwartych, pomiarowo-badawcze, geoprzestrzenne, rodzajów wojsk"
+      ]
+    },
+    {
+      "id": 535,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Dzięki działaniom rozpoznawczym dowódca uzyskuje:",
+      "odpowiedzi": [
+        "Wiedzę o sposobach działania przeciwnika, jego zdolnościach, siłach, wyposażeniu, organizacji i prawdopodobnych zamiarach"
+      ],
+      "poprawne": [
+        "Wiedzę o sposobach działania przeciwnika, jego zdolnościach, siłach, wyposażeniu, organizacji i prawdopodobnych zamiarach"
+      ]
+    },
+    {
+      "id": 536,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Czy sztabowe komórki rozpoznawcze, elementy rozpoznawcze jako potencjał rozpoznawczy należy rozpatrywać?",
+      "odpowiedzi": [
+        "W aspekcie rozpoznania rzeczowego"
+      ],
+      "poprawne": [
+        "W aspekcie rozpoznania rzeczowego"
+      ]
+    },
+    {
+      "id": 537,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Zasada centralnego kierowania w rozpoznaniu zakłada:",
+      "odpowiedzi": [
+        "Unikanie nieuzasadnionego dublowania zadań, powinna zapewniać wzajemne skuteczne wsparcie oraz ekonomiczne użycie wszystkich sił i środków"
+      ],
+      "poprawne": [
+        "Unikanie nieuzasadnionego dublowania zadań, powinna zapewniać wzajemne skuteczne wsparcie oraz ekonomiczne użycie wszystkich sił i środków"
+      ]
+    },
+    {
+      "id": 538,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Każdy pułk rozpoznawczy ma zdolności do prowadzenia:",
+      "odpowiedzi": [
+        "Rozpoznania patrolowego"
+      ],
+      "poprawne": [
+        "Rozpoznania patrolowego"
+      ]
+    },
+    {
+      "id": 539,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Działania patrolowe mogą mieć na celu:",
+      "odpowiedzi": [
+        "Rozpoznawanie sił przeciwnika, terenu, obiektów działania, aktywne ubezpieczenie, osłonę sił własnych, dezorganizację działalności przeciwnika poprzez oddziaływanie na jego siły"
+      ],
+      "poprawne": [
+        "Rozpoznawanie sił przeciwnika, terenu, obiektów działania, aktywne ubezpieczenie, osłonę sił własnych, dezorganizację działalności przeciwnika poprzez oddziaływanie na jego siły"
+      ]
+    },
+    {
+      "id": 540,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Podczas realizacji marszu ubezpieczonego na kontakt:",
+      "odpowiedzi": [
+        "Odległości między żołnierzami wynoszą około 20 m, a odległość pomiędzy sekcjami warunkowana jest przez elementy terenowe i nigdy nie powinna być większa niż zasięg skutecznego ognia wsparcia z broni ręcznej (do 100m)"
+      ],
+      "poprawne": [
+        "Odległości między żołnierzami wynoszą około 20 m, a odległość pomiędzy sekcjami warunkowana jest przez elementy terenowe i nigdy nie powinna być większa niż zasięg skutecznego ognia wsparcia z broni ręcznej (do 100m)"
+      ]
+    },
+    {
+      "id": 541,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Podstawowy transporter (samochód) rozpoznawczy wojsk własnych to:",
+      "odpowiedzi": [
+        "BRDM-2"
+      ],
+      "poprawne": [
+        "BRDM-2"
+      ]
+    },
+    {
+      "id": 542,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rosyjska Brygada Zmechanizowana jako główną siłę bojową z pododdziałów ogólnowojskowych posiada:",
+      "odpowiedzi": [
+        "Trzy bataliony zmechanizowane i batalion czołgów"
+      ],
+      "poprawne": [
+        "Trzy bataliony zmechanizowane i batalion czołgów"
+      ]
+    },
+    {
+      "id": 543,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rosyjski batalion zmechanizowany posiada w swoim składzie:",
+      "odpowiedzi": [
+        "63 bojowe wozy piechoty i 844 żołnierzy"
+      ],
+      "poprawne": [
+        "63 bojowe wozy piechoty i 844 żołnierzy"
+      ]
+    },
+    {
+      "id": 544,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Podstawowy (najliczniej występujący) bojowy wóz piechoty armii rosyjskiej to:",
+      "odpowiedzi": [
+        "BMP-2"
+      ],
+      "poprawne": [
+        "BMP-2"
+      ]
+    },
+    {
+      "id": 545,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Uzbrojenie BMP-3 to:",
+      "odpowiedzi": [
+        "100 mm armata, 30 mm działko, 3 x 7,62 mm km PKT, ppk Bastion"
+      ],
+      "poprawne": [
+        "100 mm armata, 30 mm działko, 3 x 7,62 mm km PKT, ppk Bastion"
+      ]
+    },
+    {
+      "id": 546,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rosyjski czołg T-90 A:",
+      "odpowiedzi": [
+        "Waży około 46t i jest uzbrojony w armatę 125 mm"
+      ],
+      "poprawne": [
+        "Waży około 46t i jest uzbrojony w armatę 125 mm"
+      ]
+    },
+    {
+      "id": 547,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Rosyjska kompania zmechanizowana liczy:",
+      "odpowiedzi": [
+        "141 żołnierzy i 11 BWP"
+      ],
+      "poprawne": [
+        "141 żołnierzy i 11 BWP"
+      ]
+    },
+    {
+      "id": 548,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Do standardowych elementów wojskowych map topograficznych opracowanych zgodnie z założeniami przyjętymi przez państwa NATO są:",
+      "odpowiedzi": [
+        "Układ współrzędnych WGS-84, odwzorowanie uniwersalne poprzeczne Merkatora, system meldunkowy MGRS"
+      ],
+      "poprawne": [
+        "Układ współrzędnych WGS-84, odwzorowanie uniwersalne poprzeczne Merkatora, system meldunkowy MGRS"
+      ]
+    },
+    {
+      "id": 549,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Mając określone współrzędne oblicz jaki jest azymut z punktu A na punkt B? (A=33UXS1234512345, B=33UXS1334512345)",
+      "odpowiedzi": [
+        "15-00"
+      ],
+      "poprawne": [
+        "15-00"
+      ]
+    },
+    {
+      "id": 550,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Proszę zaznaczyć współrzędne zapisane w Systemie Meldunkowym UTM:",
+      "odpowiedzi": [
+        "33 N 646368mE 5666606mN"
+      ],
+      "poprawne": [
+        "33 N 646368mE 5666606mN"
+      ]
+    },
+    {
+      "id": 551,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Podchorąży Kowalski stoi na południku 15st długości geograficznej wschodniej na wysokości równoleżnika przecinającego Warszawę... W jakim polu strefowym po marszu znajduje się ów podchorąży?",
+      "odpowiedzi": [
+        "32J"
+      ],
+      "poprawne": [
+        "32J"
+      ]
+    },
+    {
+      "id": 552,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Europejski system nawigacji satelitarnej nosi nazwę:",
+      "odpowiedzi": [
+        "GALILEO"
+      ],
+      "poprawne": [
+        "GALILEO"
+      ]
+    },
+    {
+      "id": 553,
+      "dzial": "PRAKTYKA ANTYKORUPCYJNA",
+      "pytanie": "Do najważniejszych krajowych aktów prawnych regulujących zwalczanie zjawiska korupcji należy zaliczyć:",
+      "odpowiedzi": [
+        "Kodeks karny, Ustawa o Sporcie, Ustawa o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
+      ],
+      "poprawne": [
+        "Kodeks karny, Ustawa o Sporcie, Ustawa o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
+      ]
+    },
+    {
+      "id": 554,
+      "dzial": "PRAKTYKA ANTYKORUPCYJNA",
+      "pytanie": "Do najważniejszych instytucji powołanych do zapobiegania i zwalczania przestępstw korupcyjnych w Polsce należy zaliczyć:",
+      "odpowiedzi": [
+        "Policja, Centralne Biuro Antykorupcyjne, Prokuratura"
+      ],
+      "poprawne": [
+        "Policja, Centralne Biuro Antykorupcyjne, Prokuratura"
+      ]
+    },
+    {
+      "id": 555,
+      "dzial": "PRAKTYKA ANTYKORUPCYJNA",
+      "pytanie": "Jakie rodzaje przestępstw korupcyjnych możemy zidentyfikować w świetle obowiązujących w Polsce przepisów karnych:",
+      "odpowiedzi": [
+        "Łapownictwo bierne (sprzedajność), łapownictwo czynne (przekupstwo), płatna protekcja, czynna płatna protekcja (handel wpływami), nadużycie funkcji publicznej (nadużycie władzy)"
+      ],
+      "poprawne": [
+        "Łapownictwo bierne (sprzedajność), łapownictwo czynne (przekupstwo), płatna protekcja, czynna płatna protekcja (handel wpływami), nadużycie funkcji publicznej (nadużycie władzy)"
+      ]
+    },
+    {
+      "id": 556,
+      "dzial": "ZABEZPIECZENIE MEDYCZNE",
+      "pytanie": "Głównym Twoim zadaniem pod ostrzałem jest:",
+      "odpowiedzi": [
+        "Wykonać zadanie bojowe i uzyskać przewagę ogniową"
+      ],
+      "poprawne": [
+        "Wykonać zadanie bojowe i uzyskać przewagę ogniową"
+      ]
+    },
+    {
+      "id": 557,
+      "dzial": "ZABEZPIECZENIE MEDYCZNE",
+      "pytanie": "Ewakuacja medyczna MEDEVAC:",
+      "odpowiedzi": [
+        "Używa medycznych pojazdów z obsługą medyczną na pokładzie"
+      ],
+      "poprawne": [
+        "Używa medycznych pojazdów z obsługą medyczną na pokładzie"
+      ]
+    },
+    {
+      "id": 558,
+      "dzial": "ZABEZPIECZENIE MEDYCZNE",
+      "pytanie": "Podczas wykonywania zadań w środowisku taktycznym kolejno występującymi po sobie fazami są:",
+      "odpowiedzi": [
+        "Care Under Fire, Tactical Field Care, Tactical Evacuation"
+      ],
+      "poprawne": [
+        "Care Under Fire, Tactical Field Care, Tactical Evacuation"
+      ]
+    },
+    {
+      "id": 559,
+      "dzial": "ZABEZPIECZENIE MEDYCZNE",
+      "pytanie": "Opaskę zaciskową w fazie Care Under Fire przy masywnym krwotoku z lewej kończyny dolnej nakłada się:",
+      "odpowiedzi": [
+        "Na mundur, jak najwyżej na kończynie dolnej lewej"
+      ],
+      "poprawne": [
+        "Na mundur, jak najwyżej na kończynie dolnej lewej"
+      ]
+    },
+    {
+      "id": 560,
+      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "pytanie": "O ilości PPW w Jednostce Wojskowej decyduje:",
+      "odpowiedzi": [
+        "Dowódca Jednostki Wojskowej"
+      ],
+      "poprawne": [
+        "Dowódca Jednostki Wojskowej"
+      ]
+    },
+    {
+      "id": 561,
+      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "pytanie": "Szkolenie po mobilizacyjnym rozwinięciu w Jednostce Wojskowej prowadzi się zgodnie z planami szkolenia opracowanymi w:",
+      "odpowiedzi": [
+        "Jednostce Wojskowej"
+      ],
+      "poprawne": [
+        "Jednostce Wojskowej"
+      ]
+    },
+    {
+      "id": 562,
+      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "pytanie": "Zespół Kierowania Mobilizacyjnym Rozwinięciem Jednostki (ZKMRJ):",
+      "odpowiedzi": [
+        "Jest organem wspomagającym dowódcę w procesie mobilizacyjnego rozwinięcia"
+      ],
+      "poprawne": [
+        "Jest organem wspomagającym dowódcę w procesie mobilizacyjnego rozwinięcia"
+      ]
+    },
+    {
+      "id": 563,
+      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "pytanie": "Terenowe Organy Administracji Wojskowej to:",
+      "odpowiedzi": [
+        "Wojskowe Centrum Rekrutacji, Centralne Wojskowe Centrum Rekrutacji"
+      ],
+      "poprawne": [
+        "Wojskowe Centrum Rekrutacji, Centralne Wojskowe Centrum Rekrutacji"
+      ]
+    },
+    {
+      "id": 564,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Jaka może być maksymalna liczba stawek dziennych wymierzonej kary pieniężnej?",
+      "odpowiedzi": [
+        "10"
+      ],
+      "poprawne": [
+        "10"
+      ]
+    },
+    {
+      "id": 565,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Urlopu nagrodowego można udzielić w wymiarze:",
+      "odpowiedzi": [
+        "Jednorazowo od jednego do sześciu dni roboczych, a łączny wymiar urlopów nagrodowych w ciągu roku kalendarzowego nie może przekroczyć dwunastu dni"
+      ],
+      "poprawne": [
+        "Jednorazowo od jednego do sześciu dni roboczych, a łączny wymiar urlopów nagrodowych w ciągu roku kalendarzowego nie może przekroczyć dwunastu dni"
+      ]
+    },
+    {
+      "id": 566,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Kara upomnienia lub nagany ulega zatarciu:",
+      "odpowiedzi": [
+        "6 miesięcy od dnia uprawomocnienia się orzeczenia kary"
+      ],
+      "poprawne": [
+        "6 miesięcy od dnia uprawomocnienia się orzeczenia kary"
+      ]
+    },
+    {
+      "id": 567,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Władzę dyscyplinarną wobec żołnierzy, polegającą na prawie do wszczynania postępowań dyscyplinarnych i rozstrzygania spraw dyscyplinarnych, w jednostce wojskowej sprawuje:",
+      "odpowiedzi": [
+        "Dowódca jednostki wojskowej"
+      ],
+      "poprawne": [
+        "Dowódca jednostki wojskowej"
+      ]
+    },
+    {
+      "id": 568,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Wykonanie bezprawnego rozkazu przełożonego:",
+      "odpowiedzi": [
+        "Nie zwalnia podwładnego od odpowiedzialności karnej, jeżeli podwładny wiedział, że rozkaz ten był bezprawny lub powinien wiedzieć ze względu na oczywisty, bezprawny charakter rozkazanego czynu"
+      ],
+      "poprawne": [
+        "Nie zwalnia podwładnego od odpowiedzialności karnej, jeżeli podwładny wiedział, że rozkaz ten był bezprawny lub powinien wiedzieć ze względu na oczywisty, bezprawny charakter rozkazanego czynu"
+      ]
+    },
+    {
+      "id": 569,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Honor żołnierza zawodowego to:",
+      "odpowiedzi": [
+        "Postawy i działania, które znamionują uczciwego i prawego człowieka. Jest źródłem jego czci oraz moralnych wartości środowiska zawodowego."
+      ],
+      "poprawne": [
+        "Postawy i działania, które znamionują uczciwego i prawego człowieka. Jest źródłem jego czci oraz moralnych wartości środowiska zawodowego."
+      ]
+    },
+    {
+      "id": 570,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Żołnierz zawodowy w relacji z podwładnymi i współpracownikami:",
+      "odpowiedzi": [
+        "Wyraża szacunek dla drugiego człowieka i jego godności osobistej, kieruje się poczuciem sprawiedliwości oraz dąży do umacniania więzi koleżeńskich"
+      ],
+      "poprawne": [
+        "Wyraża szacunek dla drugiego człowieka i jego godności osobistej, kieruje się poczuciem sprawiedliwości oraz dąży do umacniania więzi koleżeńskich"
+      ]
+    },
+    {
+      "id": 571,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Żołnierz zawodowy w sytuacji bojowej na polu walki:",
+      "odpowiedzi": [
+        "Wyróżnia się męstwem, odwagą i roztropnością, postępuje zgodnie z normami międzynarodowego prawa humanitarnego konfliktów zbrojnych oraz swoją postawą daje przykład innym żołnierzom"
+      ],
+      "poprawne": [
+        "Wyróżnia się męstwem, odwagą i roztropnością, postępuje zgodnie z normami międzynarodowego prawa humanitarnego konfliktów zbrojnych oraz swoją postawą daje przykład innym żołnierzom"
+      ]
+    },
+    {
+      "id": 572,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Żołnierz zawodowy poza służbą:",
+      "odpowiedzi": [
+        "Dąży do umiejętnego łączenia potrzeb służby z troską o dobro swojej rodziny oraz odnosi się ze zrozumieniem do obowiązków i potrzeb rodzinnych swoich podwładnych i kolegów"
+      ],
+      "poprawne": [
+        "Dąży do umiejętnego łączenia potrzeb służby z troską o dobro swojej rodziny oraz odnosi się ze zrozumieniem do obowiązków i potrzeb rodzinnych swoich podwładnych i kolegów"
+      ]
+    },
+    {
+      "id": 573,
+      "dzial": "REGULAMINY",
+      "pytanie": "Po złożeniu ostatniego wieńca lub wiązanki powinien zostać odegrany (odtworzony) sygnał:",
+      "odpowiedzi": [
+        "Śpij Kolego lub Cisza"
+      ],
+      "poprawne": [
+        "Śpij Kolego lub Cisza"
+      ]
+    },
+    {
+      "id": 574,
+      "dzial": "REGULAMINY",
+      "pytanie": "Opuszczanie flagi państwowej RP na znak żałoby polega na opuszczeniu flagi do połowy masztu:",
+      "odpowiedzi": [
+        "Gdy żałoba została ogłoszona już po rannym podniesieniu flagi, wówczas opuszcza się ją wolno do połowy wysokości masztu; jeżeli flaga nie była do ogłoszenia żałoby podniesiona, wtedy należy najpierw podnieść flagę wolno do pełnej wysokości masztu, a następnie równie wolno opuścić ją do połowy wysokości masztu"
+      ],
+      "poprawne": [
+        "Gdy żałoba została ogłoszona już po rannym podniesieniu flagi, wówczas opuszcza się ją wolno do połowy wysokości masztu; jeżeli flaga nie była do ogłoszenia żałoby podniesiona, wtedy należy najpierw podnieść flagę wolno do pełnej wysokości masztu, a następnie równie wolno opuścić ją do połowy wysokości masztu"
+      ]
+    },
+    {
+      "id": 575,
+      "dzial": "REGULAMINY",
+      "pytanie": "Sygnał Słuchajcie wszyscy to:",
+      "odpowiedzi": [
+        "Sygnał poprzedzający odegranie hymnu RP, wystąpienia i przemówienia okolicznościowe itp."
+      ],
+      "poprawne": [
+        "Sygnał poprzedzający odegranie hymnu RP, wystąpienia i przemówienia okolicznościowe itp."
+      ]
+    },
+    {
+      "id": 576,
+      "dzial": "REGULAMINY",
+      "pytanie": "Uroczystość z udziałem orkiestry może rozpocząć się:",
+      "odpowiedzi": [
+        "Hymnem RP i podniesieniem flagi państwowej RP na maszt. W innych przypadkach uroczystość może rozpocząć się odegraniem przez trębacza Hasła WP"
+      ],
+      "poprawne": [
+        "Hymnem RP i podniesieniem flagi państwowej RP na maszt. W innych przypadkach uroczystość może rozpocząć się odegraniem przez trębacza Hasła WP"
+      ]
+    },
+    {
+      "id": 577,
+      "dzial": "REGULAMINY",
+      "pytanie": "Na jaką komendę wykonuje się zbiórkę w marszu?",
+      "odpowiedzi": [
+        "Drużyna, w kolumnie dwójkowej, za mną, w marszu - ZBIÓRKA"
+      ],
+      "poprawne": [
+        "Drużyna, w kolumnie dwójkowej, za mną, w marszu - ZBIÓRKA"
+      ]
+    },
+    {
+      "id": 578,
+      "dzial": "REGULAMINY",
+      "pytanie": "Na jaką komendę wykonuje się zbiórkę plutonu w wyznaczonym miejscu i kierunku marszu?",
+      "odpowiedzi": [
+        "Pluton, w kolumnie dwójkowej, na drodze w kierunku wsi w marszu - ZBIÓRKA"
+      ],
+      "poprawne": [
+        "Pluton, w kolumnie dwójkowej, na drodze w kierunku wsi w marszu - ZBIÓRKA"
+      ]
+    },
+    {
+      "id": 579,
+      "dzial": "REGULAMINY",
+      "pytanie": "Jaką komendę należy podać podczas przechodzenia z kolumny dwójkowej w rząd?",
+      "odpowiedzi": [
+        "W rząd - W TYŁ"
+      ],
+      "poprawne": [
+        "W rząd - W TYŁ"
+      ]
+    },
+    {
+      "id": 580,
+      "dzial": "REGULAMINY",
+      "pytanie": "W jakich szykach występuje pluton?",
+      "odpowiedzi": [
+        "W ugrupowaniu rozwiniętym: szereg, dwuszereg, trójszereg, a w ugrupowaniu marszowym: rząd, kolumna dwójkowa, kolumna trójkowa, kolumna czwórkowa"
+      ],
+      "poprawne": [
+        "W ugrupowaniu rozwiniętym: szereg, dwuszereg, trójszereg, a w ugrupowaniu marszowym: rząd, kolumna dwójkowa, kolumna trójkowa, kolumna czwórkowa"
+      ]
+    },
+    {
+      "id": 581,
+      "dzial": "REGULAMINY",
+      "pytanie": "Rodzaje musztry:",
+      "odpowiedzi": [
+        "Indywidualna i zespołowa"
+      ],
+      "poprawne": [
+        "Indywidualna i zespołowa"
+      ]
+    },
+    {
+      "id": 582,
+      "dzial": "REGULAMINY",
+      "pytanie": "Co nazywamy szerokością szyku?",
+      "odpowiedzi": [
+        "Odstęp między skrzydłami szyku"
+      ],
+      "poprawne": [
+        "Odstęp między skrzydłami szyku"
+      ]
+    },
+    {
+      "id": 583,
+      "dzial": "REGULAMINY",
+      "pytanie": "Co to jest musztra?",
+      "odpowiedzi": [
+        "To ćwiczenia wojskowe, które uczą jak przyjmować postawę zasadniczą i swobodną, oddawać honory, poruszać się z bronią i bez broni, formować szyki oraz zachowywać się w szyku i poza nim"
+      ],
+      "poprawne": [
+        "To ćwiczenia wojskowe, które uczą jak przyjmować postawę zasadniczą i swobodną, oddawać honory, poruszać się z bronią i bez broni, formować szyki oraz zachowywać się w szyku i poza nim"
+      ]
+    },
+    {
+      "id": 584,
+      "dzial": "REGULAMINY",
+      "pytanie": "Odległość między żołnierzami w kolumnie wynosi:",
+      "odpowiedzi": [
+        "1,2 m"
+      ],
+      "poprawne": [
+        "1,2 m"
+      ]
+    },
+    {
+      "id": 585,
+      "dzial": "REGULAMINY",
+      "pytanie": "Dowódca prowadzący kolumnę kończy salutowanie w odległości:",
+      "odpowiedzi": [
+        "Pięciu kroków po minięciu przełożonego"
+      ],
+      "poprawne": [
+        "Pięciu kroków po minięciu przełożonego"
+      ]
+    },
+    {
+      "id": 586,
+      "dzial": "REGULAMINY",
+      "pytanie": "Podczas dłuższego marszu poza obszarem zabudowanym oraz gdy żołnierze maszerują w trudnym terenie lub przed wejściem na most, dowódca zezwala na maszerowanie nie w nogę na komendę:",
+      "odpowiedzi": [
+        "Dowolny - KROK"
+      ],
+      "poprawne": [
+        "Dowolny - KROK"
+      ]
+    },
+    {
+      "id": 587,
+      "dzial": "REGULAMINY",
+      "pytanie": "Komenda składa się z:",
+      "odpowiedzi": [
+        "Zapowiedzi i hasła"
+      ],
+      "poprawne": [
+        "Zapowiedzi i hasła"
+      ]
+    },
+    {
+      "id": 588,
+      "dzial": "REGULAMINY",
+      "pytanie": "Aby ustawić pluton do prowadzenia musztry drużynami i do innych wystąpień służbowych podaje się komendę:",
+      "odpowiedzi": [
+        "Pierwszy pluton, w szeregu (dwuszeregu), na placu, pierwsza drużyna na wysokości masztu (na poprzednim miejscu), pozostałe drużyny w odstępach (odległości) piętnastu kroków, frontem do garaży - ZBIÓRKA"
+      ],
+      "poprawne": [
+        "Pierwszy pluton, w szeregu (dwuszeregu), na placu, pierwsza drużyna na wysokości masztu (na poprzednim miejscu), pozostałe drużyny w odstępach (odległości) piętnastu kroków, frontem do garaży - ZBIÓRKA"
+      ]
+    },
+    {
+      "id": 589,
+      "dzial": "REGULAMINY",
+      "pytanie": "Zmianę frontu ugrupowania rozwiniętego dokonuje się na komendę:",
+      "odpowiedzi": [
+        "Pluton, w prawo (w lewo) zachodź - MARSZ. Drużyna - STÓJ!"
+      ],
+      "poprawne": [
+        "Pluton, w prawo (w lewo) zachodź - MARSZ. Drużyna - STÓJ!"
+      ]
+    },
+    {
+      "id": 590,
+      "dzial": "REGULAMINY",
+      "pytanie": "Co nazywamy odległością w szyku?",
+      "odpowiedzi": [
+        "Oddalenie między żołnierzami, szeregami i pododdziałami (pojazdami) mierzone w głąb szyku"
+      ],
+      "poprawne": [
+        "Oddalenie między żołnierzami, szeregami i pododdziałami (pojazdami) mierzone w głąb szyku"
+      ]
+    },
+    {
+      "id": 591,
+      "dzial": "REGULAMINY",
+      "pytanie": "Podczas marszu krokiem zwykłym długość kroku wynosi:",
+      "odpowiedzi": [
+        "60-70 cm"
+      ],
+      "poprawne": [
+        "60-70 cm"
+      ]
+    },
+    {
+      "id": 592,
+      "dzial": "REGULAMINY",
+      "pytanie": "Podczas marszu krokiem defiladowym długość kroku wynosi:",
+      "odpowiedzi": [
+        "60-80 cm"
+      ],
+      "poprawne": [
+        "60-80 cm"
+      ]
+    },
+    {
+      "id": 593,
+      "dzial": "REGULAMINY",
+      "pytanie": "Żołnierz przyjmuje postawę zasadniczą na komendę BACZNOŚĆ oraz bez tej komendy w następujących przypadkach:",
+      "odpowiedzi": [
+        "Podczas: - wydawania lub przyjmowania rozkazów, - składania meldunku i przedstawiania się, - oddawania honorów w miejscu, - podawania komend w miejscu, - na zapowiedź komendy nie poprzedzonej komendą „BACZNOŚĆ”, - po wykonaniu komendy ZBIÓRKA"
+      ],
+      "poprawne": [
+        "Podczas: - wydawania lub przyjmowania rozkazów, - składania meldunku i przedstawiania się, - oddawania honorów w miejscu, - podawania komend w miejscu, - na zapowiedź komendy nie poprzedzonej komendą „BACZNOŚĆ”, - po wykonaniu komendy ZBIÓRKA"
+      ]
+    },
+    {
+      "id": 594,
+      "dzial": "REGULAMINY",
+      "pytanie": "Pojazdy w szeregach ustawia się w odstępach:",
+      "odpowiedzi": [
+        "3 kroków"
+      ],
+      "poprawne": [
+        "3 kroków"
+      ]
+    },
+    {
+      "id": 595,
+      "dzial": "REGULAMINY",
+      "pytanie": "Alarmowanie to:",
+      "odpowiedzi": [
+        "Działanie mające na celu doprowadzenie do właściwych adresatów informacji nakazujących pilne, zorganizowane działanie"
+      ],
+      "poprawne": [
+        "Działanie mające na celu doprowadzenie do właściwych adresatów informacji nakazujących pilne, zorganizowane działanie"
+      ]
+    },
+    {
+      "id": 596,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kiedy żołnierz niezawodowy nie może wychodzić i przebywać na przepustce?",
+      "odpowiedzi": [
+        "W dniu objęcia służby"
+      ],
+      "poprawne": [
+        "W dniu objęcia służby"
+      ]
+    },
+    {
+      "id": 597,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kto sprawdza wygląd zewnętrzny umundurowanego żołnierza przed wyjściem na przepustkę, wyjazdem na urlop lub w podróż służbową?",
+      "odpowiedzi": [
+        "Podoficer dyżurny pododdziału"
+      ],
+      "poprawne": [
+        "Podoficer dyżurny pododdziału"
+      ]
+    },
+    {
+      "id": 598,
+      "dzial": "REGULAMINY",
+      "pytanie": "Wartownik, który wprowadził nabój do komory nabojowej lub odciągnął zamek i nie oddał strzału:",
+      "odpowiedzi": [
+        "Doprowadza broń do pierwotnego stanu"
+      ],
+      "poprawne": [
+        "Doprowadza broń do pierwotnego stanu"
+      ]
+    },
+    {
+      "id": 599,
+      "dzial": "REGULAMINY",
+      "pytanie": "Codzienne eksponowanie flagi państwowej odbywa się poprzez opuszczanie i podnoszenie jej na maszt:",
+      "odpowiedzi": [
+        "Pół godziny po pobudce oraz pół godziny przed capstrzykiem"
+      ],
+      "poprawne": [
+        "Pół godziny po pobudce oraz pół godziny przed capstrzykiem"
+      ]
+    },
+    {
+      "id": 600,
+      "dzial": "REGULAMINY",
+      "pytanie": "W przypadku choroby uniemożliwiającej powrót do jednostki żołnierz ma obowiązek:",
+      "odpowiedzi": [
+        "Niezwłocznie powiadomić przełożonego, który kierował go na urlop lub oficera dyżurnego jednostki o przedłużeniu terminu powrotu"
+      ],
+      "poprawne": [
+        "Niezwłocznie powiadomić przełożonego, który kierował go na urlop lub oficera dyżurnego jednostki o przedłużeniu terminu powrotu"
+      ]
+    },
+    {
+      "id": 601,
+      "dzial": "REGULAMINY",
+      "pytanie": "Podstawą zdania/objęcia obowiązków na stanowisku służbowym jest:",
+      "odpowiedzi": [
+        "Punkt w rozkazie dziennym dowódcy JW (równorzędnego) sporządzony na podstawie rozkazu lub decyzji personalnej"
+      ],
+      "poprawne": [
+        "Punkt w rozkazie dziennym dowódcy JW (równorzędnego) sporządzony na podstawie rozkazu lub decyzji personalnej"
+      ]
+    },
+    {
+      "id": 602,
+      "dzial": "REGULAMINY",
+      "pytanie": "Co jest podstawą pełnienia służby wewnętrznej w jednostce wojskowej?",
+      "odpowiedzi": [
+        "Rozkaz dzienny dowódcy jednostki wojskowej (pododdziału)"
+      ],
+      "poprawne": [
+        "Rozkaz dzienny dowódcy jednostki wojskowej (pododdziału)"
+      ]
+    },
+    {
+      "id": 603,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kto może uchylić bądź zmienić rozkaz?",
+      "odpowiedzi": [
+        "Rozkaz może uchylić lub zmienić ten, kto go wydał lub jeżeli dobro służby tego wymaga - jego przełożony, zawiadamiając o tym poprzedniego rozkazodawcę"
+      ],
+      "poprawne": [
+        "Rozkaz może uchylić lub zmienić ten, kto go wydał lub jeżeli dobro służby tego wymaga - jego przełożony, zawiadamiając o tym poprzedniego rozkazodawcę"
+      ]
+    },
+    {
+      "id": 604,
+      "dzial": "REGULAMINY",
+      "pytanie": "Jak długo trwa służba jednej zmiany wartowników na posterunku, gdy służbę pełnią wyłącznie żołnierze zawodowi?",
+      "odpowiedzi": [
+        "Jedną, dwie lub trzy godziny w zależności od przyjętego wariantu"
+      ],
+      "poprawne": [
+        "Jedną, dwie lub trzy godziny w zależności od przyjętego wariantu"
+      ]
+    },
+    {
+      "id": 605,
+      "dzial": "REGULAMINY",
+      "pytanie": "Zapewnienie ochrony przeciwpożarowej jest obowiązkiem:",
+      "odpowiedzi": [
+        "Dowódców wszystkich szczebli dowodzenia, którzy ponoszą odpowiedzialność za jej organizację i sprawne funkcjonowanie"
+      ],
+      "poprawne": [
+        "Dowódców wszystkich szczebli dowodzenia, którzy ponoszą odpowiedzialność za jej organizację i sprawne funkcjonowanie"
+      ]
+    },
+    {
+      "id": 606,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kto ustala ubiór żołnierzy pełniących służby wewnętrzne w jednostce?",
+      "odpowiedzi": [
+        "Dowódca jednostki wojskowej"
+      ],
+      "poprawne": [
+        "Dowódca jednostki wojskowej"
+      ]
+    },
+    {
+      "id": 607,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kto ma prawo do ograniczenia czasu wolnego żołnierzy?",
+      "odpowiedzi": [
+        "Dowódca jednostki wojskowej"
+      ],
+      "poprawne": [
+        "Dowódca jednostki wojskowej"
+      ]
+    },
+    {
+      "id": 608,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kto organizuje pełnienie służb w pododdziale?",
+      "odpowiedzi": [
+        "Szef kompanii (równorzędny)"
+      ],
+      "poprawne": [
+        "Szef kompanii (równorzędny)"
+      ]
+    },
+    {
+      "id": 609,
+      "dzial": "REGULAMINY",
+      "pytanie": "Co to jest rozkaz?",
+      "odpowiedzi": [
+        "Rozkaz jest poleceniem podjęcia określonego działania lub jego zaniechania wydanym służbowo żołnierzowi przez przełożonego (uprawnionego, starszego)"
+      ],
+      "poprawne": [
+        "Rozkaz jest poleceniem podjęcia określonego działania lub jego zaniechania wydanym służbowo żołnierzowi przez przełożonego (uprawnionego, starszego)"
+      ]
+    },
+    {
+      "id": 610,
+      "dzial": "REGULAMINY",
+      "pytanie": "Sygnały alarmowe mogą wprowadzać:",
+      "odpowiedzi": [
+        "Dowódca jednostki wojskowej w szczególnych sytuacjach zagrażających bezpieczeństwu jednostki wojskowej"
+      ],
+      "poprawne": [
+        "Dowódca jednostki wojskowej w szczególnych sytuacjach zagrażających bezpieczeństwu jednostki wojskowej"
+      ]
+    },
+    {
+      "id": 611,
+      "dzial": "REGULAMINY",
+      "pytanie": "Żołnierzy do pełnienia służby wyznacza się w rozkazie dziennym dowódcy JW (pododdziału):",
+      "odpowiedzi": [
+        "Nie później niż dwa dni przed jej przyjęciem"
+      ],
+      "poprawne": [
+        "Nie później niż dwa dni przed jej przyjęciem"
+      ]
+    },
+    {
+      "id": 612,
+      "dzial": "REGULAMINY",
+      "pytanie": "Jakie jest wyposażenie żołnierzy ze składu warty?",
+      "odpowiedzi": [
+        "Broń palna, amunicja, hełmy, maski przeciwgazowe i opatrunki osobiste"
+      ],
+      "poprawne": [
+        "Broń palna, amunicja, hełmy, maski przeciwgazowe i opatrunki osobiste"
+      ]
+    },
+    {
+      "id": 613,
+      "dzial": "REGULAMINY",
+      "pytanie": "Do zakresu działań oficera dyżurnego jednostki należy:",
+      "odpowiedzi": [
+        "Wykonywanie czynności określonych odrębnie w przepisach o wojskowych organach porządkowych, uruchamianie (zapoczątkowanie) osiągania gotowości do podjęcia działań i stanów kryzysowych oraz kierowanie jego przebiegiem do czasu przybycia dowódcy (kierownika, szefa, komendanta, dyrektora), wykonywanie innych zadań określonych w instrukcjach oraz nakazanych przez dowódcę jednostki wojskowej"
+      ],
+      "poprawne": [
+        "Wykonywanie czynności określonych odrębnie w przepisach o wojskowych organach porządkowych, uruchamianie (zapoczątkowanie) osiągania gotowości do podjęcia działań i stanów kryzysowych oraz kierowanie jego przebiegiem do czasu przybycia dowódcy (kierownika, szefa, komendanta, dyrektora), wykonywanie innych zadań określonych w instrukcjach oraz nakazanych przez dowódcę jednostki wojskowej"
+      ]
+    },
+    {
+      "id": 614,
+      "dzial": "REGULAMINY",
+      "pytanie": "Liczbę rozprowadzających (dla wart z żołnierzami niezawodowymi) ustala się tak, aby:",
+      "odpowiedzi": [
+        "1) w ciągu 30 minut mógł zmienić wartowników na posterunkach i powrócić do wartowni; 2) zmieniał wartowników na nie więcej niż pięciu posterunkach"
+      ],
+      "poprawne": [
+        "1) w ciągu 30 minut mógł zmienić wartowników na posterunkach i powrócić do wartowni; 2) zmieniał wartowników na nie więcej niż pięciu posterunkach"
+      ]
+    },
+    {
+      "id": 615,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Żołnierz będący pod wpływem alkoholu lub środków psychoaktywnych może ponieść konsekwencje:",
+      "odpowiedzi": [
+        "Karne, dyscyplinarne, kadrowe"
+      ],
+      "poprawne": [
+        "Karne, dyscyplinarne, kadrowe"
+      ]
+    },
+    {
+      "id": 616,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Czy można prowadzić postępowanie dyscyplinarne bez wyznaczenia rzecznika dyscyplinarnego?",
+      "odpowiedzi": [
+        "W niektórych przypadkach"
+      ],
+      "poprawne": [
+        "W niektórych przypadkach"
+      ]
+    },
+    {
+      "id": 617,
+      "dzial": "OCHRONA INFORMACJI NIEJAWNYCH",
+      "pytanie": "Informacjom niejawnym nadaje się klauzulę TAJNE, jeżeli ich nieuprawnione ujawnienie spowoduje:",
+      "odpowiedzi": [
+        "Wyjątkowo poważną szkodę dla Rzeczypospolitej Polskiej"
+      ],
+      "poprawne": [
+        "Wyjątkowo poważną szkodę dla Rzeczypospolitej Polskiej"
+      ]
+    },
+    {
+      "id": 618,
+      "dzial": "OCHRONA INFORMACJI NIEJAWNYCH",
+      "pytanie": "Poświadczenie bezpieczeństwa upoważniające do dostępu do informacji niejawnych o klauzuli POUFNE wydaje się na okres:",
+      "odpowiedzi": [
+        "10 lat"
+      ],
+      "poprawne": [
+        "10 lat"
+      ]
+    },
+    {
+      "id": 619,
+      "dzial": "OCHRONA INFORMACJI NIEJAWNYCH",
+      "pytanie": "Kancelaria Tajna musi zostać utworzona przez kierownika jednostki organizacyjnej jeżeli w jednostce organizacyjnej są przetwarzane informacje niejawne o klauzuli:",
+      "odpowiedzi": [
+        "TAJNE lub ŚCIŚLE TAJNE"
+      ],
+      "poprawne": [
+        "TAJNE lub ŚCIŚLE TAJNE"
+      ]
+    },
+    {
+      "id": 620,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Dziennikarze biorący udział w zawodowych misjach na obszarze konfliktu zbrojnego:",
+      "odpowiedzi": [
+        "Winni być uważani za osoby cywilne i jako takie traktowani"
+      ],
+      "poprawne": [
+        "Winni być uważani za osoby cywilne i jako takie traktowani"
+      ]
+    },
+    {
+      "id": 621,
+      "dzial": "PODSTAWY DOWODZENIA",
+      "pytanie": "Przełożony wobec podwładnych sprawuje funkcje:",
+      "odpowiedzi": [
+        "Dowódcze (kierownicze), zarządzające, szkoleniowe i wychowawcze"
+      ],
+      "poprawne": [
+        "Dowódcze (kierownicze), zarządzające, szkoleniowe i wychowawcze"
+      ]
+    },
+    {
+      "id": 622,
+      "dzial": "PODSTAWY DOWODZENIA",
+      "pytanie": "Za stan techniczny uzbrojenia i sprzętu wojskowego pododdziału oraz porządek w przydzielonych rejonach parku sprzętu technicznego odpowiada:",
+      "odpowiedzi": [
+        "Dowódca pododdziału"
+      ],
+      "poprawne": [
+        "Dowódca pododdziału"
+      ]
+    },
+    {
+      "id": 623,
+      "dzial": "REGULAMINY",
+      "pytanie": "Oficer dyżurny JW podlega pod względem gotowości bojowej:",
+      "odpowiedzi": [
+        "Dyżurnej Służbie Operacyjnej tego samego lub wyższego szczebla dowodzenia"
+      ],
+      "poprawne": [
+        "Dyżurnej Służbie Operacyjnej tego samego lub wyższego szczebla dowodzenia"
+      ]
+    },
+    {
+      "id": 624,
+      "dzial": "REGULAMINY",
+      "pytanie": "Pomocnika oficera dyżurnego jednostki wyznacza się:",
+      "odpowiedzi": [
+        "Spośród oficerów młodszych i podoficerów, a w wyjątkowych sytuacjach spośród szeregowych (marynarzy zawodowych)"
+      ],
+      "poprawne": [
+        "Spośród oficerów młodszych i podoficerów, a w wyjątkowych sytuacjach spośród szeregowych (marynarzy zawodowych)"
+      ]
+    },
+    {
+      "id": 625,
+      "dzial": "REGULAMINY",
+      "pytanie": "Dowódcą konwoju może być:",
+      "odpowiedzi": [
+        "Żołnierz zawodowy, a w uzasadnionych przypadkach pracownik SUFO lub OWC"
+      ],
+      "poprawne": [
+        "Żołnierz zawodowy, a w uzasadnionych przypadkach pracownik SUFO lub OWC"
+      ]
+    },
+    {
+      "id": 626,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż kto jest użytkownikiem Systemu Wykorzystania Doświadczeń (SWD):",
+      "odpowiedzi": [
+        "Dowódca, personel SWD, żołnierze i pracownicy"
+      ],
+      "poprawne": [
+        "Dowódca, personel SWD, żołnierze i pracownicy"
+      ]
+    },
+    {
+      "id": 627,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż zasadnicze metody działalności szkoleniowej:",
+      "odpowiedzi": [
+        "Podająca, poglądowa, praktyczna, problemowa"
+      ],
+      "poprawne": [
+        "Podająca, poglądowa, praktyczna, problemowa"
+      ]
+    },
+    {
+      "id": 628,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż formy szkolenia stosowane w jednostce wojskowej:",
+      "odpowiedzi": [
+        "Ćwiczenie taktyczne z wojskami (ćwiczenie taktyczno-specjalne), zajęcia taktyczne (taktyczno-specjalne), zajęcia praktyczne, musztra bojowa, trening sensoryczny (o charakterze teoretycznym), motoryczny (o charakterze praktycznym), kurs szkoleniowy, podróż szkoleniowa, zajęcia teoretyczne"
+      ],
+      "poprawne": [
+        "Ćwiczenie taktyczne z wojskami (ćwiczenie taktyczno-specjalne), zajęcia taktyczne (taktyczno-specjalne), zajęcia praktyczne, musztra bojowa, trening sensoryczny (o charakterze teoretycznym), motoryczny (o charakterze praktycznym), kurs szkoleniowy, podróż szkoleniowa, zajęcia teoretyczne"
+      ]
+    },
+    {
+      "id": 629,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż formy organizacyjne zajęć praktycznych:",
+      "odpowiedzi": [
+        "Szkolenie blokowe, szkolenie potokowe, szkolenie zintegrowane, szkolenie zgrywające"
+      ],
+      "poprawne": [
+        "Szkolenie blokowe, szkolenie potokowe, szkolenie zintegrowane, szkolenie zgrywające"
+      ]
+    },
+    {
+      "id": 630,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż metody przeprowadzenia instruktażu do zajęć:",
+      "odpowiedzi": [
+        "Dyrektywa (rozkazodawcza), pokazowa, kolegialna (aktywizująca)"
+      ],
+      "poprawne": [
+        "Dyrektywa (rozkazodawcza), pokazowa, kolegialna (aktywizująca)"
+      ]
+    },
+    {
+      "id": 631,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Formalne zgłoszenie obserwacji zgłaszane personelowi SWD (Systemu Wykorzystania Doświadczeń) odbywa się za pomocą:",
+      "odpowiedzi": [
+        "Arkusza zgłoszenia obserwacji"
+      ],
+      "poprawne": [
+        "Arkusza zgłoszenia obserwacji"
+      ]
+    },
+    {
+      "id": 632,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż zasady szkolenia (kształcenia wojskowego):",
+      "odpowiedzi": [
+        "Zasada świadomego i aktywnego udziału, zasada wiązania teorii z praktyką, zasada realizmu, zasada poglądowości, zasada jedności kształcenia indywidualnego i zespołowego, zasada przystępności, zasada stopniowania trudności, zasada systematyczności, zasada operatywności, zasada trwałości"
+      ],
+      "poprawne": [
+        "Zasada świadomego i aktywnego udziału, zasada wiązania teorii z praktyką, zasada realizmu, zasada poglądowości, zasada jedności kształcenia indywidualnego i zespołowego, zasada przystępności, zasada stopniowania trudności, zasada systematyczności, zasada operatywności, zasada trwałości"
+      ]
+    },
+    {
+      "id": 633,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż zasadę realizmu:",
+      "odpowiedzi": [
+        "Zasada realizmu polega na jak najbardziej realnym zbliżeniu szkolenia bojowego do rzeczywistych warunków przewidywanego pola walki"
+      ],
+      "poprawne": [
+        "Zasada realizmu polega na jak najbardziej realnym zbliżeniu szkolenia bojowego do rzeczywistych warunków przewidywanego pola walki"
+      ]
+    },
+    {
+      "id": 634,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Wskaż zasadę stopniowania trudności:",
+      "odpowiedzi": [
+        "Zasada stopniowania trudności głosi konieczność takiego przekazywania wiedzy, aby szkolony poznawał najpierw zagadnienia łatwe i opierając się na tej wiedzy zapoznawał się z trudniejszymi, a bazą do poznawania nowych zagadnień był materiał już przez niego opanowany"
+      ],
+      "poprawne": [
+        "Zasada stopniowania trudności głosi konieczność takiego przekazywania wiedzy, aby szkolony poznawał najpierw zagadnienia łatwe i opierając się na tej wiedzy zapoznawał się z trudniejszymi, a bazą do poznawania nowych zagadnień był materiał już przez niego opanowany"
+      ]
+    },
+    {
+      "id": 635,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Co jest istotą działalności szkoleniowo-metodycznej?",
+      "odpowiedzi": [
+        "Istotą działalności szkoleniowo-metodycznej jest przygotowanie i doskonalenie bezpośrednio podległych dowódców do prowadzenia działalności szkoleniowej z podległymi komórkami organizacyjnymi (jednostkami, pododdziałami) poprzez precyzyjną analizę celu, dobór treści szkolenia wynikających z zadań i przeznaczenia, właściwe zastosowanie form i metod przy wykorzystaniu dostępnej bazy szkoleniowej i zabezpieczenia materiałowo-technicznego"
+      ],
+      "poprawne": [
+        "Istotą działalności szkoleniowo-metodycznej jest przygotowanie i doskonalenie bezpośrednio podległych dowódców do prowadzenia działalności szkoleniowej z podległymi komórkami organizacyjnymi (jednostkami, pododdziałami) poprzez precyzyjną analizę celu, dobór treści szkolenia wynikających z zadań i przeznaczenia, właściwe zastosowanie form i metod przy wykorzystaniu dostępnej bazy szkoleniowej i zabezpieczenia materiałowo-technicznego"
+      ]
+    },
+    {
+      "id": 636,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Występowanie uczestników zajęcia w roli instruktorów i szkolonych ma miejsce w:",
+      "odpowiedzi": [
+        "Zajęciach instruktorsko-metodycznych"
+      ],
+      "poprawne": [
+        "Zajęciach instruktorsko-metodycznych"
+      ]
+    },
+    {
+      "id": 637,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Czym jest instruktaż do zajęć?",
+      "odpowiedzi": [
+        "Formą działalności szkoleniowo-metodycznej"
+      ],
+      "poprawne": [
+        "Formą działalności szkoleniowo-metodycznej"
+      ]
+    },
+    {
+      "id": 638,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Formy działalności szkoleniowo-metodycznej na szczeblu plutonu to m.in.:",
+      "odpowiedzi": [
+        "Metodyczne zajęcia pokazowe"
+      ],
+      "poprawne": [
+        "Metodyczne zajęcia pokazowe"
+      ]
+    },
+    {
+      "id": 639,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Czym są zajęcia praktyczne?",
+      "odpowiedzi": [
+        "Formą szkolenia żołnierzy"
+      ],
+      "poprawne": [
+        "Formą szkolenia żołnierzy"
+      ]
+    },
+    {
+      "id": 640,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Szkolenie potokowe to:",
+      "odpowiedzi": [
+        "Forma organizacji zajęć praktycznych"
+      ],
+      "poprawne": [
+        "Forma organizacji zajęć praktycznych"
+      ]
+    },
+    {
+      "id": 641,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Co jest istotą metodycznych zajęć grupowych?",
+      "odpowiedzi": [
+        "Występowanie wszystkich szkolonych w tej samej roli"
+      ],
+      "poprawne": [
+        "Występowanie wszystkich szkolonych w tej samej roli"
+      ]
+    },
+    {
+      "id": 642,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Czym jest działalność szkoleniowo-metodyczna w SZ RP?",
+      "odpowiedzi": [
+        "Działalność szkoleniowo-metodyczna jest zespołem przedsięwzięć organizacyjnych i szkoleniowych, umożliwiających dowódcom wszystkich szczebli nabycie wiedzy oraz praktycznych umiejętności metodycznych w zakresie prowadzenia szkolenia wojskowego"
+      ],
+      "poprawne": [
+        "Działalność szkoleniowo-metodyczna jest zespołem przedsięwzięć organizacyjnych i szkoleniowych, umożliwiających dowódcom wszystkich szczebli nabycie wiedzy oraz praktycznych umiejętności metodycznych w zakresie prowadzenia szkolenia wojskowego"
+      ]
+    },
+    {
+      "id": 643,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Szkolenie blokowe to:",
+      "odpowiedzi": [
+        "Forma organizacji zajęć praktycznych"
+      ],
+      "poprawne": [
+        "Forma organizacji zajęć praktycznych"
+      ]
+    },
+    {
+      "id": 644,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Co jest podstawą przeprowadzenia instruktażu do zajęć?",
+      "odpowiedzi": [
+        "Zatwierdzony przez uprawnionego przełożonego plan konspekt do zajęć programowych"
+      ],
+      "poprawne": [
+        "Zatwierdzony przez uprawnionego przełożonego plan konspekt do zajęć programowych"
+      ]
+    },
+    {
+      "id": 645,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Proces szkolenia jako zespół kolejno następujących po sobie czynności, które obejmuje:",
+      "odpowiedzi": [
+        "Organizację szkolenia, szkolenie, kontrolę i ocenę postępów w szkoleniu"
+      ],
+      "poprawne": [
+        "Organizację szkolenia, szkolenie, kontrolę i ocenę postępów w szkoleniu"
+      ]
+    },
+    {
+      "id": 646,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Zaznacz poprawne pojęcia:",
+      "odpowiedzi": [
+        "Szkolenie to nauczanie czynności prostych i umiejętności praktycznych"
+      ],
+      "poprawne": [
+        "Szkolenie to nauczanie czynności prostych i umiejętności praktycznych"
+      ]
+    },
+    {
+      "id": 647,
+      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "pytanie": "Dobór metod nauczania zależy od:",
+      "odpowiedzi": [
+        "Celów zajęć, treści, poziomu intelektualnego słuchaczy, czasu, bazy dydaktycznej"
+      ],
+      "poprawne": [
+        "Celów zajęć, treści, poziomu intelektualnego słuchaczy, czasu, bazy dydaktycznej"
+      ]
+    },
+    {
+      "id": 648,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Czym jest autoprezentacja?",
+      "odpowiedzi": [
+        "Procesem kontrolowania przez jednostkę sposobu w jaki jest postrzegana przez otoczenie"
+      ],
+      "poprawne": [
+        "Procesem kontrolowania przez jednostkę sposobu w jaki jest postrzegana przez otoczenie"
+      ]
+    },
+    {
+      "id": 649,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Kim/czym jest przekaźnik informacji?",
+      "odpowiedzi": [
+        "Media tradycyjne, media społecznościowe, media niezależne"
+      ],
+      "poprawne": [
+        "Media tradycyjne, media społecznościowe, media niezależne"
+      ]
+    },
+    {
+      "id": 650,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Czego dotyczy decyzja nr 47 MON z dnia 26 marca 2019?",
+      "odpowiedzi": [
+        "Kształtowania pozytywnego wizerunku Sił Zbrojnych przy wykorzystaniu dostępnych środków komunikacji społecznej"
+      ],
+      "poprawne": [
+        "Kształtowania pozytywnego wizerunku Sił Zbrojnych przy wykorzystaniu dostępnych środków komunikacji społecznej"
+      ]
+    },
+    {
+      "id": 651,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Odporność na dezinformację polega na sprawdzeniu:",
+      "odpowiedzi": [
+        "Kto jest autorem informacji, wiarygodności źródła"
+      ],
+      "poprawne": [
+        "Kto jest autorem informacji, wiarygodności źródła"
+      ]
+    },
+    {
+      "id": 652,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Jakie znasz narzędzia w komunikacji strategicznej?",
+      "odpowiedzi": [
+        "Briefing prasowy, informacja prasowa, monitoring mediów, oświadczenie medialne"
+      ],
+      "poprawne": [
+        "Briefing prasowy, informacja prasowa, monitoring mediów, oświadczenie medialne"
+      ]
+    },
+    {
+      "id": 653,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Jakie znasz techniki kontrolowania wywiadu?",
+      "odpowiedzi": [
+        "Flagowanie (flagging)"
+      ],
+      "poprawne": [
+        "Flagowanie (flagging)"
+      ]
+    },
+    {
+      "id": 654,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Kto odpowiada za redagowanie oraz zawartość merytoryczną i estetyczną treści zamieszczanych na stronie www i na profilach w mediach społecznościowych danej jednostki organizacyjnej resortu?",
+      "odpowiedzi": [
+        "Rzecznik prasowy właściwej jednostki organizacyjnej resortu"
+      ],
+      "poprawne": [
+        "Rzecznik prasowy właściwej jednostki organizacyjnej resortu"
+      ]
+    },
+    {
+      "id": 655,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Komunikat prasowy tworzy się zgodnie z zasadą odwróconej piramidy. Co to oznacza?",
+      "odpowiedzi": [
+        "Na wstępie muszą znaleźć się informacje najbardziej istotne"
+      ],
+      "poprawne": [
+        "Na wstępie muszą znaleźć się informacje najbardziej istotne"
+      ]
+    },
+    {
+      "id": 656,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Kandydaci do służby i pracy na stanowiskach służby komunikacji społecznej, wg decyzji nr 47 MON, powinni posiadać w szczególności:",
+      "odpowiedzi": [
+        "Umiejętność łatwego i rzeczowego wypowiadania się w formie ustnej i pisemnej w języku polskim"
+      ],
+      "poprawne": [
+        "Umiejętność łatwego i rzeczowego wypowiadania się w formie ustnej i pisemnej w języku polskim"
+      ]
+    },
+    {
+      "id": 657,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "W sprawie honorowej każdy żołnierz ma prawo:",
+      "odpowiedzi": [
+        "Złożyć wniosek o jej rozpatrzenie przez właściwe zebranie korpusu zawodowego"
+      ],
+      "poprawne": [
+        "Złożyć wniosek o jej rozpatrzenie przez właściwe zebranie korpusu zawodowego"
+      ]
+    },
+    {
+      "id": 658,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Jeżeli charakter sprawy tego wymaga, w celu ustalenia odpowiedzialności za naruszenie zasad honoru i godności, zebranie (zgromadzenie) właściwe dla żołnierza, któremu postawiono zarzut powołuje:",
+      "odpowiedzi": [
+        "Zespół arbitrów"
+      ],
+      "poprawne": [
+        "Zespół arbitrów"
+      ]
+    },
+    {
+      "id": 659,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Fundamentalnymi cnotami żołnierza zawodowego są:",
+      "odpowiedzi": [
+        "Patriotyzm, męstwo, uczciwość, odpowiedzialność, sprawiedliwość, prawdomówność i solidarność zawodowa"
+      ],
+      "poprawne": [
+        "Patriotyzm, męstwo, uczciwość, odpowiedzialność, sprawiedliwość, prawdomówność i solidarność zawodowa"
+      ]
+    },
+    {
+      "id": 660,
+      "dzial": "HISTORIA POLSKI",
+      "pytanie": "Proszę podać pierwszych trzech królów Polski, czy byli to:",
+      "odpowiedzi": [
+        "Bolesław Chrobry, Mieszko II, Bolesław II Szczodry"
+      ],
+      "poprawne": [
+        "Bolesław Chrobry, Mieszko II, Bolesław II Szczodry"
+      ]
+    },
+    {
+      "id": 661,
+      "dzial": "HISTORIA POLSKI",
+      "pytanie": "Z jakimi państwami Rzeczpospolita zawiązała Unię Lubelską?",
+      "odpowiedzi": [
+        "Z Wielkim Księstwem Litewskim"
+      ],
+      "poprawne": [
+        "Z Wielkim Księstwem Litewskim"
+      ]
+    },
+    {
+      "id": 662,
+      "dzial": "HISTORIA POLSKI",
+      "pytanie": "Które z polskich formacji wojskowych brały udział w I wojnie światowej?",
+      "odpowiedzi": [
+        "Legiony Polskie, Bajończycy, Armia Polska we Francji"
+      ],
+      "poprawne": [
+        "Legiony Polskie, Bajończycy, Armia Polska we Francji"
+      ]
+    },
+    {
+      "id": 663,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Na mocy Karty Narodów Zjednoczonych (art. 24), główną odpowiedzialność za utrzymanie międzynarodowego pokoju i bezpieczeństwa ponosi:",
+      "odpowiedzi": [
+        "Rada Bezpieczeństwa"
+      ],
+      "poprawne": [
+        "Rada Bezpieczeństwa"
+      ]
+    },
+    {
+      "id": 664,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Czym jest komunikacja?",
+      "odpowiedzi": [
+        "Przekaz pewnej informacji (komunikatu) i zdolność do odbioru i rozumienia tego przekazu"
+      ],
+      "poprawne": [
+        "Przekaz pewnej informacji (komunikatu) i zdolność do odbioru i rozumienia tego przekazu"
+      ]
+    },
+    {
+      "id": 665,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Komunikacja dwustronna ma miejsce, gdy:",
+      "odpowiedzi": [
+        "Następuje feedback, czyli otrzymanie informacji zwrotnej od odbiorcy komunikatu"
+      ],
+      "poprawne": [
+        "Następuje feedback, czyli otrzymanie informacji zwrotnej od odbiorcy komunikatu"
+      ]
+    },
+    {
+      "id": 666,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Głównymi zadaniami Sojuszu Północnoatlantyckiego, zgodnie z aktualną Koncepcją Strategiczną NATO z 2010r (wymienionymi w jej pkt 4) są:",
+      "odpowiedzi": [
+        "Obrona zbiorowa, zarządzanie kryzysowe, bezpieczeństwo kooperatywne"
+      ],
+      "poprawne": [
+        "Obrona zbiorowa, zarządzanie kryzysowe, bezpieczeństwo kooperatywne"
+      ]
+    },
+    {
+      "id": 667,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Zgodnie z Układem o nierozprzestrzenianiu broni jądrowej (NPT), państwa dysponujące bronią jądrową:",
+      "odpowiedzi": [
+        "Nie mogą jej przekazać żadnemu innemu państwu bezpośrednio lub pośrednio"
+      ],
+      "poprawne": [
+        "Nie mogą jej przekazać żadnemu innemu państwu bezpośrednio lub pośrednio"
+      ]
+    },
+    {
+      "id": 668,
+      "dzial": "HISTORIA SZTUKI WOJENNEJ",
+      "pytanie": "Dominujący rodzaj wojsk w średniowiecznej Europie:",
+      "odpowiedzi": [
+        "Ciężkozbrojna jazda rycerska"
+      ],
+      "poprawne": [
+        "Ciężkozbrojna jazda rycerska"
+      ]
+    },
+    {
+      "id": 669,
+      "dzial": "HISTORIA SZTUKI WOJENNEJ",
+      "pytanie": "W którym roku i gdzie, w okresie I wojny światowej, po raz pierwszy zostały użyte czołgi?",
+      "odpowiedzi": [
+        "W 1916r. przez Anglików pod Sommą"
+      ],
+      "poprawne": [
+        "W 1916r. przez Anglików pod Sommą"
+      ]
+    },
+    {
+      "id": 670,
+      "dzial": "REGULAMINY",
+      "pytanie": "Wydający rozkaz jest zobowiązany uwzględnić:",
+      "odpowiedzi": [
+        "Stopień przygotowania podwładnego, warunki i okoliczności wykonania rozkazu oraz zapewnić niezbędne do tego siły i środki"
+      ],
+      "poprawne": [
+        "Stopień przygotowania podwładnego, warunki i okoliczności wykonania rozkazu oraz zapewnić niezbędne do tego siły i środki"
+      ]
+    },
+    {
+      "id": 671,
+      "dzial": "REGULAMINY",
+      "pytanie": "Komendy do oddania honorów nie podaje się:",
+      "odpowiedzi": [
+        "Na linii wyjściowej, linii otwarcia ognia i stanowiskach ogniowych w czasie strzelań"
+      ],
+      "poprawne": [
+        "Na linii wyjściowej, linii otwarcia ognia i stanowiskach ogniowych w czasie strzelań"
+      ]
+    },
+    {
+      "id": 672,
+      "dzial": "REGULAMINY",
+      "pytanie": "Gdy kontrolujący przybywa do jednostki (pododdziału) razem z przełożonym, a jest on co najmniej równy stopniem, meldunek składa się:",
+      "odpowiedzi": [
+        "Kontrolującemu, jeśli ma niższy stopień - przełożonemu"
+      ],
+      "poprawne": [
+        "Kontrolującemu, jeśli ma niższy stopień - przełożonemu"
+      ]
+    },
+    {
+      "id": 673,
+      "dzial": "REGULAMINY",
+      "pytanie": "Żołnierz bezzwłocznie przerywa urlop i wraca do miejsca pełnienia służby w przypadku:",
+      "odpowiedzi": [
+        "Ogłoszenia mobilizacji lub wojny oraz odwołania z urlopu"
+      ],
+      "poprawne": [
+        "Ogłoszenia mobilizacji lub wojny oraz odwołania z urlopu"
+      ]
+    },
+    {
+      "id": 674,
+      "dzial": "REGULAMINY",
+      "pytanie": "Do raportu służbowego żołnierze stają:",
+      "odpowiedzi": [
+        "W ubiorach ustalonych przez przyjmującego raport"
+      ],
+      "poprawne": [
+        "W ubiorach ustalonych przez przyjmującego raport"
+      ]
+    },
+    {
+      "id": 675,
+      "dzial": "REGULAMINY",
+      "pytanie": "Nadzór nad przestrzeganiem porządku dnia sprawują:",
+      "odpowiedzi": [
+        "Dowódcy pododdziałów (lub upoważnione osoby), a w czasie wolnym - służby dyżurne"
+      ],
+      "poprawne": [
+        "Dowódcy pododdziałów (lub upoważnione osoby), a w czasie wolnym - służby dyżurne"
+      ]
+    },
+    {
+      "id": 676,
+      "dzial": "REGULAMINY",
+      "pytanie": "Za stan higieny osobistej oraz umundurowania odpowiada:",
+      "odpowiedzi": [
+        "Indywidualnie każdy żołnierz"
+      ],
+      "poprawne": [
+        "Indywidualnie każdy żołnierz"
+      ]
+    },
+    {
+      "id": 677,
+      "dzial": "REGULAMINY",
+      "pytanie": "Służbę wewnętrzną w JW pełnią:",
+      "odpowiedzi": [
+        "Równomiernie wszyscy żołnierze z wyjątkiem dowódcy jednostki, jego zastępcy, szefa sztabu, szefa szkolenia i żołnierzy pełniących służbę w wojskowych strażach pożarnych z wyjątkiem służby dowódcy pogotowia przeciwpożarowego, a także żołnierze zwolnieni na mocy innych przepisów."
+      ],
+      "poprawne": [
+        "Równomiernie wszyscy żołnierze z wyjątkiem dowódcy jednostki, jego zastępcy, szefa sztabu, szefa szkolenia i żołnierzy pełniących służbę w wojskowych strażach pożarnych z wyjątkiem służby dowódcy pogotowia przeciwpożarowego, a także żołnierze zwolnieni na mocy innych przepisów."
+      ]
+    },
+    {
+      "id": 678,
+      "dzial": "REGULAMINY",
+      "pytanie": "Za przygotowanie żołnierza do służby odpowiada:",
+      "odpowiedzi": [
+        "Żołnierz osobiście"
+      ],
+      "poprawne": [
+        "Żołnierz osobiście"
+      ]
+    },
+    {
+      "id": 679,
+      "dzial": "REGULAMINY",
+      "pytanie": "Oficerowi dyżurnemu jednostki podlegają:",
+      "odpowiedzi": [
+        "Wszyscy żołnierze i osoby pełniące służbę wewnętrzną, a w czasie wolnym również wszystkie osoby przebywające na terenie jednostki z wyjątkiem dowódcy, zastępcy dowódcy, szefa sztabu, szefa szkolenia i szefa logistyki"
+      ],
+      "poprawne": [
+        "Wszyscy żołnierze i osoby pełniące służbę wewnętrzną, a w czasie wolnym również wszystkie osoby przebywające na terenie jednostki z wyjątkiem dowódcy, zastępcy dowódcy, szefa sztabu, szefa szkolenia i szefa logistyki"
+      ]
+    },
+    {
+      "id": 680,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Wyjaśnij pojęcie komunikacja społeczna:",
+      "odpowiedzi": [
+        "To proces wytwarzania, przekształcania, a następnie przekazywania informacji pomiędzy jednostkami, grupami lub organizacjami społecznymi"
+      ],
+      "poprawne": [
+        "To proces wytwarzania, przekształcania, a następnie przekazywania informacji pomiędzy jednostkami, grupami lub organizacjami społecznymi"
+      ]
+    },
+    {
+      "id": 681,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Co oznacza pojęcie komunikacji niewerbalnej:",
+      "odpowiedzi": [
+        "To wielokanałowy proces przebiegający spontanicznie, obejmujący subtelne nielingwistyczne zachowania, dokonujący się w sposób ciągły i w dużej mierze, bez udziału świadomości"
+      ],
+      "poprawne": [
+        "To wielokanałowy proces przebiegający spontanicznie, obejmujący subtelne nielingwistyczne zachowania, dokonujący się w sposób ciągły i w dużej mierze, bez udziału świadomości"
+      ]
+    },
+    {
+      "id": 682,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Podaj przykłady niewerbalnych środków wyrazu (komunikacji niewerbalnej):",
+      "odpowiedzi": [
+        "Mowa ciała, postawa, gestykulacja, powierzchowność, ubiór, mimika twarzy, proksemika (odległość między osobami)"
+      ],
+      "poprawne": [
+        "Mowa ciała, postawa, gestykulacja, powierzchowność, ubiór, mimika twarzy, proksemika (odległość między osobami)"
+      ]
+    },
+    {
+      "id": 683,
+      "dzial": "REGULAMINY",
+      "pytanie": "Wykroczeniem jest?",
+      "odpowiedzi": [
+        "Wykroczenie uważa się za popełnione w czasie, w którym sprawca działał lub zaniechał działania, do którego był obowiązany. LUB Wykroczenie uważa się za popełnione na miejscu, gdzie sprawca działał lub zaniechał działania, do którego był obowiązany, albo gdzie skutek nastąpił lub miał nastąpić"
+      ],
+      "poprawne": [
+        "Wykroczenie uważa się za popełnione w czasie, w którym sprawca działał lub zaniechał działania, do którego był obowiązany. LUB Wykroczenie uważa się za popełnione na miejscu, gdzie sprawca działał lub zaniechał działania, do którego był obowiązany, albo gdzie skutek nastąpił lub miał nastąpić"
+      ]
+    },
+    {
+      "id": 684,
+      "dzial": "REGULAMINY",
+      "pytanie": "Na jakie komendy odgina się skrzydła?",
+      "odpowiedzi": [
+        "Pierwsza i trzecia drużyna w tył ZWROT. Odgiąć skrzydła - MARSZ. W tył ZWROT. SPOCZNIJ."
+      ],
+      "poprawne": [
+        "Pierwsza i trzecia drużyna w tył ZWROT. Odgiąć skrzydła - MARSZ. W tył ZWROT. SPOCZNIJ."
+      ]
     }
   ]
 }
