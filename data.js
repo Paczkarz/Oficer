@@ -7734,6 +7734,14 @@ const quizData = {
       "poprawne": [
         "Pierwsza i trzecia drużyna w tył ZWROT. Odgiąć skrzydła - MARSZ. W tył ZWROT. SPOCZNIJ."
       ]
+    },
+        {
+      "id": 685,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "leopard-2a4.png",
+      "odpowiedzi": ["leopard-2a4.png", "leopard-2a5.png", "leopard-2pl.png"],
+      "poprawne": ["leopard-2a4.png"]
     }
   ]
 }
