@@ -783,7 +783,7 @@ const quizData = {
       "pytanie": "Ile jest sposobów inicjowania IED",
       "odpowiedzi": [
         "2;",
-        "3;",
+        "3 ;",
         "4;",
         "5;"
       ],
@@ -1907,7 +1907,7 @@ const quizData = {
         "Zintegrowane, skoordynowane użycie środków rażenia z dwóch rodzajów wojsk."
       ],
       "poprawne": [
-        "zintegrowane użycie lądowych, powietrznych i morskich platform wsparcia ogniowego, wykorzystujących ogień bezpośredni i pośredni do celów naziemnych dla osiągnięcia pożądanych efektów."
+        "Ma ono na celu zapewnienie wsparcia ogniowego w całym spektrum działań."
       ]
     },
     {
@@ -4192,6 +4192,633 @@ const quizData = {
       "image": "s-300.png",
       "odpowiedzi": ["PATRIOT", "S-300", "BUK-M2", "PANTSIER-S1"],
       "poprawne": ["S-300"]
+    },
+    {
+      "id": 359,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W MSBS GROT odrzutnik do ślepego strzelania po zamontowaniu na tłumiku płomienia umożliwia strzelanie z amunicji ślepej zarówno:",
+      "odpowiedzi": [
+        "ogniem pojedynczym jak i ciągłym"
+      ],
+      "poprawne": [
+        "ogniem pojedynczym jak i ciągłym"
+      ]
+    },
+    {
+      "id": 360,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Każde pobranie i przekazanie broni należy poprzedzić obowiązkowo sprawdzeniem i informacją o broni: BROŃ",
+      "odpowiedzi": [
+        "Rozładowana - Sprawdzona - Zabezpieczona"
+      ],
+      "poprawne": [
+        "Rozładowana - Sprawdzona - Zabezpieczona"
+      ]
+    },
+    {
+      "id": 361,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Wymień rodzaje rozpoznania wykorzystywane w SZPR?",
+      "odpowiedzi": [
+        "Ogólnowojskowe, Geoprzestrzenne, Akustyczne, Rodzajów wojsk, Radioelektroniczne, Badawczo-pomiarowe, Obrazowe, Ze źródeł jawnych"
+      ],
+      "poprawne": [
+        "Ogólnowojskowe, Geoprzestrzenne, Akustyczne, Rodzajów wojsk, Radioelektroniczne, Badawczo-pomiarowe, Obrazowe, Ze źródeł jawnych"
+      ]
+    },
+    {
+      "id": 362,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Omów fazy cyklu rozpoznawczego?",
+      "odpowiedzi": [
+        "UKIERUNKOWANIE-zdefiniowanie obszarów, problemów (potrzeb rozpoznawczych) i procesów decyzyjnych; GROMADZENIE-pozyskanie i wstępne przygotowanie danych do analizy; PRZETWARZANIE - stworzenie jakościowo i strukturalnie nowej tresci informacyjnej, adekwatnej do potrzeb odbiorcy; ROZPOWSZECHNIANIE - terminowe przesyłanie wiadomości rozpoznawczych w odpowiedniej formie oraz za pomocą odpowiednich srodkow do zdefiniowanych odbiorcow"
+      ],
+      "poprawne": [
+        "UKIERUNKOWANIE-zdefiniowanie obszarów, problemów (potrzeb rozpoznawczych) i procesów decyzyjnych; GROMADZENIE-pozyskanie i wstępne przygotowanie danych do analizy; PRZETWARZANIE - stworzenie jakościowo i strukturalnie nowej tresci informacyjnej, adekwatnej do potrzeb odbiorcy; ROZPOWSZECHNIANIE - terminowe przesyłanie wiadomości rozpoznawczych w odpowiedniej formie oraz za pomocą odpowiednich srodkow do zdefiniowanych odbiorcow"
+      ]
+    },
+    {
+      "id": 363,
+      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "pytanie": "Struktura plutonu pancernego Federacji Rosyjskiej",
+      "odpowiedzi": [
+        "Rosyjska kompania czołgów składa się z 10 wozów, czyli trzech plutonów po 3 czołgi i dowódcy kompanii."
+      ],
+      "poprawne": [
+        "Rosyjska kompania czołgów składa się z 10 wozów, czyli trzech plutonów po 3 czołgi i dowódcy kompanii."
+      ]
+    },
+    {
+      "id": 364,
+      "dzial": "POPL",
+      "pytanie": "Szybko lecący cel powietrzny to cel, którego prędkość lotu przekracza?",
+      "odpowiedzi": [
+        "250km/h."
+      ],
+      "poprawne": [
+        "250km/h."
+      ]
+    },
+    {
+      "id": 365,
+      "dzial": "POPL",
+      "pytanie": "Do jakiego rodzaju celu powietrznego prowadzi się ogień zapory?",
+      "odpowiedzi": [
+        "Do celów poruszających się z dużą prędkością (powyżej 250km/h)"
+      ],
+      "poprawne": [
+        "Do celów poruszających się z dużą prędkością (powyżej 250km/h)"
+      ]
+    },
+    {
+      "id": 366,
+      "dzial": "POPL",
+      "pytanie": "Sposoby wykonania ataku przez SNP to?",
+      "odpowiedzi": [
+        "atak z lotu nurkowego, atak z lotu poziomego, atak z lotu wznoszącego"
+      ],
+      "poprawne": [
+        "atak z lotu nurkowego, atak z lotu poziomego, atak z lotu wznoszącego"
+      ]
+    },
+    {
+      "id": 367,
+      "dzial": "POPL",
+      "pytanie": "Do czego przeznaczony jest schron OPL?",
+      "odpowiedzi": [
+        "do zmniejszenia skuteczności oddziaływania środków napadu powietrznego"
+      ],
+      "poprawne": [
+        "do zmniejszenia skuteczności oddziaływania środków napadu powietrznego"
+      ]
+    },
+    {
+      "id": 368,
+      "dzial": "POPL",
+      "pytanie": "Przedsięwzięcia pasywnej OPL to?",
+      "odpowiedzi": [
+        "Maskowanie, rozśrodkowanie, przygotowanie schronów, likwidacja skutków uderzeń"
+      ],
+      "poprawne": [
+        "Maskowanie, rozśrodkowanie, przygotowanie schronów, likwidacja skutków uderzeń"
+      ]
+    },
+    {
+      "id": 370,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Seria mapy 1501 oznacza że mapa jest w skali?",
+      "odpowiedzi": [
+        "1:250 000"
+      ],
+      "poprawne": [
+        "1:250 000"
+      ]
+    },
+    {
+      "id": 371,
+      "dzial": "TOPOGRAFIA WOJSKOWA",
+      "pytanie": "Z jaką dokładnością podany jest zapis współrzędnych w systemie GeoRef PKFH514494?",
+      "odpowiedzi": [
+        "0,1' (minuty)"
+      ],
+      "poprawne": [
+        "0,1' (minuty)"
+      ]
+    },
+    {
+      "id": 372,
+      "dzial": "PODSTAWY SURVIVALU",
+      "pytanie": "Ile występuje kategorii stopnia ryzyka zajścia zdarzenia izolacji w odniesieniu do izolowanego personelu?",
+      "odpowiedzi": [
+        "3"
+      ],
+      "poprawne": [
+        "3"
+      ]
+    },
+    {
+      "id": 373,
+      "dzial": "PODSTAWY SURVIVALU",
+      "pytanie": "Ile parokroków przypada na odcinek 100 m?",
+      "odpowiedzi": [
+        "60"
+      ],
+      "poprawne": [
+        "60"
+      ]
+    },
+    {
+      "id": 374,
+      "dzial": "PODSTAWY SURVIVALU",
+      "pytanie": "W sytuacji zakładniczej możemy wyróżnić następującą ilość etapów/faz?",
+      "odpowiedzi": [
+        "4"
+      ],
+      "poprawne": [
+        "4"
+      ]
+    },
+    {
+      "id": 375,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Jaki jest znak ochronny i rozpoznawczy jeńców wojennych?",
+      "odpowiedzi": [
+        "PW lub PG"
+      ],
+      "poprawne": [
+        "PW lub PG"
+      ]
+    },
+    {
+      "id": 376,
+      "dzial": "MIĘDZYNARODOWE PRAWO KONFLIKTÓW ZABROJNYCH",
+      "pytanie": "Zbrodnia przeciwko ludzkości polega na?",
+      "odpowiedzi": [
+        "Zbrodnia przeciwko ludzkości obejmuje szereg szczególnie ciężkich i masowych przestępstw, które są popełniane w sposób systematyczny i zorganizowany przeciwko ludzkości jako całości."
+      ],
+      "poprawne": [
+        "Zbrodnia przeciwko ludzkości obejmuje szereg szczególnie ciężkich i masowych przestępstw, które są popełniane w sposób systematyczny i zorganizowany przeciwko ludzkości jako całości."
+      ]
+    },
+    {
+      "id": 378,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Podmiotowym elementem systemu wychowania wojskowego jest:",
+      "odpowiedzi": [
+        "Dowódca, organizator szkolenia, instruktor"
+      ],
+      "poprawne": [
+        "Dowódca, organizator szkolenia, instruktor"
+      ]
+    },
+    {
+      "id": 379,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Rozmowę wychowawczą prowadzimy:",
+      "odpowiedzi": [
+        "W przypadku czynu stanowiącego przewinienie dyscyplinarne mniejszej wagi"
+      ],
+      "poprawne": [
+        "W przypadku czynu stanowiącego przewinienie dyscyplinarne mniejszej wagi"
+      ]
+    },
+    {
+      "id": 380,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Żołnierskie morale to:",
+      "odpowiedzi": [
+        "W Siłach Zbrojnych morale żołnierzy oznacza społeczną świadomość oraz postępowanie odzwierciedlające stosunek do Ojczyzny i Narodu, a także gotowość do obrony niepodległości i suwerenności kraju, wykonywania zadań i rozkazów przełożonych."
+      ],
+      "poprawne": [
+        "W Siłach Zbrojnych morale żołnierzy oznacza społeczną świadomość oraz postępowanie odzwierciedlające stosunek do Ojczyzny i Narodu, a także gotowość do obrony niepodległości i suwerenności kraju, wykonywania zadań i rozkazów przełożonych."
+      ]
+    },
+    {
+      "id": 382,
+      "dzial": "DZIAŁALNOŚĆ WYCHOWAWCZA I PROFILAKTYKA DYSCYPLINARNA",
+      "pytanie": "Tryb udzielania wyróżnień oraz sposób postępowania w sprawach stosowania dyscyplinarnych środków zapobiegawczych uszczegóławia:",
+      "odpowiedzi": [
+        "Minister Obrony Narodowej w drodze rozporządzenia, zgodnie z artykułem 379 i 429 Ustawy o obronie ojczyzny"
+      ],
+      "poprawne": [
+        "Minister Obrony Narodowej w drodze rozporządzenia, zgodnie z artykułem 379 i 429 Ustawy o obronie ojczyzny"
+      ]
+    },
+    {
+      "id": 383,
+      "dzial": "ŚRODKI DOWODZENIA",
+      "pytanie": "Które środki radiowe zapewniają (teoretycznie) większy zasięg łączności?",
+      "odpowiedzi": [
+        "operujące na niższych częstotliwościach"
+      ],
+      "poprawne": [
+        "operujące na niższych częstotliwościach"
+      ]
+    },
+    {
+      "id": 385,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Co oznacza, że łączność powinna być terminowa?",
+      "odpowiedzi": [
+        "Zdolność do zapewnienia transmisji (dostarczenia, przekazywania) informacji lub prowadzenia rozmów w wyznaczonym czasie"
+      ],
+      "poprawne": [
+        "Zdolność do zapewnienia transmisji (dostarczenia, przekazywania) informacji lub prowadzenia rozmów w wyznaczonym czasie"
+      ]
+    },
+    {
+      "id": 386,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Co oznacza, że łączność powinna być wierna?",
+      "odpowiedzi": [
+        "Zdolność do odtwarzania przekazywanych wiadomości w punktach odbioru z zadaną (wymaganą) dokładnością"
+      ],
+      "poprawne": [
+        "Zdolność do odtwarzania przekazywanych wiadomości w punktach odbioru z zadaną (wymaganą) dokładnością"
+      ]
+    },
+    {
+      "id": 387,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Co oznacza, że łączność jest skryta?",
+      "odpowiedzi": [
+        "Zdolność do uniemożliwienia lub maksymalnego utrudnienia przeciwnikowi przechwycenie informacji przekazywanych przez techniczne środki łączności oraz wykrycia rejonów rozmieszczenia stanowisk dowodzenia i węzłów łączności"
+      ],
+      "poprawne": [
+        "Zdolność do uniemożliwienia lub maksymalnego utrudnienia przeciwnikowi przechwycenie informacji przekazywanych przez techniczne środki łączności oraz wykrycia rejonów rozmieszczenia stanowisk dowodzenia i węzłów łączności"
+      ]
+    },
+    {
+      "id": 388,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Kiedy organizuje się łączność bezprzewodową?",
+      "odpowiedzi": [
+        "Łączność bezprzewodową organizuje się we wszystkich rodzajach działań bojowych"
+      ],
+      "poprawne": [
+        "Łączność bezprzewodową organizuje się we wszystkich rodzajach działań bojowych"
+      ]
+    },
+    {
+      "id": 389,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Co to jest kierunek radiowy?",
+      "odpowiedzi": [
+        "Układ pracy środków radiowych, w którym uczestniczą tylko dwa środki radiowe zapewniające wymianę wiadomości pomiędzy źródłem, a odbiorcą"
+      ],
+      "poprawne": [
+        "Układ pracy środków radiowych, w którym uczestniczą tylko dwa środki radiowe zapewniające wymianę wiadomości pomiędzy źródłem, a odbiorcą"
+      ]
+    },
+    {
+      "id": 390,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Kiedy łączność radiową uważa się za nawiązaną?",
+      "odpowiedzi": [
+        "Po wywołaniu, sprawdzeniu łączności i sprawdzeniu tożsamości."
+      ],
+      "poprawne": [
+        "Po wywołaniu, sprawdzeniu łączności i sprawdzeniu tożsamości."
+      ]
+    },
+    {
+      "id": 391,
+      "dzial": "ŁĄCZNOŚĆ",
+      "pytanie": "Kiedy wykonuje się sprawdzenie tożsamości?",
+      "odpowiedzi": [
+        "Podczas pierwszego nawiązania łączności, w przypadku pojawienia się wątpliwości co do przynależności środka radiowego, z którym nawiązuje się łączność, przed nadaniem rozkazów, zarządzeń i meldunków"
+      ],
+      "poprawne": [
+        "Podczas pierwszego nawiązania łączności, w przypadku pojawienia się wątpliwości co do przynależności środka radiowego, z którym nawiązuje się łączność, przed nadaniem rozkazów, zarządzeń i meldunków"
+      ]
+    },
+    {
+      "id": 392,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Granat RGO-88 to granat:",
+      "odpowiedzi": [
+        "Obronny"
+      ],
+      "poprawne": [
+        "Obronny"
+      ]
+    },
+    {
+      "id": 393,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Granat RGZ-89 to granat:",
+      "odpowiedzi": [
+        "Zaczepny"
+      ],
+      "poprawne": [
+        "Zaczepny"
+      ]
+    },
+    {
+      "id": 394,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Skrót nazwy zapalnik UZRGM oznacza:",
+      "odpowiedzi": [
+        "Uniwersalny zapalnik ręcznego granatu modernizowany"
+      ],
+      "poprawne": [
+        "Uniwersalny zapalnik ręcznego granatu modernizowany"
+      ]
+    },
+    {
+      "id": 395,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Głównym rodzajem odłamków w granacie F-1 jest:",
+      "odpowiedzi": [
+        "Powierzchnia skorupy"
+      ],
+      "poprawne": [
+        "Powierzchnia skorupy"
+      ]
+    },
+    {
+      "id": 396,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Do ogólnej budowy naboju pistoletowego zaliczamy:",
+      "odpowiedzi": [
+        "Łuskę, ładunek prochowy, pocisk, kryzę łuski"
+      ],
+      "poprawne": [
+        "Łuskę, ładunek prochowy, pocisk, kryzę łuski"
+      ]
+    },
+    {
+      "id": 397,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Standardową amunicją pośrednią używaną w NATO jest:",
+      "odpowiedzi": [
+        "5,56 mm x 45"
+      ],
+      "poprawne": [
+        "5,56 mm x 45"
+      ]
+    },
+    {
+      "id": 398,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Standardową amunicją karabinową (nie wielkokalibrową) używaną w NATO jest:",
+      "odpowiedzi": [
+        "7,62 mm x 51"
+      ],
+      "poprawne": [
+        "7,62 mm x 51"
+      ]
+    },
+    {
+      "id": 399,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Amunicję strzelecką przeciwpancerną w NATO oznacza się kolorem:",
+      "odpowiedzi": [
+        "Czarnym"
+      ],
+      "poprawne": [
+        "Czarnym"
+      ]
+    },
+    {
+      "id": 400,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Nazwa amunicji ślepej w standardzie NATO to:",
+      "odpowiedzi": [
+        "Blank"
+      ],
+      "poprawne": [
+        "Blank"
+      ]
+    },
+    {
+      "id": 401,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W skład ogólnej budowy pistoletu wojskowego P-83 wchodzi:",
+      "odpowiedzi": [
+        "Szkielet wraz z lufą, sprężyna powrotna, zamek, magazynek"
+      ],
+      "poprawne": [
+        "Szkielet wraz z lufą, sprężyna powrotna, zamek, magazynek"
+      ]
+    },
+    {
+      "id": 402,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Magazynek pistoletu wojskowego P-83 mieści:",
+      "odpowiedzi": [
+        "8 naboi"
+      ],
+      "poprawne": [
+        "8 naboi"
+      ]
+    },
+    {
+      "id": 403,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Pistolet wojskowy P-83 działa na zasadzie:",
+      "odpowiedzi": [
+        "Swobodnego odrzutu zamka"
+      ],
+      "poprawne": [
+        "Swobodnego odrzutu zamka"
+      ]
+    },
+    {
+      "id": 404,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Typem mechanizmu zabezpieczającego w pistolecie wojskowym P-83 jest:",
+      "odpowiedzi": [
+        "Nastawczy, trójstopniowy"
+      ],
+      "poprawne": [
+        "Nastawczy, trójstopniowy"
+      ]
+    },
+    {
+      "id": 405,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W skład ogólnej budowy pistoletu PW-94 WIST wchodzi:",
+      "odpowiedzi": [
+        "Szkielet, lufa, sprężyna powrotna, zamek, magazynek"
+      ],
+      "poprawne": [
+        "Szkielet, lufa, sprężyna powrotna, zamek, magazynek"
+      ]
+    },
+    {
+      "id": 406,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Magazynek pistoletu wojskowego WIST-94 mieści:",
+      "odpowiedzi": [
+        "16 naboi"
+      ],
+      "poprawne": [
+        "16 naboi"
+      ]
+    },
+    {
+      "id": 407,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W skład ogólnej budowy karabinka wz. 96 Beryl wariant C wchodzą:",
+      "odpowiedzi": [
+        "Komora zamkowa z lufą, suwadło z zamkiem, urządzenie powrotne, pokrywa komory zamkowej, rura gazowa, zintegrowany zespół łoża z nakładką z szynami, zespół kolby teleskopowej stałej, magazynek"
+      ],
+      "poprawne": [
+        "Komora zamkowa z lufą, suwadło z zamkiem, urządzenie powrotne, pokrywa komory zamkowej, rura gazowa, zintegrowany zespół łoża z nakładką z szynami, zespół kolby teleskopowej stałej, magazynek"
+      ]
+    },
+    {
+      "id": 408,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Karabinek wz. 96 Beryl działa na zasadzie:",
+      "odpowiedzi": [
+        "Częściowego odprowadzenia gazów prochowych"
+      ],
+      "poprawne": [
+        "Częściowego odprowadzenia gazów prochowych"
+      ]
+    },
+    {
+      "id": 409,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "Akronim BLOS oznacza:",
+      "odpowiedzi": [
+        "Broń, Lufa, Otoczenie, Spust"
+      ],
+      "poprawne": [
+        "Broń, Lufa, Otoczenie, Spust"
+      ]
+    },
+    {
+      "id": 410,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W akronimie BLOS, litera B oznacza, że:",
+      "odpowiedzi": [
+        "Broń zawsze traktujemy jak załadowaną"
+      ],
+      "poprawne": [
+        "Broń zawsze traktujemy jak załadowaną"
+      ]
+    },
+    {
+      "id": 411,
+      "dzial": "TEORIA I PRAKTYKA STRZELAŃ",
+      "pytanie": "W akronimie BLOS, litera L oznacza, że:",
+      "odpowiedzi": [
+        "Lufa zawsze jest skierowana w cel lub wyznaczoną strefę bezpieczną"
+      ],
+      "poprawne": [
+        "Lufa zawsze jest skierowana w cel lub wyznaczoną strefę bezpieczną"
+      ]
+    },
+    {
+      "id": 412,
+      "dzial": "TAKTYKA",
+      "pytanie": "Zabezpieczenie bojowe obejmuje:",
+      "odpowiedzi": [
+        "Ubezpieczenie, maskowanie, powszechną obronę przeciwlotniczą, zabezpieczenie inżynieryjne, obronę przed bronią masowego rażenia"
+      ],
+      "poprawne": [
+        "Ubezpieczenie, maskowanie, powszechną obronę przeciwlotniczą, zabezpieczenie inżynieryjne, obronę przed bronią masowego rażenia"
+      ]
+    },
+    {
+      "id": 413,
+      "dzial": "TAKTYKA",
+      "pytanie": "Do działań przygotowawczych zalicza się:",
+      "odpowiedzi": [
+        "Odtwarzanie zdolności, rozmieszczanie, przemieszczanie, osiąganie zdolności"
+      ],
+      "poprawne": [
+        "Odtwarzanie zdolności, rozmieszczanie, przemieszczanie, osiąganie zdolności"
+      ]
+    },
+    {
+      "id": 414,
+      "dzial": "TAKTYKA",
+      "pytanie": "Podstawowymi elementami ugrupowania bojowego batalionu w obronie są:",
+      "odpowiedzi": [
+        "Ubezpieczenie, pierwszy rzut, odwód (odwody), pododdział artylerii, element rozpoznawczy, stanowisko dowodzenia oraz urządzenia i elementy logistyczne"
+      ],
+      "poprawne": [
+        "Ubezpieczenie, pierwszy rzut, odwód (odwody), pododdział artylerii, element rozpoznawczy, stanowisko dowodzenia oraz urządzenia i elementy logistyczne"
+      ]
+    },
+    {
+      "id": 415,
+      "dzial": "TAKTYKA",
+      "pytanie": "Informacje dotyczące dwóch i więcej elementów ugrupowania bojowego powinny być umieszczone w rozkazie bojowym w podpunkcie:",
+      "odpowiedzi": [
+        "Wytyczne koordynacyjne"
+      ],
+      "poprawne": [
+        "Wytyczne koordynacyjne"
+      ]
+    },
+    {
+      "id": 416,
+      "dzial": "KOMUNIKACJA STRATEGICZNA",
+      "pytanie": "Kto wg decyzji nr 47 MON z dnia 26 marca 2019, odpowiada za wytyczanie i realizację polityki informacyjnej resortu?",
+      "odpowiedzi": [
+        "Dyrektor CO MON"
+      ],
+      "poprawne": [
+        "Dyrektor CO MON"
+      ]
+    },
+    {
+      "id": 417,
+      "dzial": "REGULAMINY",
+      "pytanie": "W czasie podniesienia proporca Prezydenta RP trębacz gra:",
+      "odpowiedzi": [
+        "Sygnał Prezydencki"
+      ],
+      "poprawne": [
+        "Sygnał Prezydencki"
+      ]
+    },
+    {
+      "id": 418,
+      "dzial": "REGULAMINY",
+      "pytanie": "Kompania honorowa to:",
+      "odpowiedzi": [
+        "Pododdział honorowy wyznaczany w rozkazie dowódcy jednostki (instytucji) wojskowej do asystowania sztandarowi i fladze państwowej RP. Liczebność kompanii honorowej (pododdziału honorowego) określa dowódca jednostki (instytucji) wojskowej"
+      ],
+      "poprawne": [
+        "Pododdział honorowy wyznaczany w rozkazie dowódcy jednostki (instytucji) wojskowej do asystowania sztandarowi i fladze państwowej RP. Liczebność kompanii honorowej (pododdziału honorowego) określa dowódca jednostki (instytucji) wojskowej"
+      ]
+    },
+    {
+      "id": 419,
+      "dzial": "REGULAMINY",
+      "pytanie": "Tempo biegu wynosi:",
+      "odpowiedzi": [
+        "160-180 kroków na minutę"
+      ],
+      "poprawne": [
+        "160-180 kroków na minutę"
+      ]
     }
   ]
 }
