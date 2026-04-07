@@ -783,7 +783,7 @@ const quizData = {
       "pytanie": "Ile jest sposobów inicjowania IED",
       "odpowiedzi": [
         "2;",
-        "3 ;",
+        "3;",
         "4;",
         "5;"
       ],
