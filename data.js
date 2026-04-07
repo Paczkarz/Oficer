@@ -839,7 +839,7 @@ const quizData = {
     {
       "id": 65,
       "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
-      "pytanie": "Ile jest sposobów zakładania pól minowych sposobem ręcznym?:",
+      "pytanie": "Ile jest sposobów zakładania pól minowych?:",
       "odpowiedzi": [
         "6"
       ],
