@@ -3853,7 +3853,7 @@ const quizData = {
       "id": 316,
       "dzial": "SYLWETKI - ROZPOZNANIE",
       "pytanie": "Rozpoznaj sylwetkę pojazdu:",
-      "image": "leopadrd-2pl.png",
+      "image": "leopard-2pl.png",
       "odpowiedzi": ["LEOPARD - 2A4", "LEOPARD - 2PL", "LEOPARD - 2A5", "PT-91 TWARDY"],
       "poprawne": ["LEOPARD - 2PL"]
     },
