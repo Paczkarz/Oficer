@@ -7743,5 +7743,14 @@ const quizData = {
       "odpowiedzi": ["leopard-2a4", "leopard-2a5", "leopard-2pl"],
       "poprawne": ["leopard-2a4"]
     }
+        },
+        {
+      "id": 686,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "dana.png",
+      "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "dana", "AHS KRAB"],
+      "poprawne": ["dana"]
+    }
   ]
 }
