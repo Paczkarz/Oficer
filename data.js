@@ -1990,10 +1990,10 @@ const quizData = {
       "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
       "pytanie": "Obowiązkowi pełnienia służby wojskowej, w zakresie określonym w Ustawie o obronie Ojczyzny, podlegają obywatele polscy:",
       "odpowiedzi": [
-        "zdolni ze względu na wiek i stan zdrowia do wykonywania tego obowiązku"
+        "począwszy od dnia, w którym kończą osiemnaście lat życia, do końca roku kalendarzowego, w którym kończą sześćdziesiąt lat życia, a posiadający stopień podoficerski lub oficerski – sześćdziesiąt trzy lata życia"
       ],
       "poprawne": [
-        "zdolni ze względu na wiek i stan zdrowia do wykonywania tego obowiązku"
+        "począwszy od dnia, w którym kończą osiemnaście lat życia, do końca roku kalendarzowego, w którym kończą sześćdziesiąt lat życia, a posiadający stopień podoficerski lub oficerski – sześćdziesiąt trzy lata życia"
       ]
     },
     {
