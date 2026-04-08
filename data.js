@@ -833,7 +833,7 @@ const quizData = {
         "b)  4 kozły kolczaste, jeże kolczaste, pola minowe, rowy przeciwczołgowe"
       ],
       "poprawne": [
-        "minowa, fortyfikacyjna, wodna, niszczenia zaporowe."
+        "b)  4 kozły kolczaste, jeże kolczaste, pola minowe, rowy przeciwczołgowe"
       ]
     },
     {
