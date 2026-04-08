@@ -7742,8 +7742,7 @@ const quizData = {
       "image": "leopard-2a4.png",
       "odpowiedzi": ["leopard-2a4", "leopard-2a5", "leopard-2pl"],
       "poprawne": ["leopard-2a4"]
-    }
-        },
+    }, 
         {
       "id": 686,
       "dzial": "SYLWETKI - ROZPOZNANIE",
