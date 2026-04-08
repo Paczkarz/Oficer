@@ -7740,8 +7740,8 @@ const quizData = {
       "dzial": "SYLWETKI - ROZPOZNANIE",
       "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
       "image": "leopard-2a4.png",
-      "odpowiedzi": ["leopard-2a4.png", "leopard-2a5.png", "leopard-2pl.png"],
-      "poprawne": ["leopard-2a4.png"]
+      "odpowiedzi": ["leopard-2a4", "leopard-2a5", "leopard-2pl"],
+      "poprawne": ["leopard-2a4"]
     }
   ]
 }
