@@ -1924,7 +1924,7 @@ const quizData = {
     {
       "id": 148,
       "dzial": "POŁĄCZONE WSPARCIE OGNIOWE",
-      "pytanie": "Zgodnie z procedurą CCF w trakcie wstrzeliwania obserwator przesyła poprawki w metrach w następującej kolejności:",
+      "pytanie": "Zgodnie z procedurą CFF w trakcie wstrzeliwania obserwator przesyła poprawki w metrach w następującej kolejności:",
       "odpowiedzi": [
         "W lewo/prawo, bliżej/dalej, wyżej/niżej"
       ],
