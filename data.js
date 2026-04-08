@@ -100,10 +100,10 @@ const quizData = {
       "dzial": "PODSTAWY DOWODZENIA",
       "pytanie": "W jakim miejscu procesu dowodzenia znajduje się rekonesans?",
       "odpowiedzi": [
-        "W fazie planowania"
+        "A)	rekonesans znajduje się procesie dowodzenia w fazie planowania. Jest elementem ruchomym procesu dowodzenia, zawsze jednak występuje po analizie zadania i może wystąpić aż do momentu stawiania zadań włącznie"
       ],
       "poprawne": [
-        "W fazie planowania"
+        "A)	rekonesans znajduje się procesie dowodzenia w fazie planowania. Jest elementem ruchomym procesu dowodzenia, zawsze jednak występuje po analizie zadania i może wystąpić aż do momentu stawiania zadań włącznie"
       ]
     },
     {
@@ -125,10 +125,10 @@ const quizData = {
       "dzial": "PODSTAWY DOWODZENIA",
       "pytanie": "Co to jest decyzja dowódcy?",
       "odpowiedzi": [
-        "Decyzja dowódcy to akty administracyjne lub operacyjne podejmowane przez dowódcę w ramach swoich kompetencji. Obejmuje ona wydawanie dyrektyw, rozkazów i instrukcji zarówno przed jak i w trakcie działań. Gdy jest to możliwe, rozkazy te powinny być wydawane osobiście i potwierdzane na piśmie. Na przykład, dowódca może wydać decyzję dotyczącą: Rozlokowania jednostki, Zabezpieczenia logistycznego, Taktyki i działania bojowe."
+        "to  jednorazowy akt woli dowódcy podczas której dokonuje on świadomego wyboru jednego z kilku wariantów działania;"
       ],
       "poprawne": [
-        "Decyzja dowódcy to akty administracyjne lub operacyjne podejmowane przez dowódcę w ramach swoich kompetencji. Obejmuje ona wydawanie dyrektyw, rozkazów i instrukcji zarówno przed jak i w trakcie działań. Gdy jest to możliwe, rozkazy te powinny być wydawane osobiście i potwierdzane na piśmie. Na przykład, dowódca może wydać decyzję dotyczącą: Rozlokowania jednostki, Zabezpieczenia logistycznego, Taktyki i działania bojowe."
+        "to  jednorazowy akt woli dowódcy podczas której dokonuje on świadomego wyboru jednego z kilku wariantów działania;"
       ]
     },
     {
@@ -904,10 +904,10 @@ const quizData = {
         "Ześrodkowanie sił, jedność wysiłku wojsk, sprawność dowodzenia",
         "Zaskoczenie, szybkość i prostota podejmowanych decyzji, ciągłość działań",
         "Inicjatywa, jedność dowodzenia, morale wojsk",
-        "Celowość działań, zaskoczenie, aktywność  "
+        "manewrowość, zachowanie zdolności bojowej wojsk, zaskoczenie"
       ],
       "poprawne": [
-        "Celowość działań, zaskoczenie, aktywność  "
+        "manewrowość, zachowanie zdolności bojowej wojsk, zaskoczenie"
       ]
     },
     {
@@ -943,13 +943,13 @@ const quizData = {
       "dzial": "TAKTYKA",
       "pytanie": "jakie rodzaje działań zaliczamy do działań asymetrycznych?",
       "odpowiedzi": [
-        "Przeciwdywersyjne i nieregularne",
+        "antyterrorystyczne, specjalne i nieregularne"
         "Działania antyterrorystyczne i ochronę obiektów tyłowych",
         "Działania logistyczne i działania bojowe",
         "Rozpoznanie, działania specjalne"
       ],
       "poprawne": [
-        "Przeciwdywersyjne i nieregularne"
+        "antyterrorystyczne, specjalne i nieregularne"
       ]
     },
     {
@@ -982,13 +982,13 @@ const quizData = {
       "dzial": "TAKTYKA",
       "pytanie": "jakie wyróżniamy rodzaje natarcia?",
       "odpowiedzi": [
-        "Natarcie planowe, działania rajdowe, atak wyprzedzający",
+        "natarcie szybkie, rajd, atak wyprzedzający",
         "Uderzenie czołowe, atak oskrzydlający, bój spotkaniowy",
         "Przełamanie, pościg, bój spotkaniowy",
         "Rozpoznanie walką, natarcie głębokie, natarcie manewrowe"
       ],
       "poprawne": [
-        "Natarcie planowe, działania rajdowe, atak wyprzedzający"
+        "natarcie szybkie, rajd, atak wyprzedzający"
       ]
     },
     {
@@ -1009,11 +1009,11 @@ const quizData = {
       "odpowiedzi": [
         "przedsięwzięcia obejmujące zabezpieczenie logistyczne",
         "zabezpieczenie techniczne, zaopatrzenie w środki materiałowe i środki bojowe",
-        "przedsięwzięcia mające na celu zmniejszenie skuteczności uderzeń przeciwnika",
+        "zapewnienie wojskom własnym sprzyjających warunków do pomyślnego wykonania zadań w różnych warunkach",
         "zaopatrzenie, zabezpieczenie medyczne, remonty i naprawy sprzętu wojskowego."
       ],
       "poprawne": [
-        "przedsięwzięcia mające na celu zmniejszenie skuteczności uderzeń przeciwnika"
+        "zapewnienie wojskom własnym sprzyjających warunków do pomyślnego wykonania zadań w różnych warunkach"
       ]
     },
     {
@@ -1021,13 +1021,13 @@ const quizData = {
       "dzial": "TAKTYKA",
       "pytanie": "co wchodzi w skład zabezpieczenia bojowego działań taktycznych?",
       "odpowiedzi": [
-        "Zabezpieczenie techniczne, materiałowe i medyczne",
+        "zabezpieczenie inżynieryjne, opbmr; maskowanie",
         "Ubezpieczenia, powszechna OPL; maskowanie",
         "Uzupełnianie środków bojowych, zaopatrzenie, remonty i naprawa sprzęt bojowego",
         "Zabezpieczenie inżynieryjne i zabezpieczenie logistyczne"
       ],
       "poprawne": [
-        "Ubezpieczenia, powszechna OPL; maskowanie"
+        "zabezpieczenie inżynieryjne, opbmr; maskowanie"
       ]
     },
     {
@@ -1069,12 +1069,12 @@ const quizData = {
       "pytanie": "Do samodzielnych rodzajów wojsk w Federacji Rosyjskiej zalicza się?",
       "odpowiedzi": [
         "wojska rakietowe i artylerii,",
-        "strategiczne wojska rakietowe i wojska powietrznodesantowe,",
+        "wojska powietrznodesantowe,",
         "wojska zmechanizowane i wojsk lądowe,",
         "wojska kontrwywiadu."
       ],
       "poprawne": [
-        "strategiczne wojska rakietowe i wojska powietrznodesantowe,"
+        "wojska powietrznodesantowe,"
       ]
     },
     {
@@ -1110,13 +1110,13 @@ const quizData = {
       "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
       "pytanie": "W obszar rozpoznania ogólnowojskowego wchodzi?",
       "odpowiedzi": [
-        "rozpoznanie patrolowe,",
+        "rozpoznanie osobowe,",
         "rozpoznanie satelitarne,",
         "rozpoznanie sygnałowe,",
         "rozpoznawanie specjalne."
       ],
       "poprawne": [
-        "rozpoznanie patrolowe,"
+        "rozpoznanie osobowe,"
       ]
     },
     {
@@ -1600,10 +1600,10 @@ const quizData = {
       "dzial": "POPL",
       "pytanie": "Pochyłą zaporę ogniową wykonuje się, gdy cel zostanie wykryty w odległości większej niż?",
       "odpowiedzi": [
-        "1000m"
+        "2000m"
       ],
       "poprawne": [
-        "1000m"
+        "2000m"
       ]
     },
     {
@@ -1647,10 +1647,10 @@ const quizData = {
       "dzial": "POPL",
       "pytanie": "Wskazywanie celów powietrznych realizuje się według?",
       "odpowiedzi": [
-        "instrukcji posterunku"
+        "Dozorów, stron świata, według kierunku marszu"
       ],
       "poprawne": [
-        "instrukcji posterunku"
+        "Dozorów, stron świata, według kierunku marszu"
       ]
     },
     {
@@ -1977,9 +1977,9 @@ const quizData = {
       "pytanie": "Co obejmują świadczenia rzeczowe na rzecz obrony?",
       "odpowiedzi": [
         "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele przygotowania obrony państwa.",
-        "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele jednostek wojskowych.",
+        "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby JW. lub jednostek zmilitaryzowanych",
         "to oddanie rzeczy ruchomych na cele przygotowania obrony państwa.",
-        "to oddanie do użytkowania posiadanych nieruchomości  na cele przygotowania obrony państwa."
+        "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby JW. lub jednostek zmilitaryzowanych"
       ],
       "poprawne": [
         "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele przygotowania obrony państwa."
@@ -2016,14 +2016,10 @@ const quizData = {
         "terytorialnej służby wojskowej;",
         "służby w aktywnej rezerwie w dniach tej służby oraz odbywaniu ćwiczeń wojskowych w ramach pasywnej rezerwy;",
         "zawodowej służby wojskowej;",
-        "służby w razie ogłoszenia mobilizacji i w czasie wojny."
+        "zasadniczej służby wojskowej, terytorialnej służby wojskowej, służby w aktywnej rezerwie w dniach tej służby oraz odbywaniu ćwiczeń wojskowych w ramach pasywnej rezerwy, zawodowej służby wojskowej, służby w razie ogłoszenia mobilizacji i w czasie wojny"
       ],
       "poprawne": [
-        "zasadniczej służby wojskowej;",
-        "terytorialnej służby wojskowej;",
-        "służby w aktywnej rezerwie w dniach tej służby oraz odbywaniu ćwiczeń wojskowych w ramach pasywnej rezerwy;",
-        "zawodowej służby wojskowej;",
-        "służby w razie ogłoszenia mobilizacji i w czasie wojny."
+        "zasadniczej służby wojskowej, terytorialnej służby wojskowej, służby w aktywnej rezerwie w dniach tej służby oraz odbywaniu ćwiczeń wojskowych w ramach pasywnej rezerwy, zawodowej służby wojskowej, służby w razie ogłoszenia mobilizacji i w czasie wojny"
       ]
     },
     {
@@ -2112,10 +2108,10 @@ const quizData = {
       "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
       "pytanie": "Dobrowolna służba zasadnicza pełniona jest przez okres:",
       "odpowiedzi": [
-        "do 12 miesięcy."
+        "A)	do 12 miesięcy – 28 dni szkolenia podstawowego oraz do 11 miesięcy szkolenia specjalistycznego połączonego z wykonywaniem obowiązków na stanowisku służbowym."
       ],
       "poprawne": [
-        "do 12 miesięcy."
+        "A)	do 12 miesięcy – 28 dni szkolenia podstawowego oraz do 11 miesięcy szkolenia specjalistycznego połączonego z wykonywaniem obowiązków na stanowisku służbowym."
       ]
     },
     {
