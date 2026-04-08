@@ -1979,10 +1979,10 @@ const quizData = {
         "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele przygotowania obrony państwa.",
         "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby JW. lub jednostek zmilitaryzowanych",
         "to oddanie rzeczy ruchomych na cele przygotowania obrony państwa.",
-        "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby JW. lub jednostek zmilitaryzowanych"
+        "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby "
       ],
       "poprawne": [
-        "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele przygotowania obrony państwa."
+        "to oddanie do użytkowania posiadanych nieruchomości lub rzeczy ruchomych na potrzeby JW. lub jednostek zmilitaryzowanych"
       ]
     },
     {
