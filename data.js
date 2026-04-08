@@ -943,7 +943,7 @@ const quizData = {
       "dzial": "TAKTYKA",
       "pytanie": "jakie rodzaje działań zaliczamy do działań asymetrycznych?",
       "odpowiedzi": [
-        "antyterrorystyczne, specjalne i nieregularne"
+        "antyterrorystyczne, specjalne i nieregularne",
         "Działania antyterrorystyczne i ochronę obiektów tyłowych",
         "Działania logistyczne i działania bojowe",
         "Rozpoznanie, działania specjalne"
