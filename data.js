@@ -5727,10 +5727,10 @@ const quizData = {
       "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
       "pytanie": "W jakiej kolejności należy formułować cele szkoleniowe?",
       "odpowiedzi": [
-        "Uczyć, doskonalić, zgrywać, sprawdzić, badać"
+        "Uczyć, doskonalić, zgrywać, sprawdzić"
       ],
       "poprawne": [
-        "Uczyć, doskonalić, zgrywać, sprawdzić, badać"
+        "Uczyć, doskonalić, zgrywać, sprawdzić"
       ]
     },
     {
