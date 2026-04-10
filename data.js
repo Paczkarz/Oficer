@@ -7722,7 +7722,7 @@ const quizData = {
       "image": "AHS DANA.png",
       "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "AHS DANA", "AHS KRAB"],
       "poprawne": ["AHS DANA"]
-    }.
+    },
             {
       "id": 686,
       "dzial": "SYLWETKI - ROZPOZNANIE",
