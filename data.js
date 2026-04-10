@@ -7743,9 +7743,9 @@ const quizData = {
       "id": 686,
       "dzial": "SYLWETKI - ROZPOZNANIE",
       "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
-      "image": "dana.png",
-      "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "dana", "AHS KRAB"],
-      "poprawne": ["dana"]
+      "image": "AHS DANA.png",
+      "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "AHS DANA", "AHS KRAB"],
+      "poprawne": ["AHS DANA"]
     }
   ]
 }
