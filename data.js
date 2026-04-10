@@ -3758,14 +3758,6 @@ const quizData = {
       "poprawne": ["BMD - 3"]
     },
     {
-      "id": 305,
-      "dzial": "SYLWETKI - ROZPOZNANIE",
-      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
-      "image": "bmd4.png",
-      "odpowiedzi": ["BMD - 3", "BMD - 4", "BMP - 3", "2S1 GOŹDZIK"],
-      "poprawne": ["BMD - 4"]
-    },
-    {
       "id": 306,
       "dzial": "SYLWETKI - ROZPOZNANIE",
       "pytanie": "Rozpoznaj sylwetkę pojazdu:",
@@ -3796,22 +3788,6 @@ const quizData = {
       "image": "btr90.png",
       "odpowiedzi": ["BTR - 80", "BTR - 90", "KTO ROSOMAK", "BRDM - 2"],
       "poprawne": ["BTR - 90"]
-    },
-    {
-      "id": 310,
-      "dzial": "SYLWETKI - ROZPOZNANIE",
-      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
-      "image": "t-55.png",
-      "odpowiedzi": ["T - 54", "T - 55", "T - 62", "T - 72"],
-      "poprawne": ["T - 55"]
-    },
-    {
-      "id": 311,
-      "dzial": "SYLWETKI - ROZPOZNANIE",
-      "pytanie": "Rozpoznaj sylwetkę pojazdu:",
-      "image": "t-62.png",
-      "odpowiedzi": ["T - 55", "T - 62", "T - 64", "T - 72"],
-      "poprawne": ["T - 62"]
     },
     {
       "id": 312,
@@ -7746,6 +7722,14 @@ const quizData = {
       "image": "AHS DANA.png",
       "odpowiedzi": ["M120K RAK", "2S1 GOŹDZIK", "AHS DANA", "AHS KRAB"],
       "poprawne": ["AHS DANA"]
+    }.
+            {
+      "id": 686,
+      "dzial": "SYLWETKI - ROZPOZNANIE",
+      "pytanie": "Rozpoznaj sylwetkę statku powietrznego:",
+      "image": "bpm-97.png",
+      "odpowiedzi": ["M120K RAK", "bpm-97", "AHS DANA", "AHS KRAB"],
+      "poprawne": ["bpm-97"]
     }
   ]
 }
