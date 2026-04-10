@@ -2,7 +2,7 @@ const quizData = {
   "pytania": [
     {
       "id": 1,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Podaj definicję dowodzenia?",
       "odpowiedzi": [
         "zestaw działań obejmujący planowanie i podejmowanie decyzji, organizowanie, przewodzenie, tj. kierowanie ludźmi, i kontrolowanie, skierowanych na zasoby organizacji (ludzkie, finansowe, rzeczowe i informacyjne) i wykonywanych z zamiarem osiągnięcia celów organizacji w sposób sprawny i skuteczny;",
@@ -16,7 +16,7 @@ const quizData = {
     },
     {
       "id": 2,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wymień wymagania stawiane dowodzeniu.?",
       "odpowiedzi": [
         "sprawność, trwałość, skrytość, elastyczność, efektywność;",
@@ -30,7 +30,7 @@ const quizData = {
     },
     {
       "id": 3,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wymień sposoby dowodzenia?",
       "odpowiedzi": [
         "dowodzenie poprzez instruowanie, dowodzenie poprzez misje;",
@@ -44,7 +44,7 @@ const quizData = {
     },
     {
       "id": 4,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Z jakich etapów składa się planowanie procesu dowodzenia?",
       "odpowiedzi": [
         "ustalanie położenia, planowanie, stawianie zadań, kontrola;",
@@ -69,7 +69,7 @@ const quizData = {
     },
     {
       "id": 6,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem oceny sytuacji?",
       "odpowiedzi": [
         "dogłębne zrozumienie zadania otrzymanego od przełożonego, jego zamiaru (w tym myśli przewodniej), ocena czynników wpływających na wykonanie zadania, opracowanie, rozważenie i porównanie wariantów działania wojsk własnych, a w konsekwencji stworzenie dowódcy warunków do podjęcia decyzji;",
@@ -83,7 +83,7 @@ const quizData = {
     },
     {
       "id": 7,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Podaj definicję rekonesansu?",
       "odpowiedzi": [
         "praca dowódcy w terenie. Prowadzi się go w celu konfrontacji wniosków z analizy zadania i oceny sytuacji z konkretnymi warunkami w terenie. Prowadzony może być z podwładnymi w celu jak najlepszego wykorzystania terenu i działania w nim.",
@@ -97,7 +97,7 @@ const quizData = {
     },
     {
       "id": 8,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "W jakim miejscu procesu dowodzenia znajduje się rekonesans?",
       "odpowiedzi": [
         "A)	rekonesans znajduje się procesie dowodzenia w fazie planowania. Jest elementem ruchomym procesu dowodzenia, zawsze jednak występuje po analizie zadania i może wystąpić aż do momentu stawiania zadań włącznie"
@@ -108,7 +108,7 @@ const quizData = {
     },
     {
       "id": 9,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie informacje obejmują zarządzenia przygotowawcze?",
       "odpowiedzi": [
         "sprecyzowane zadanie własne, myśl przewodnią dowódcy, charakter przyszłych działań, wytyczne i priorytety co do przedsięwzięć rozpoznania jakie powinny być podjęte przez podwładnych, zadania jakie powinny być wykonane przez podwładnych i terminy ich realizacji oraz inne dane wynikające z konkretnej sytuacji;",
@@ -122,7 +122,7 @@ const quizData = {
     },
     {
       "id": 10,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest decyzja dowódcy?",
       "odpowiedzi": [
         "to  jednorazowy akt woli dowódcy podczas której dokonuje on świadomego wyboru jednego z kilku wariantów działania;"
@@ -133,7 +133,7 @@ const quizData = {
     },
     {
       "id": 11,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest dozór?",
       "odpowiedzi": [
         "Dozór - charakterystyczny punkt w terenie (nieruchomy), znajdujący się w rejonie celów, służący do określania położenia celów i kierowania ogniem oraz dokładniejszego porozumienia się i współdziałania. Oznacza się je numerami i nazwami np. \"D-2 Szopa\" oznacza dozór nr 2- budynek określony jako szopa."
@@ -144,7 +144,7 @@ const quizData = {
     },
     {
       "id": 12,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakiego szczebla dowódca poda dozór 31?",
       "odpowiedzi": [
         "Batalionu",
@@ -156,7 +156,7 @@ const quizData = {
     },
     {
       "id": 13,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem oceny czynników wpływających na wykonanie zadania i ustalenie wariantów działania wojsk własnych?",
       "odpowiedzi": [
         "zidentyfikowanie i szczegółowa ocena tych czynników, które w różny sposób wpływać będą na realizację otrzymanego zadania oraz ustalenie kilku realnych sposobów jego wykonania, czyli wariantów działania wojsk własnych;",
@@ -170,7 +170,7 @@ const quizData = {
     },
     {
       "id": 14,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGOA",
       "pytanie": "Z czego składa się ocena czynników wpływających na wykonanie zadania?",
       "odpowiedzi": [
         "ocena przeciwnika, wojsk własnych, środowiska i innych czynników wpływających na wykonanie zadania;",
@@ -184,7 +184,7 @@ const quizData = {
     },
     {
       "id": 15,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie warunki powinien spełniać każdy wariant działania?",
       "odpowiedzi": [
         "prowadzić do wykonania zadania zgodnie z wytycznymi dowódcy, być realny (wykonalny przy użyciu posiadanych sił), reprezentować możliwy do zaakceptowania poziom strat własnych (szczególnie w ludziach), różnić się od innych wariantów, być kompletny ( odpowiadać na pytania: kto, co gdzie, kiedy, jak i w jakim celu?);",
@@ -198,7 +198,7 @@ const quizData = {
     },
     {
       "id": 16,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem kontroli na szczeblu plutonu?",
       "odpowiedzi": [
         "sprawdzenie efektów (skutków) dotychczasowego planowania i postawienia zadań oraz efektywności ich wprowadzania w życie;",
@@ -212,7 +212,7 @@ const quizData = {
     },
     {
       "id": 17,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie informacje przekazuje się w orientacji topograficznej?",
       "odpowiedzi": [
         "podanie kierunku północnego lub innej strony świata, podanie miejsca stania, dokonanie charakterystyki przedmiotów terenowych;",
@@ -226,7 +226,7 @@ const quizData = {
     },
     {
       "id": 18,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Który układ rozkazu bojowego jest poprawny?",
       "odpowiedzi": [
         "sytuacja taktyczna, zadanie, sposób realizacji zadania, zabezpieczenie logistyczne, dowodzenie i łączność;",
@@ -240,7 +240,7 @@ const quizData = {
     },
     {
       "id": 19,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co powinien zawierać meldunek o sytuacji bojowej?",
       "odpowiedzi": [
         "informacje o przeciwniku, wojskach własnych, zabezpieczeniu logistycznym, inne informacje nie występujące gdzie indziej a mające znaczenie w działaniu oraz ocenę sytuacji i zamiar działania;",
@@ -254,7 +254,7 @@ const quizData = {
     },
     {
       "id": 20,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do prezentacji czego służy wojskowy symbol graficzny?",
       "odpowiedzi": [
         "jednostek wojskowych, sprzętu, instalacji i czynności we wszystkich obszarach działań oraz zdarzeń meteorologicznych;",
@@ -268,7 +268,7 @@ const quizData = {
     },
     {
       "id": 21,
-      "dzial": "PODSTAWY DOWODZENIA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wojskowy symbol graficzny zapewnia rozróżnianie przynależności prezentowanych obiektów. Jakie wyróżniamy kategorie przynależności?",
       "odpowiedzi": [
         "nierozpoznany, nieznany, prawdopodobnie swój (własny), swój (własny), neutralny, podejrzany, przeciwnik;",
@@ -694,7 +694,7 @@ const quizData = {
     },
     {
       "id": 54,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest zabezpieczenie inżynieryjne?",
       "odpowiedzi": [
         "to czynności realizowane przez oddziały (pododdziały) wojsk inżynieryjnych na korzyść związku taktycznego (oddziału, pododdziału), polegające na wykonywaniu zadań i prac inżynieryjnych, które umożliwią wspieranemu osiągnięcie nakazanego celu działania.",
@@ -709,7 +709,7 @@ const quizData = {
     },
     {
       "id": 55,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem wsparcia inżynieryjnego?",
       "odpowiedzi": [
         "przystosowanie terenu do prowadzenia skutecznych działań bojowych i ochrony wspieranych wojsk.",
@@ -723,7 +723,7 @@ const quizData = {
     },
     {
       "id": 56,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie zadania wykonują wojska inżynieryjne w zakresie kontrmobilności?",
       "odpowiedzi": [
         "budowa zapór fortyfikacyjnych.",
@@ -737,7 +737,7 @@ const quizData = {
     },
     {
       "id": 57,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co obejmują zasady maskowania?",
       "odpowiedzi": [
         "ciągłość, wiarygodność, pozorowanie, wielokrotność.",
@@ -751,7 +751,7 @@ const quizData = {
     },
     {
       "id": 58,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co obejmuje klasyfikacja użytkowa materiałów wybuchowych:",
       "odpowiedzi": [
         "inicjujące, spulchniające, kruszące, masy zapalające.",
@@ -765,7 +765,7 @@ const quizData = {
     },
     {
       "id": 59,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co wykorzystamy do sporządzenia zapalnika lontowego?",
       "odpowiedzi": [
         "odcinek lontu prochowego i zapalnik ERG.",
@@ -779,7 +779,7 @@ const quizData = {
     },
     {
       "id": 60,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Ile jest sposobów inicjowania IED",
       "odpowiedzi": [
         "2;",
@@ -804,7 +804,7 @@ const quizData = {
     },
     {
       "id": 62,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie są wykonywane procedury w rejonach zagrożonych występowaniem IED?",
       "odpowiedzi": [
         "PROCEDURY CIED (COUNTER IED)\n- PROCEDURA 5-25 (Sprawdzenie przestrzeni 5m wokół i pod pojazdem -> Sprawdzenie i przeszukanie 25m wokół pojazdu)\n- PROCEDURA SPRAWDZENIA DROGI\n- Procedura 5 x C (CHECK, CONFIRM, CLEAR, CORDON AND CONTROL – SPRAWDŹ, POTWIERDŹ, OCZYŚĆ, OTOCZ/ZABEZPIECZ I KONTROLUJ) stosowana jest w przypadku wykrycia lub podejrzenia podłożenia IED\n- Procedura sprawdzenia miejsc szczególnie niebezpiecznych (VP)\n- Procedura izolacji VP"
@@ -815,7 +815,7 @@ const quizData = {
     },
     {
       "id": 63,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGOE",
       "pytanie": "Do czego wykorzystywane są systemy CREW/ECM?",
       "odpowiedzi": [
         "CREW (ang. Counter Radiocontrolled IED Electronic Warfare) jest rodzajem elektronicznej walki, która koncentruje się na zwalczaniu improwizowanych ładunków wybuchowych (IED), zdalnie sterowanych za pomocą fal radiowych. Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. CREW działa poprzez interferencję lub blokowanie sygnałów radiowych używanych do detonacji IED. Może to obejmować zakłócanie częstotliwości radiowych używanych przez kontrolerów, wykrywanie i neutralizację sygnałów zdalnego sterowania, lub nawet prowadzenie fałszywych sygnałów w celu zmylenia napastników."
@@ -826,7 +826,7 @@ const quizData = {
     },
     {
       "id": 64,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Z ilu elementów według rodzaju składają się zapory inżynieryjne?",
       "odpowiedzi": [
         "minowa, fortyfikacyjna, wodna, niszczenia zaporowe.",
@@ -838,13 +838,13 @@ const quizData = {
     },
     {
       "id": 65,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
-      "pytanie": "Ile jest sposobów zakładania pól minowych?:",
+      "dzial": "OD CZARNECKIEGO",
+      "pytanie": "Ile jest sposobów zakładania pól minowych sposobem ręcznym?:",
       "odpowiedzi": [
-        "6"
+        "3"
       ],
       "poprawne": [
-        "6"
+        "3"
       ]
     },
     {
@@ -871,19 +871,19 @@ const quizData = {
     },
     {
       "id": 68,
-      "dzial": "ZABEZPIECZENIE INŻYNIERYJNE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Które z wymienionych min są minami przeciwpancernymi?",
       "odpowiedzi": [
-        "TM-62M, 8MKU, MPP-B,  ",
+        "TM-62M, MKU, MPP-B, MPB",
         "Zapalniki (MWCz-62, MWSz-62, MWZ-62,  ZNR, ZMN, ZNN, ZN-96, Prętowy, Elektryczny)"
       ],
       "poprawne": [
-        "TM-62M, 8MKU, MPP-B,  "
+        "TM-62M, MKU, MPP-B, MPB"
       ]
     },
     {
       "id": 69,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "na jakich poziomach są prowadzone współczesne działania zbrojne?",
       "odpowiedzi": [
         "Międzynarodowym (sojuszniczym), państwowym i regionalnym",
@@ -898,7 +898,7 @@ const quizData = {
     },
     {
       "id": 70,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "które z zasad walki (sztuki wojennej) są aktualnie zaliczane do podstawowych?",
       "odpowiedzi": [
         "Ześrodkowanie sił, jedność wysiłku wojsk, sprawność dowodzenia",
@@ -912,7 +912,7 @@ const quizData = {
     },
     {
       "id": 71,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "co zaliczymy do podstawowych czynników walki?",
       "odpowiedzi": [
         "Rażenie i informację;",
@@ -926,7 +926,7 @@ const quizData = {
     },
     {
       "id": 72,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jak dzielimy działania taktyczne stosując kryterium znaczenia i charakteru?",
       "odpowiedzi": [
         "Na działania obronne, zaczepne i opóźniające",
@@ -940,7 +940,7 @@ const quizData = {
     },
     {
       "id": 73,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie rodzaje działań zaliczamy do działań asymetrycznych?",
       "odpowiedzi": [
         "antyterrorystyczne, specjalne i nieregularne",
@@ -954,7 +954,7 @@ const quizData = {
     },
     {
       "id": 74,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie rodzaje działań zaliczamy do grupy działań przygotowawczych?",
       "odpowiedzi": [
         "Rozmieszczanie, osiąganie zdolności, odtwarzanie zdolności, przemieszczanie"
@@ -965,7 +965,7 @@ const quizData = {
     },
     {
       "id": 75,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie rodzaje obrony wyróżniamy ze względu na sposób jej prowadzenia?",
       "odpowiedzi": [
         "Doraźnie i zawczasu przygotowana",
@@ -979,7 +979,7 @@ const quizData = {
     },
     {
       "id": 76,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie wyróżniamy rodzaje natarcia?",
       "odpowiedzi": [
         "natarcie szybkie, rajd, atak wyprzedzający",
@@ -993,7 +993,7 @@ const quizData = {
     },
     {
       "id": 77,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie rodzaje działań zaliczamy etapów pośrednich?",
       "odpowiedzi": [
         "Marsz zbliżania, bój spotkaniowy, działania na połączenie, wycofanie, luzowanie"
@@ -1004,7 +1004,7 @@ const quizData = {
     },
     {
       "id": 78,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie przedsięwzięcia obejmuje zabezpieczenie bojowe?",
       "odpowiedzi": [
         "przedsięwzięcia obejmujące zabezpieczenie logistyczne",
@@ -1018,7 +1018,7 @@ const quizData = {
     },
     {
       "id": 79,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "co wchodzi w skład zabezpieczenia bojowego działań taktycznych?",
       "odpowiedzi": [
         "zabezpieczenie inżynieryjne, opbmr; maskowanie",
@@ -1032,18 +1032,18 @@ const quizData = {
     },
     {
       "id": 80,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "w zależności od charakteru wykonywanych zadań organizuje się ubezpieczenia?",
       "odpowiedzi": [
-        "Postoju - w rejonach ześrodkowania (wyjściowych odpoczynku), marszowe - w marszu, bojowe (obrony, natarcia) - w walce, bezpośrednie – wszystkie działania"
+        "A)	w walce, w marszu, ubezpieczenia bezpośrednie;"
       ],
       "poprawne": [
-        "Postoju - w rejonach ześrodkowania (wyjściowych odpoczynku), marszowe - w marszu, bojowe (obrony, natarcia) - w walce, bezpośrednie – wszystkie działania"
+        "A)	w walce, w marszu, ubezpieczenia bezpośrednie;"
       ]
     },
     {
       "id": 81,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "podstawowym celem natarcia jest?",
       "odpowiedzi": [
         "Pokonanie przeciwnika i opanowanie zajmowanego przez niego terenu"
@@ -1054,18 +1054,18 @@ const quizData = {
     },
     {
       "id": 82,
-      "dzial": "TAKTYKA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "jakie rozróżniamy formy manewru taktycznego?",
       "odpowiedzi": [
-        "Uderzenie czołowe, pokonanie, przenikanie, manewr mylący, demonstracja, odejście, oskrzydlenie, obejście (zgodnie ze schematem)."
+        "A)	Pokonanie, obejście, uderzenie czołowe, przenikanie"
       ],
       "poprawne": [
-        "Uderzenie czołowe, pokonanie, przenikanie, manewr mylący, demonstracja, odejście, oskrzydlenie, obejście (zgodnie ze schematem)."
+        "A)	Pokonanie, obejście, uderzenie czołowe, przenikanie"
       ]
     },
     {
       "id": 83,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do samodzielnych rodzajów wojsk w Federacji Rosyjskiej zalicza się?",
       "odpowiedzi": [
         "wojska rakietowe i artylerii,",
@@ -1079,7 +1079,7 @@ const quizData = {
     },
     {
       "id": 84,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie pododdziały SZRP posiadają w swojej strukturze sekcje dalekiego rozpoznania?",
       "odpowiedzi": [
         "pułki rozpoznawcze,",
@@ -1093,21 +1093,21 @@ const quizData = {
     },
     {
       "id": 85,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Które z poniższych zalicza się do technik prowadzenia rozpoznania?",
       "odpowiedzi": [
         "obserwacja i rajd,",
         "patrolowanie i wycofanie,",
-        "napad i wypad,",
+        "napad",
         "żadna z odp. nie jest właściwa."
       ],
       "poprawne": [
-        "napad i wypad,"
+        "napad"
       ]
     },
     {
       "id": 86,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "W obszar rozpoznania ogólnowojskowego wchodzi?",
       "odpowiedzi": [
         "rozpoznanie osobowe,",
@@ -1121,7 +1121,7 @@ const quizData = {
     },
     {
       "id": 87,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do rozpoznania rodzajów wojsk zalicza się?",
       "odpowiedzi": [
         "Ogólnowojskowe",
@@ -1133,7 +1133,7 @@ const quizData = {
     },
     {
       "id": 88,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Czym jest element rozpoznawczy?",
       "odpowiedzi": [
         "Najmniejsza struktura prowadząca rozpoznanie w wyznaczonym obszarze,",
@@ -1147,33 +1147,33 @@ const quizData = {
     },
     {
       "id": 89,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem procesu informacyjnego?",
       "odpowiedzi": [
-        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych.Informacje te mogą dotyczyć sił i środków przeciwnika, warunków terenowych, pogody i innych czynników, które mogą wpływać na przebieg działań wojskowych.",
+        "A)	przetwarzanie danych rozp. w informacje rozpoznawcze",
 
       ],
       "poprawne": [
-        "zbieranie, przetwarzanie, analizowanie i rozpowszechnianie informacji. W kontekście działań wojskowych, jakich może dotyczyć SZPR (Siły Zbrojne Przedstawicieli Rezerwy lub też może oznaczać Siły Zbrojne Poza Rezerwami - zależnie od kontekstu), proces ten służy do uzyskiwania danych niezbędnych do planowania i przeprowadzania operacji wojskowych, zarządzania nimi oraz podejmowania decyzji strategicznych.Informacje te mogą dotyczyć sił i środków przeciwnika, warunków terenowych, pogody i innych czynników, które mogą wpływać na przebieg działań wojskowych."
+        "A)	przetwarzanie danych rozp. w informacje rozpoznawcze"
       ]
     },
     {
       "id": 90,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jaka jest głębokość rejonu odpowiedzialności rozpoznawczej dla batalionu?",
       "odpowiedzi": [
-        "do 7km,",
+        "do 5 - 7km,",
         "pomiędzy 1-3km,",
         "powyżej 7km,",
         "ponad 10 km."
       ],
       "poprawne": [
-        "do 7km,"
+        "do 5 - 7km,"
       ]
     },
     {
       "id": 91,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Która faza cyklu rozpoznawczego służy pozwala tworzyć informacje rozpoznawcze?",
       "odpowiedzi": [
         "Ukierunkowanie – określenie potrzeb informacyjnych, wydawanie rozkazów i inne przedsięwzięcia mające na celu pozyskanie informacji",
@@ -1187,7 +1187,7 @@ const quizData = {
     },
     {
       "id": 92,
-      "dzial": "ROZPOZNANIE I ARMIE INNYCH PAŃSTW",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Załoga czołgu t-72 liczy:",
       "odpowiedzi": [
         "3 członków załogi (kierowca, dowódca, działonowy)"
@@ -1363,7 +1363,7 @@ const quizData = {
     },
     {
       "id": 105,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest zasadniczym celem działalności szkoleniowo-metodycznej w SZ RP?",
       "odpowiedzi": [
         "przygotowanie i doskonalenie wykładowców oraz instruktorów do kierowania i realizacji szkolenia oraz wdrażanie najskuteczniejszych form i metod w realizacji przedsięwzięć szkoleniowych.",
@@ -1377,7 +1377,7 @@ const quizData = {
     },
     {
       "id": 106,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do zasad szkolenia wojskowego należą między innymi?",
       "odpowiedzi": [
         "zasada świadomego i aktywnego udziału,",
@@ -1406,7 +1406,7 @@ const quizData = {
     },
     {
       "id": 107,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest forma działalności szkoleniowo-metodycznej?",
       "odpowiedzi": [
         "to zewnętrzna, organizacyjna strona przedsięwzięcia szkoleniowego realizowanego w ramach procesu szkolenia, określająca jego charakter i warunki przebiegu. Określa zewnętrzny model zajęcia wyjaśniając jak szkolić.",
@@ -1420,7 +1420,7 @@ const quizData = {
     },
     {
       "id": 108,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem zajęć instruktażowo-metodycznych?",
       "odpowiedzi": [
         "przygotowanie kierownika zajęć do prowadzenia najbardziej złożonych zajęć wynikających z programu szkolenia. Zajęcia instruktażowo-metodyczne ujednolicają sposoby organizowania i prowadzenia tych zamierzeń szkoleniowych."
@@ -1431,7 +1431,7 @@ const quizData = {
     },
     {
       "id": 109,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co jest celem Instruktażu?",
       "odpowiedzi": [
         "przedstawienie optymalnych form organizacji i prowadzenia zajęć, dotyczących głównie zaprezentowania sposobów wykorzystania walorów uzbrojenia i sprzętu wojskowego oraz racjonalnego wykorzystania obiektów bazy szkoleniowej.",
@@ -1445,7 +1445,7 @@ const quizData = {
     },
     {
       "id": 110,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest metoda szkolenia?",
       "odpowiedzi": [
         "jest to sposób przekazywania wiedzy szkolonym w celu osiągnięcia zakładanych rezultatów szkoleniowych, wyposażenia ich w wiadomości, wyrobienia umiejętności oraz nawyków. Metody nauczania odpowiadają na pytanie „jak uczyć”, czyli w jaki sposób należy przekazywać wiedzę.",
@@ -1459,7 +1459,7 @@ const quizData = {
     },
     {
       "id": 111,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie są formy działalności szkoleniowo-metodycznej na szczeblu plutonu?",
       "odpowiedzi": [
         "zajęcia instruktażowo-metodyczne, zajęcia instruktorsko-metodyczne, metodyczne zajęcia grupowe, metodyczne zajęcia pokazowe, instruktaż, samokształcenie metodyczne. ",
@@ -1473,7 +1473,7 @@ const quizData = {
     },
     {
       "id": 112,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do zasadniczych metod działalności szkoleniowej i metodycznej należą metody:",
       "odpowiedzi": [
         "podające, motywujące, praktyczne, problemowe.",
@@ -1487,7 +1487,7 @@ const quizData = {
     },
     {
       "id": 113,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie metody zaliczamy do metod poglądowych?",
       "odpowiedzi": [
         "pokaz przedmiotów,",
@@ -1504,7 +1504,7 @@ const quizData = {
     },
     {
       "id": 114,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "W jakich formach najczęściej prowadzi się szkolenie wojsk w jednostkach wojskowych?",
       "odpowiedzi": [
         "zajęcia taktyczne (taktyczno-specjalne), zajęcia praktyczne, trening sensoryczny (o charakterze teoretycznym), trening motoryczny (o charakterze praktycznym), zajęcia instruktorsko-metodyczne, metodyczne zajęcia grupowe.",
@@ -1518,7 +1518,7 @@ const quizData = {
     },
     {
       "id": 115,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie są formy organizacyjne zajęć?",
       "odpowiedzi": [
         "szkolenie grupowe, szkolenie równoległe, szkolenie zintegrowane, szkolenie zgrywające.",
@@ -1532,7 +1532,7 @@ const quizData = {
     },
     {
       "id": 116,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Powszechna obrona przeciwlotnicza to?",
       "odpowiedzi": [
         "Zespół aktywnych i pasywnych przedsięwzięć mających na celu samoobronę własnych sił przed uderzeniem ŚNP przeciwnika oraz minimalizujących skutki potencjalnych uderzeń, organizują ją wszyscy dowódcy wszystkich rodzajów wojsk.",
@@ -1546,7 +1546,7 @@ const quizData = {
     },
     {
       "id": 117,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Przedsięwzięcia aktywnej OPL to?",
       "odpowiedzi": [
         "Aktywna OPL: zorganizowana walka, rozpoznanie przestrzeni powietrznej, ostrzeganie, alarmowanie",
@@ -1558,7 +1558,7 @@ const quizData = {
     },
     {
       "id": 118,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wydzielone w każdym pododdziale siły i środki do prowadzenia walki z ŚNP przeciwnika to?",
       "odpowiedzi": [
         "Pododdział alarmowy OPL",
@@ -1572,7 +1572,7 @@ const quizData = {
     },
     {
       "id": 119,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "W każdym pododdziale JW wyznacza się rotacyjnie pododdział dyżurny OPL do walki ze Środkami Napadu Powietrznego w składzie?",
       "odpowiedzi": [
         "1/2 pododdziału",
@@ -1586,7 +1586,7 @@ const quizData = {
     },
     {
       "id": 120,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wolno lecący cel powietrzny to cel, którego prędkość lotu nie przekracza?",
       "odpowiedzi": [
         "z małą prędkością  (do 250 km/h)"
@@ -1597,7 +1597,7 @@ const quizData = {
     },
     {
       "id": 121,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Pochyłą zaporę ogniową wykonuje się, gdy cel zostanie wykryty w odległości większej niż?",
       "odpowiedzi": [
         "2000m"
@@ -1608,7 +1608,7 @@ const quizData = {
     },
     {
       "id": 122,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Komendę do otwarcia ognia do celów powietrznych może podać dowódca od szczebla?",
       "odpowiedzi": [
         "drużyny",
@@ -1622,7 +1622,7 @@ const quizData = {
     },
     {
       "id": 123,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Rodzaje ognia zaporowego to?",
       "odpowiedzi": [
         "Zapora pochyła i pionowa"
@@ -1633,7 +1633,7 @@ const quizData = {
     },
     {
       "id": 124,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Rodzaje ognia stosowane podczas zwalczania przeciwnika powietrznego to?",
       "odpowiedzi": [
         "Ogień towarzyszący, ogień według tras pocisków, ogień zaporowy"
@@ -1644,7 +1644,7 @@ const quizData = {
     },
     {
       "id": 125,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wskazywanie celów powietrznych realizuje się według?",
       "odpowiedzi": [
         "Dozorów, stron świata, według kierunku marszu"
@@ -1666,7 +1666,7 @@ const quizData = {
     },
     {
       "id": 127,
-      "dzial": "POPL",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Miejsce rozmieszczenia posterunku obserwacyjnego (PO) ustala?",
       "odpowiedzi": [
         "Dowódca pododdziału",
@@ -1945,7 +1945,7 @@ const quizData = {
     },
     {
       "id": 150,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "stany gotowości bojowej?",
       "odpowiedzi": [
         "Stała gotowość bojowa, podwyższona gotowość bojowa, pełna gotowość bojowa.",
@@ -1959,7 +1959,7 @@ const quizData = {
     },
     {
       "id": 151,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Jakie mamy świadczenia na rzecz obronności państwa?",
       "odpowiedzi": [
         "Osobowe, rzeczowe.",
@@ -1973,7 +1973,7 @@ const quizData = {
     },
     {
       "id": 152,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co obejmują świadczenia rzeczowe na rzecz obrony?",
       "odpowiedzi": [
         "to oddanie do użytkowania posiadanych nieruchomości  lub rzeczy ruchomych na cele przygotowania obrony państwa.",
@@ -1987,7 +1987,7 @@ const quizData = {
     },
     {
       "id": 153,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Obowiązkowi pełnienia służby wojskowej, w zakresie określonym w Ustawie o obronie Ojczyzny, podlegają obywatele polscy:",
       "odpowiedzi": [
         "począwszy od dnia, w którym kończą osiemnaście lat życia, do końca roku kalendarzowego, w którym kończą sześćdziesiąt lat życia, a posiadający stopień podoficerski lub oficerski – sześćdziesiąt trzy lata życia"
@@ -1998,7 +1998,7 @@ const quizData = {
     },
     {
       "id": 154,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Czas trwania obowiązkowej zasadniczej służby wojskowej wynosi:",
       "odpowiedzi": [
         "9 miesięcy."
@@ -2009,7 +2009,7 @@ const quizData = {
     },
     {
       "id": 155,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Czynna służba wojskowa polega na pełnieniu:",
       "odpowiedzi": [
         "zasadniczej służby wojskowej;",
@@ -2024,7 +2024,7 @@ const quizData = {
     },
     {
       "id": 156,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wymień elementy bazy mobilizacyjnej?",
       "odpowiedzi": [
         "Zespół kierowania mobilizacyjnym rozwinięciem jednostki, Punkt przyjęcia i wyposażania, Punkt przyjęcia i rozdziału środków transportowych, Punkt kontrolno-informacyjny, Grupa ewakuacyjna. ",
@@ -2038,7 +2038,7 @@ const quizData = {
     },
     {
       "id": 157,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Wymień fazy gotowości bojowej?",
       "odpowiedzi": [
         "Zielona, Pomarańczowa, Czerwona.",
@@ -2052,7 +2052,7 @@ const quizData = {
     },
     {
       "id": 158,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest „Czas mobilizacji (M)\"?",
       "odpowiedzi": [
         "ustalony czas mierzony w dniach (np. M1, M2), w którym JW. ma zrealizować wszystkie przedsięwzięcia związane z jej mobilizacyjnym rozwinięciem oraz osiągnięciem gotowości do podjęcia działań.",
@@ -2066,7 +2066,7 @@ const quizData = {
     },
     {
       "id": 159,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "W jakim celu organizuję się PKI?",
       "odpowiedzi": [
         "Organizuje się w celu sprawnego przyjęcia żołnierzy zawodowych i skierowania ich na stanowiska do właściwych pododdziałów.",
@@ -2080,7 +2080,7 @@ const quizData = {
     },
     {
       "id": 160,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Co to jest jednostka mobilizująca\"?",
       "odpowiedzi": [
         "to jednostka wojskowa, istniejąca w czasie pokoju, która w czasie mobilizacji uzupełnia się lub zmienia swoją strukturę organizacyjną według etatu czasu wojennego która nie przeprowadza mobilizacyjnego rozwinięcia innych jednostek.",
@@ -2094,18 +2094,18 @@ const quizData = {
     },
     {
       "id": 161,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Środki transportowe (maszyny), znajdujące się w zasobach GN mogą być wykorzystywane w ramach świadczeń rzeczowych, na uzupełnienie potrzeb na rzecz:",
       "odpowiedzi": [
-        "Sił Zbrojnych, jednostek przewidzianych do militaryzacji oraz jednostek organizacyjnych wykonujących zadania na potrzeby obrony państwa albo zwalczania klęsk żywiołowych, likwidacji ich skutków oraz zarządzania kryzysowego."
+        "A)	jednostek wojskowych i jednostek zmilitaryzowanych,"
       ],
       "poprawne": [
-        "Sił Zbrojnych, jednostek przewidzianych do militaryzacji oraz jednostek organizacyjnych wykonujących zadania na potrzeby obrony państwa albo zwalczania klęsk żywiołowych, likwidacji ich skutków oraz zarządzania kryzysowego."
+        "A)	jednostek wojskowych i jednostek zmilitaryzowanych,"
       ]
     },
     {
       "id": 162,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Dobrowolna służba zasadnicza pełniona jest przez okres:",
       "odpowiedzi": [
         "A)	do 12 miesięcy – 28 dni szkolenia podstawowego oraz do 11 miesięcy szkolenia specjalistycznego połączonego z wykonywaniem obowiązków na stanowisku służbowym."
@@ -2116,7 +2116,7 @@ const quizData = {
     },
     {
       "id": 163,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Aktywną rezerwę tworzą osoby:",
       "odpowiedzi": [
         "które zgłosiły chęć pełnienia służby w aktywnej rezerwie, złożyły przysięgę wojskową i nie pełnią innego rodzaju służby wojskowej oraz nie ukończyły 60. roku życia, a w przypadku osób posiadających stopień podoficerski lub oficerski - 63 roku życia."
@@ -3697,7 +3697,7 @@ const quizData = {
     },
     {
       "id": 295,
-      "dzial": "GOTOWOŚĆ MOBILIZACYJNA I BOJOWA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Nadanie przydziału mobilizacyjnego oraz pracowniczego przydziału mobilizacyjnego następuje w formie:",
       "odpowiedzi": [
         "karty mobilizacyjnej;"
@@ -3708,7 +3708,7 @@ const quizData = {
     },
     {
       "id": 296,
-      "dzial": "DZIAŁALNOŚĆ SZKOLENIOWA W WOJSKU",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do zakresu odpowiedzialności szkoleniowo-metodycznej dowódcy plutonu należy?",
       "odpowiedzi": [
         "organizowanie i realizację działalności szkoleniowo-metodycznej na szczeblu plutonu, metodyczne przygotowanie dowódców drużyn/instruktorów do organizacji i prowadzenia szkolenia na punktach nauczania."
