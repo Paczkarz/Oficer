@@ -5,7 +5,7 @@ const DOM = {
 let state = {
     view: 'menu',
     mode: '',
-    category: '',
+    categories: [],
     questions: [],
     currentIndex: 0,
     examAnswers: {},
@@ -39,6 +39,20 @@ function getCategories() {
     return Array.from(set).sort();
 }
 
+window.toggleAllCategories = function(source) {
+    const checkboxes = document.querySelectorAll('.category-checkbox');
+    checkboxes.forEach(cb => cb.checked = source.checked);
+};
+
+window.updateSelectAllStatus = function() {
+    const checkboxes = document.querySelectorAll('.category-checkbox');
+    const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+    const selectAllCheckbox = document.getElementById('selectAllCategories');
+    if (selectAllCheckbox) {
+        selectAllCheckbox.checked = allChecked;
+    }
+};
+
 function renderMenu() {
     state.view = 'menu';
     const categories = getCategories();
@@ -48,20 +62,45 @@ function renderMenu() {
             <h1 class="text-2xl sm:text-3xl font-black text-center text-stone-200 mb-2 mono-font tracking-wide">TERMINAL SZKOLENIOWY</h1>
             <p class="text-center text-army-400 mb-8 font-medium italic">Skonfiguruj parametry symulacji uderzeniowej.</p>
             
-            <div class="mb-8 p-6 bg-army-900 rounded-xl border border-army-700">
-                <label class="block text-sm font-bold text-army-300 mb-3 uppercase tracking-widest mono-font">
-                    <i class="fa-solid fa-folder-tree mr-2 text-yellow-600/80"></i> Zakres operacyjny:
-                </label>
-                <div class="relative">
-                    <select id="categorySelect" class="w-full border-army-600 rounded-lg py-3 px-4 appearance-none outline-none ring-2 ring-transparent focus:ring-army-400 focus:border-army-400 bg-army-800 text-stone-200 shadow-sm transition-all font-medium text-sm sm:text-base cursor-pointer">
-                        <option value="ALL">PEŁNE SPEKTRUM (${quizData.pytania.length} pytań)</option>
+            <div class="mb-8 p-6 bg-army-800 rounded-xl border border-army-700/50 shadow-md">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-3">
+                    <label class="text-sm font-bold text-army-300 uppercase tracking-widest mono-font flex items-center">
+                        <i class="fa-solid fa-folder-tree mr-2 text-yellow-600/80"></i> Zakres operacyjny
+                    </label>
+                    <label class="relative flex items-center cursor-pointer group text-[10px] sm:text-xs font-bold mono-font tracking-wide transition-colors pl-3 pr-2 py-1.5 rounded overflow-hidden">
+                        <input type="checkbox" id="selectAllCategories" class="peer sr-only" checked onchange="toggleAllCategories(this)">
+                        
+                        <div class="absolute inset-0 bg-army-900/60 border border-army-700/60 peer-checked:bg-yellow-900/20 peer-checked:border-yellow-600/50 transition-all pointer-events-none rounded z-0"></div>
+
+                        <span class="relative z-10 mr-3 text-army-500 group-hover:text-stone-300 peer-checked:text-yellow-500 transition-colors">ZAZNACZ WSZYSTKO</span>
+                        
+                        <div class="relative z-10 flex items-center justify-center shrink-0 w-5 h-5 border-2 border-army-600 rounded-[4px] bg-army-800 peer-checked:bg-yellow-500 peer-checked:border-yellow-400 transition-colors shadow-inner group-hover:border-army-500">
+                            <i class="fa-solid fa-check text-yellow-900 text-[10px] font-black opacity-0 peer-checked:opacity-100 transform scale-50 peer-checked:scale-100 transition-all"></i>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="bg-army-900 border border-army-700 rounded-xl max-h-[320px] overflow-y-auto p-2" style="scrollbar-width: thin; scrollbar-color: #4D5646 #1F221D;">
+                    <div class="flex flex-col space-y-1">
                         ${categories.map(c => {
         const count = quizData.pytania.filter(q => q.dzial.trim() === c).length;
-        return `<option value="${c}">${c} (${count} pytań)</option>`;
+        return `
+                        <label class="relative flex items-center space-x-3 sm:space-x-4 cursor-pointer group p-3 rounded-lg overflow-hidden border border-transparent">
+                            <input type="checkbox" name="category" value="${c.replace(/"/g, '&quot;')}" class="peer sr-only category-checkbox" checked onchange="updateSelectAllStatus()">
+                            
+                            <!-- Podświetlenie całego kafelka przy zaznaczeniu -->
+                            <div class="absolute inset-0 bg-transparent peer-checked:bg-army-800/80 peer-checked:border-army-500/40 border border-transparent transition-all pointer-events-none rounded-lg z-0 group-hover:bg-army-800/40"></div>
+                            
+                            <div class="relative z-10 flex items-center justify-center shrink-0 w-6 h-6 border-2 border-army-600 rounded-[4px] bg-army-800 peer-checked:bg-army-400 peer-checked:border-army-300 transition-colors shadow-inner group-hover:border-army-400">
+                                <i class="fa-solid fa-check text-army-900 text-xs font-black opacity-0 peer-checked:opacity-100 transform scale-50 peer-checked:scale-100 transition-all"></i>
+                            </div>
+                            
+                            <span class="relative z-10 text-stone-500 font-medium group-hover:text-stone-300 peer-checked:text-stone-100 peer-checked:font-bold flex-1 leading-tight text-sm sm:text-base transition-colors drop-shadow-sm">${c}</span>
+                            
+                            <span class="relative z-10 text-[10px] text-army-600 peer-checked:text-stone-300 font-mono bg-army-900/80 px-2 py-1 rounded border border-army-700/50 peer-checked:border-army-500/50 shrink-0 shadow-inner transition-colors">${count} <span class="hidden sm:inline">celów</span></span>
+                        </label>
+        `;
     }).join('')}
-                    </select>
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-army-400">
-                        <i class="fa-solid fa-chevron-down"></i>
                     </div>
                 </div>
             </div>
@@ -93,15 +132,19 @@ function renderMenu() {
 }
 
 function startQuiz(mode) {
-    const categorySelect = document.getElementById('categorySelect');
-    const category = categorySelect.value;
+    const checkboxes = document.querySelectorAll('.category-checkbox:checked');
+    const selectedCategories = Array.from(checkboxes).map(cb => cb.value);
+
+    // Bezpieczeństwo - brak wyboru
+    if (selectedCategories.length === 0) {
+        alert("Wybierz co najmniej jeden zakres operacyjny!");
+        return;
+    }
 
     let filteredQuestions = [];
-    if (category === 'ALL') {
-        filteredQuestions = [...quizData.pytania];
-    } else {
-        filteredQuestions = quizData.pytania.filter(q => q.dzial.trim() === category);
-    }
+    selectedCategories.forEach(cat => {
+        filteredQuestions = filteredQuestions.concat(quizData.pytania.filter(q => q.dzial.trim() === cat));
+    });
 
     // Przetasowanie
     filteredQuestions.sort(() => Math.random() - 0.5);
@@ -109,7 +152,7 @@ function startQuiz(mode) {
     state = {
         view: 'quiz',
         mode: mode,
-        category: category,
+        categories: selectedCategories,
         questions: filteredQuestions,
         currentIndex: 0,
         examAnswers: {},
@@ -512,7 +555,7 @@ function renderSummary() {
                 <div class="absolute w-full h-full inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PC9yZWN0Pgo8Y2lyY2xlIGN4PSIyIiBjeT0iMiIgcj0iMiIgZmlsbD0iI2ZmZiI+PC9jaXJjbGU+Cjwvc3ZnPg==')]"></div>
                 <i class="fa-solid ${iconClass} text-6xl mb-6 relative z-10 text-stone-200"></i>
                 <h2 class="text-3xl font-black mb-2 relative z-10 mono-font tracking-wider">RAPORT KOŃCOWY MISJI</h2>
-                <p class="text-stone-300 font-medium relative z-10 uppercase tracking-widest text-sm">${state.category === 'ALL' ? 'PEŁEN ZAKRES OPERACYJNY' : state.category}</p>
+                <p class="text-stone-300 font-medium relative z-10 uppercase tracking-widest text-sm">${state.categories && state.categories.length === getCategories().length ? 'PEŁEN ZAKRES OPERACYJNY' : 'WYBRANE ZAKRESY: ' + (state.categories ? state.categories.length : 0)}</p>
             </div>
             
             <div class="px-6 sm:px-10 py-10 relative">
