@@ -170,7 +170,7 @@ const quizData = {
     },
     {
       "id": 14,
-      "dzial": "OD CZARNECKIEGOA",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Z czego składa się ocena czynników wpływających na wykonanie zadania?",
       "odpowiedzi": [
         "ocena przeciwnika, wojsk własnych, środowiska i innych czynników wpływających na wykonanie zadania;",
@@ -815,7 +815,7 @@ const quizData = {
     },
     {
       "id": 63,
-      "dzial": "OD CZARNECKIEGOE",
+      "dzial": "OD CZARNECKIEGO",
       "pytanie": "Do czego wykorzystywane są systemy CREW/ECM?",
       "odpowiedzi": [
         "CREW (ang. Counter Radiocontrolled IED Electronic Warfare) jest rodzajem elektronicznej walki, która koncentruje się na zwalczaniu improwizowanych ładunków wybuchowych (IED), zdalnie sterowanych za pomocą fal radiowych. Wykorzystuje się ją w celu zabezpieczenia personelu wojskowego, konwojów, pojazdów i baz wojskowych przed atakami IED. CREW działa poprzez interferencję lub blokowanie sygnałów radiowych używanych do detonacji IED. Może to obejmować zakłócanie częstotliwości radiowych używanych przez kontrolerów, wykrywanie i neutralizację sygnałów zdalnego sterowania, lub nawet prowadzenie fałszywych sygnałów w celu zmylenia napastników."
