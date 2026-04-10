@@ -453,10 +453,8 @@ const quizData = {
         "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
       ],
       "poprawne": [
-        "Z szeregu w rząd na komendę „W prawo - ZWROT\", natomiast z rzędu do szeregu „W lewo - ZWROT\".",
-        "Z szeregu w kolumnę dwójkową na komendę „W dwójki, w prawo - ZWROT\". Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
-        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
-        "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
+        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu."
+
       ]
     },
     {
@@ -700,11 +698,11 @@ const quizData = {
         "to czynności realizowane przez oddziały (pododdziały) wojsk inżynieryjnych na korzyść związku taktycznego (oddziału, pododdziału), polegające na wykonywaniu zadań i prac inżynieryjnych, które umożliwią wspieranemu osiągnięcie nakazanego celu działania.",
         "jest to działanie realizowane przez oddziały (pododdziały) wojsk inżynieryjnych na korzyść wojsk pancernych i zmechanizowanych w zakresie mobilności i kontrmobilności.",
         "to zorganizowane działanie pododdziałów polegające na przystosowaniu terenu do prowadzenia działań bojowych.",
-        "Obejmuje ono zespół przedsięwzięć i zadań, których rodzaj, zakres i czas realizacji określa dowódca, a sposób wykonania – zasady inżynierii wojskowej.",
+        "to zorganizowane działanie pododdziałów polegające na przystosowaniu terenu do prowadzenia działań bojowych. Obejmuje ono zespół przedsięwzięć i zadań, których rodzaj, zakres i czas realizacji określa dowódca, a sposób wykonania – zasady inżynierii wojskowej.",
         "to zorganizowane działanie pododdziałów ogólnowojskowych polegające na przygotowaniu i ustawianiu zapór inżynieryjnych w terenie na przewidywanym kierunku działania przeciwnika w celu zadania mu jak największych strat w sprzęcie bojowym."
       ],
       "poprawne": [
-        "Obejmuje ono zespół przedsięwzięć i zadań, których rodzaj, zakres i czas realizacji określa dowódca, a sposób wykonania – zasady inżynierii wojskowej."
+        "to zorganizowane działanie pododdziałów polegające na przystosowaniu terenu do prowadzenia działań bojowych. Obejmuje ono zespół przedsięwzięć i zadań, których rodzaj, zakres i czas realizacji określa dowódca, a sposób wykonania – zasady inżynierii wojskowej."
       ]
     },
     {
