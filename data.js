@@ -452,9 +452,11 @@ const quizData = {
         "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
         "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
       ],
-      "poprawne": [
-        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu."
-
+        "poprawne": [
+        "Z szeregu w rząd na komendę „W prawo - ZWROT\", natomiast z rzędu do szeregu „W lewo - ZWROT\".",
+        "Z szeregu w kolumnę dwójkową na komendę „W dwójki, w prawo - ZWROT\". Żołnierze, na których podczas odliczania wypadła liczba jeden, robią w prawo zwrot w miejscu, a oznaczeni liczbą dwa wykonują na obcasie buta prawej nogi i czubku lewego buta część zwrotu w prawo, po czym lewą nogą robią energiczny wykrok w lewo w skos i dostawiając prawą nogę do lewej - stają na lewo od swych sąsiadów.",
+        "Z kolumny dwójkowej do szeregu powraca się na komendę „W szereg, w lewo - FRONT\". Żołnierze, którzy podczas formowania dwójek robili zwrot w miejscu (oznaczeni liczbą jeden), wykonują na obcasie buta lewej nogi i czubku prawego buta część zwrotu w lewo, po czym prawą nogą robią energiczny wykrok w lewo w skos i dostawiając lewą nogę do prawej - stają na prawo od swych sąsiadów. Żołnierze oznaczeni liczbą dwa robią zwrot w lewo w miejscu.",
+        "Z dwuszeregu w kolumnę dwójkową przechodzi się na komendę „W prawo - ZWROT\", z kolumny dwójkowej do dwuszeregu natomiast na komendę „W lewo - ZWROT\"."
       ]
     },
     {
